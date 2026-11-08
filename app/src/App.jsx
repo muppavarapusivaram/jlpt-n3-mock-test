@@ -4,7 +4,7 @@ import HomeView from './components/HomeView';
 import ExamView from './components/ExamView';
 import ResultsView from './components/ResultsView';
 import BankExplorerModal from './components/BankExplorerModal';
-import SakuraPetals from './components/SakuraPetals';
+import AutumnLeaves from './components/AutumnLeaves';
 import { generateBalancedMockTest } from './services/mockTestAlgorithm';
 
 export default function App() {
@@ -48,9 +48,9 @@ export default function App() {
   };
 
   return (
-    <div className="app-root" style={{ position: 'relative', minHeight: '100vh' }}>
-      {/* Floating Japanese Sakura Cherry Blossom Petals */}
-      <SakuraPetals />
+    <div className="app-root" style={{ position: 'relative', minHeight: '100vh', backgroundColor: 'var(--bg-main)' }}>
+      {/* Floating Japanese Autumn Momiji & Ginkgo Foliage */}
+      <AutumnLeaves />
 
       {/* Main View Router */}
       <div style={{ position: 'relative', zIndex: 1 }}>
