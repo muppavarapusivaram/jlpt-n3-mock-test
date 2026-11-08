@@ -1,0 +1,951 @@
+{
+  "book": "JLPT N3 2021年7月 過去問",
+  "unit": "文字・語彙",
+  "questions": [
+    {
+      "id": "jlpt_n3_2021_07_v_q01",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "このビルの【裏】に小さなレストランがあります。",
+      "options": [
+        "そば",
+        "よこ",
+        "かげ",
+        "うら"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "漢字読み: 裏 (うら)"
+      ],
+      "difficulty": 1,
+      "explanation": "「裏」の読み方は「うら」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q02",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "それではゆっくり【呼吸】をしてください。",
+      "options": [
+        "こぎゅう",
+        "こきゅう",
+        "よぎゅう",
+        "よきゅう"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "漢字読み: 呼吸 (こきゅう)"
+      ],
+      "difficulty": 1,
+      "explanation": "「呼吸」の読み方は「こきゅう」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q03",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "あの少年の【悲しそうな】顔が忘れられない。",
+      "options": [
+        "やさしそう",
+        "かなしそう",
+        "きびしそう",
+        "さびしそう"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "漢字読み: 悲しい (かなしい)"
+      ],
+      "difficulty": 1,
+      "explanation": "「悲しい」の読み方は「かなしい」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q04",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "このあたりに【駐車】しましょう。",
+      "options": [
+        "しゅしゃ",
+        "しゅうし",
+        "ちゅしゃ",
+        "ちゅうしゃ"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "漢字読み: 駐車 (ちゅうしゃ)"
+      ],
+      "difficulty": 1,
+      "explanation": "「駐車」の読み方は「ちゅうしゃ」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q05",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "もう【逃げて】しまったようだ。",
+      "options": [
+        "にげて",
+        "なげて",
+        "こげて",
+        "あげて"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "漢字読み: 逃げる (にげる)"
+      ],
+      "difficulty": 1,
+      "explanation": "「逃げる」の読み方は「にげる」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q06",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【努力】することは大切だと思います。",
+      "options": [
+        "どうりょく",
+        "とうりょく",
+        "どりょく",
+        "とりょく"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "漢字読み: 努力 (どりょく)"
+      ],
+      "difficulty": 1,
+      "explanation": "「努力」の読み方は「どりょく」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q07",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "それは【過去】のことです。",
+      "options": [
+        "かこ",
+        "かこう",
+        "かきょ",
+        "かきょう"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "漢字読み: 過去 (かこ)"
+      ],
+      "difficulty": 1,
+      "explanation": "「過去」の読み方は「かこ」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q08",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "彼は話し方も【動作】もゆっくりしている。",
+      "options": [
+        "とうさ",
+        "とうさく",
+        "どうさ",
+        "どうさん"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "漢字読み: 動作 (どうさ)"
+      ],
+      "difficulty": 1,
+      "explanation": "「動作」の読み方は「どうさ」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q09",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "昨日、友達が家に【とまり】にきた。",
+      "options": [
+        "停まり",
+        "留まり",
+        "泊まり",
+        "止まり"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "漢字表記: 泊まる (とまる)"
+      ],
+      "difficulty": 1,
+      "explanation": "客が宿や人の家に宿泊することは「泊まる」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q10",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "書類にはこの学校の【きそく】が書かれていた。",
+      "options": [
+        "現販",
+        "規則",
+        "規販",
+        "現則"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "漢字表記: 規則 (きそく)"
+      ],
+      "difficulty": 1,
+      "explanation": "「きそく」の漢字は「規則」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q11",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "ここには【あたたかい】ですね。",
+      "options": [
+        "明かいし",
+        "暑かい",
+        "暖かい",
+        "熱かい"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "漢字表記: 暖かい (あたたかい)"
+      ],
+      "difficulty": 1,
+      "explanation": "気候・場所の温もりの「あたたかい」は「暖かい」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q12",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【やっきょく】がなかなか見つかりません。",
+      "options": [
+        "薬局",
+        "薬曲",
+        "楽局",
+        "楽曲"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "漢字表記: 薬局 (やっきょく)"
+      ],
+      "difficulty": 1,
+      "explanation": "「やっきょく」の漢字は「薬局」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q13",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "お皿は【かさねて】その棚にしまってください。",
+      "options": [
+        "整ねて",
+        "死ねて",
+        "階ねて",
+        "重ねて"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "漢字表記: 重ねる (かさねる)"
+      ],
+      "difficulty": 1,
+      "explanation": "皿などを積み重ねる動詞は「重ねる」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q14",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "机の上に【でんごん】のメモがあった。",
+      "options": [
+        "伝記",
+        "伝言",
+        "転記",
+        "転々"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "漢字表記: 伝言 (でんごん)"
+      ],
+      "difficulty": 1,
+      "explanation": "「でんごん」の漢字は「伝言」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q15",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "マラソン大会は台風で（　）されることになりました。",
+      "options": [
+        "遅刻",
+        "運休",
+        "延期",
+        "早退"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "語彙: 延期される"
+      ],
+      "difficulty": 1,
+      "explanation": "大会や行事の日程を先に延ばすのは「延期（えんき）」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q16",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "毎日水をやらないと花が（　）しまう。",
+      "options": [
+        "とめて",
+        "きめて",
+        "やせて",
+        "かれて"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "語彙: 枯れる (かれる)"
+      ],
+      "difficulty": 1,
+      "explanation": "植物や花が水分不足などで生命を失う動詞は「枯れる（かれる）」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q17",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "この犬は子供のころから（　）されているので、人が大勢いてもおとなしい。",
+      "options": [
+        "工夫",
+        "用意",
+        "計画",
+        "訓練"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "語彙: 訓練"
+      ],
+      "difficulty": 2,
+      "explanation": "犬や動物にしつけや能力を教え込む動作を表す語彙です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q18",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "明日は7時に出かけるので、目覚まし時計を6時に（　）した。",
+      "options": [
+        "スタート",
+        "セット",
+        "ストップ",
+        "マーク"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "外来語: セットする"
+      ],
+      "difficulty": 1,
+      "explanation": "時計や機器の時間を設定することを「セットする」といいます。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q19",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "忙しいのにこんなに待たされて時間が（　）。",
+      "options": [
+        "だらしない",
+        "しょうがない",
+        "なさけない",
+        "もったいない"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "形容詞: もったいない"
+      ],
+      "difficulty": 2,
+      "explanation": "貴重な時間や物が無駄に浪費されるのを惜しむ気持ちは「もったいない」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q20",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "友人の家で食べたケーキが美味しかったので（　）と作り方を教えてもらった。",
+      "options": [
+        "資源",
+        "材料",
+        "部品",
+        "原因"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "語彙: 材料"
+      ],
+      "difficulty": 1,
+      "explanation": "料理やお菓子を作るもとになるものは「材料（ざいりょう）」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q21",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "このソファーの愛用（　）にアンケートをした。",
+      "options": [
+        "屋",
+        "人",
+        "者",
+        "員"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "接尾辞: 愛用者 (〜しゃ)"
+      ],
+      "difficulty": 2,
+      "explanation": "好んで日頃から愛用している人を表す接尾辞は「者（しゃ）」で、「愛用者」となります。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q22",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "工事のせいで道路が（　）していて、車がなかなか前に進まない。",
+      "options": [
+        "渋滞",
+        "故障",
+        "増加",
+        "集合"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "語彙: 渋滞 (じゅうたい)"
+      ],
+      "difficulty": 1,
+      "explanation": "車が混雑して進まない状態は「渋滞（じゅうたい）」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q23",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "薬の（　）が出て、少し具合はよくなりました。",
+      "options": [
+        "成績",
+        "効果",
+        "応援",
+        "価値"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "語彙: 効果が出る"
+      ],
+      "difficulty": 1,
+      "explanation": "薬や治療の効き目・結果が現れることを「効果が出る」といいます。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q24",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "彼は日本にまだ一年しか住んでいないのに、日本語が（　）だ。",
+      "options": [
+        "さらさら",
+        "ばらばら",
+        "ふらふら",
+        "ペラペラ"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "オノマトペ: ペラペラ"
+      ],
+      "difficulty": 1,
+      "explanation": "外国語を流暢に話す様子を表す副詞・オノマトペは「ペラペラ」です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q25",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "この学校で一生懸命に勉強して、知識や技術を（　）と思っている。",
+      "options": [
+        "身につけたい",
+        "気に入りたい",
+        "押し込みたい",
+        "取り上げたい"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "慣用句: 身につける"
+      ],
+      "difficulty": 1,
+      "explanation": "技術や学問・習慣を習得して自分のものにすることを「身につける」といいます。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q26",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "今日の会議では【さまざまな】意見が出た。",
+      "options": [
+        "とくべつ",
+        "すばらしい",
+        "いろいろな",
+        "あたらしい"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "類義語: さまざまな＝いろいろな"
+      ],
+      "difficulty": 1,
+      "explanation": "「さまざまな」は種類や様子が多い「いろいろな」と同義です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q27",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "できるだけ早めに【報告して】ください。",
+      "options": [
+        "頼んで",
+        "知らせて",
+        "尋ねて",
+        "探して"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "類義語: 報告する＝知らせる"
+      ],
+      "difficulty": 1,
+      "explanation": "「報告する」は相手に状況や結果を伝える「知らせる」と言い換えられます。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q28",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "山田さんは【絶対に】来ると思います。",
+      "options": [
+        "あとで",
+        "すぐに",
+        "たぶん",
+        "かならず"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "類義語: 絶対に＝かならず"
+      ],
+      "difficulty": 1,
+      "explanation": "「絶対に（ぜったいに）」は確信をもって例外のないことを表す「かならず」と同義です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q29",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "この話は【おしまい】です。",
+      "options": [
+        "おわり",
+        "すごい",
+        "はじめて",
+        "おもしろい"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "類義語: おしまい＝おわり"
+      ],
+      "difficulty": 1,
+      "explanation": "「おしまい」は物事の結末・終了を意味する「おわり」と同義です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q30",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "先週、学校を【サボって】しまった。",
+      "options": [
+        "病気になって学校を辞めてしまった",
+        "病気になって学校を休んでしまった",
+        "遊びたくて学校を辞めてしまった",
+        "遊びたくて、学校を休んでしまった"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "類義語: サボる＝遊びたくて休む"
+      ],
+      "difficulty": 2,
+      "explanation": "「サボる」は正当な理由がなく怠けて義務や授業を休むことを意味します。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q31",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【オーバー】",
+      "options": [
+        "飛行機の出発時間がオーバーになった。",
+        "安いのがなくて、1万円もオーバーしてしまった。",
+        "考えすぎて、頭がオーバーになった。",
+        "料理がオーバーして、もう食べられない。"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "外来語用法: オーバーする (超過)"
+      ],
+      "difficulty": 2,
+      "explanation": "「オーバーする」は一定の基準や予算の限度を超えることです。2の「1万円もオーバーしてしまった」が自然です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q32",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【欠点】",
+      "options": [
+        "ここは景色のいい場所だが、駅から遠いという欠点がある。",
+        "栄養に欠点が出ないように、食事のメニューを考えている。",
+        "カードレールぶつけて、車に欠点が付いてしまった。",
+        "メールを送る前に、メールアドレスに欠点がないか確認しよう。"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "語彙用法: 欠点 (けってん)"
+      ],
+      "difficulty": 2,
+      "explanation": "「欠点」は不十分なところ、短所を表します。1の「駅から遠いという欠点がある」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q33",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【親しい】",
+      "options": [
+        "私は学生のころ、数学より料理の方が親しかった彼女。",
+        "彼女はとても親しい道を教えてください。",
+        "久しぶりに友達と会って、親しかった。",
+        "引っ越してきたばかりで、近くにまだ親しい人はいない。"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "形容詞用法: 親しい (したしい)"
+      ],
+      "difficulty": 2,
+      "explanation": "「親しい」は人間関係の間柄が近い・仲が良いことを表します。4の「親しい人」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q34",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【詰める】",
+      "options": [
+        "明日帰国するので、カバンに洋服やお土産を詰めた。",
+        "テーブルに食器を2枚詰めて、朝食の準備をして。",
+        "忘れないように、大切なことをノートに詰めた。",
+        "ジャケットのポケットに手を詰めて、切符を出した。"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "動詞用法: 詰める (つめる)"
+      ],
+      "difficulty": 2,
+      "explanation": "「詰める」は容器やカバンなどに隙間なく物を入れ込むことです。1が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2021_07_v_q35",
+      "book": "JLPT N3 2021年7月 過去問",
+      "book_code": "jlpt_n3_2021_07",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【支給】",
+      "options": [
+        "母の誕生日何かプレゼントを支給しようと思う。",
+        "これから先生にレポートを支給しに行く。",
+        "この会社は家から会社までの交通費を支給してくれる。",
+        "会議が始まる前に、この資料を支給してください。"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "語彙用法: 支給 (しきゅう)"
+      ],
+      "difficulty": 2,
+      "explanation": "「支給する」はお金や物品を給与・手当として払い出すことです。3の「交通費を支給してくれる」が正解です。"
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+/* app/src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@500;700;800&family=Noto+Sans+JP:wght@400;500;700;900&family=Cinzel:wght@600;700&display=swap');
+
+:root {
+  /* Japanese Traditional Palette (和色) */
+  --sumi-deep: #0a0e17;        /* 墨色 (Deep Sumi Black / Night Indigo) */
+  --sumi-surface: #101726;     /* 藍墨 (Indigo Sumi Surface) */
+  --sumi-card: #152033;        /* 濃藍 (Dark Indigo Card) */
+  --sumi-card-hover: #1c2b45;
+  --border-subtle: #22324d;
+  --border-gold: rgba(234, 179, 8, 0.35);
+
+  --torii-vermilion: #dc2626;  /* 朱色 (Torii Vermilion Red) */
+  --torii-shinku: #991b1b;     /* 深紅 (Deep Crimson) */
+  --torii-glow: rgba(220, 38, 38, 0.3);
+
+  --kimpaku-gold: #f59e0b;     /* 金箔 (Gold Leaf) */
+  --kimpaku-amber: #d97706;
+  --gold-glow: rgba(245, 158, 11, 0.25);
+
+  --fuji-cyan: #38bdf8;        /* 富士の青 (Mount Fuji Cyan) */
+  --bamboo-green: #10b981;     /* 竹 (Bamboo Green) */
+  --sakura-pink: #f472b6;      /* 桜 (Cherry Blossom Pink) */
+  --washi-cream: #fefcf6;      /* 和紙 (Washi Paper White) */
+
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --text-english: #cbd5e1;
+
+  --font-sans: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-serif: 'Kaisei Tokumin', 'Yu Mincho', 'Hiragino Mincho ProN', serif;
+  --font-roman: 'Cinzel', serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: var(--sumi-deep);
+  color: var(--text-primary);
+  min-height: 100vh;
+  overflow-x: hidden;
+  line-height: 1.6;
+
+  /* Traditional Japanese Seigaiha (青海波) Ocean Wave Pattern + Mt Fuji Gradient */
+  background-image: 
+    /* Subtle falling cherry blossom gradient glow */
+    radial-gradient(circle at 15% 15%, rgba(244, 114, 182, 0.05) 0%, transparent 45%),
+    radial-gradient(circle at 85% 85%, rgba(220, 38, 38, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 50% 50%, rgba(56, 189, 248, 0.03) 0%, transparent 60%),
+    /* Authentic Seigaiha wave SVG pattern */
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='40' viewBox='0 0 80 40'%3E%3Cg fill='none' stroke='%23f59e0b' stroke-width='0.75' opacity='0.045'%3E%3Cpath d='M0 40 A40 40 0 0 1 80 40 A32 32 0 0 0 8 40 A24 24 0 0 1 72 40 A16 16 0 0 0 16 40 A8 8 0 0 1 64 40'/%3E%3Cpath d='M40 40 A40 40 0 0 1 120 40 A32 32 0 0 0 48 40 A24 24 0 0 1 112 40 A16 16 0 0 0 56 40 A8 8 0 0 1 104 40'/%3E%3Cpath d='M-40 40 A40 40 0 0 1 40 40 A32 32 0 0 0 -32 40 A24 24 0 0 1 32 40 A16 16 0 0 0 -24 40 A8 8 0 0 1 24 40'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--sumi-deep);
+}
+::-webkit-scrollbar-thumb {
+  background: #25334a;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--torii-vermilion);
+}
+
+/* Floating Sakura Petals Animation */
+.sakura-petal {
+  position: absolute;
+  top: -30px;
+  background: linear-gradient(135deg, rgba(253, 164, 175, 0.85), rgba(244, 114, 182, 0.45));
+  border-radius: 15px 1px 15px 1px;
+  filter: drop-shadow(0 2px 4px rgba(244, 114, 182, 0.3));
+  pointer-events: none;
+  animation: sakuraFall linear infinite;
+  transform-origin: center center;
+}
+
+@keyframes sakuraFall {
+  0% {
+    top: -30px;
+    transform: translateX(0) rotate(0deg) scale(0.9);
+  }
+  25% {
+    transform: translateX(25px) rotate(60deg) scale(1);
+  }
+  50% {
+    transform: translateX(-20px) rotate(180deg) scale(0.95);
+  }
+  75% {
+    transform: translateX(30px) rotate(270deg) scale(1.05);
+  }
+  100% {
+    top: 105vh;
+    transform: translateX(5px) rotate(360deg) scale(0.9);
+  }
+}
+
+/* Japanese Hanko (判子 / 落款印) Seal Stamp */
+.hanko-stamp {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ef4444;
+  color: #ef4444;
+  border-radius: 6px;
+  padding: 2px 7px;
+  font-family: var(--font-serif);
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.1em;
+  background: rgba(239, 68, 68, 0.08);
+  box-shadow: 0 0 10px rgba(239, 68, 68, 0.25);
+  transform: rotate(-3deg);
+  user-select: none;
+}
+
+/* Bilingual English Subtitles below Japanese terms */
+.en-subtitle {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--text-english);
+  opacity: 0.85;
+  margin-top: 2px;
+  line-height: 1.25;
+}
+
+.en-badge-sub {
+  font-size: 0.68rem;
+  opacity: 0.8;
+  font-weight: 500;
+  margin-left: 4px;
+}
+
+/* Traditional Torii Border Trim */
+.torii-header-bar {
+  height: 4px;
+  background: linear-gradient(90deg, 
+    transparent 0%, 
+    var(--torii-vermilion) 20%, 
+    var(--kimpaku-gold) 50%, 
+    var(--torii-vermilion) 80%, 
+    transparent 100%
+  );
+  box-shadow: 0 0 12px var(--torii-glow);
+}
+
+/* Japanese Traditional Divider */
+.japanese-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+  color: var(--kimpaku-gold);
+  opacity: 0.6;
+  font-size: 0.85rem;
+}
+.japanese-divider::before,
+.japanese-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(245, 158, 11, 0.3), transparent);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

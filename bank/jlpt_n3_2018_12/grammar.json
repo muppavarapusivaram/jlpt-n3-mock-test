@@ -1,0 +1,627 @@
+{
+  "book": "JLPT N3 2018年12月 過去問",
+  "unit": "文法",
+  "questions": [
+    {
+      "id": "jlpt_n3_2018_12_g_q01",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "昨日の夜はとても疲れていたので、夕飯の後、電気（　）消さないでソファで寝てしまった。",
+      "options": [
+        "も",
+        "と",
+        "が",
+        "で"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "助詞: も (否定強調)"
+      ],
+      "difficulty": 2,
+      "explanation": "「〜も消さないで」で、「消すべき当然の電気さえ消さずに」という強調を表します。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q02",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "隣の席の山田さんは、文句が多い。いつも（　）言っている。",
+      "options": [
+        "疲れて仕事が多くて",
+        "疲れたり仕事が多かったり",
+        "疲れたし仕事が多いし",
+        "疲れたとか仕事が多いとか"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文法: 〜とか〜とか"
+      ],
+      "difficulty": 2,
+      "explanation": "「〜とか〜とか言う」で、不満や例などを並べて挙げる表現です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q03",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "最近できたケーキ屋に今日初めて行ってみたが、（　）込んでいたので、何も買わずに帰ってきた。",
+      "options": [
+        "ちっとも",
+        "せっかく",
+        "ようやく",
+        "あまりにも"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "副詞: あまりにも"
+      ],
+      "difficulty": 2,
+      "explanation": "「あまりにも」は程度が非常に甚だしく度を越えている様子を表します。「あまりにも込んでいたので」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q04",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "私の大学の国際政治学部は、他の学部（　）留学生の割合が高い。",
+      "options": [
+        "において",
+        "によって",
+        "にくらべて",
+        "にしたがって"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "文法: 〜に比べて"
+      ],
+      "difficulty": 2,
+      "explanation": "比較の基準を表す「〜に比べて」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q05",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "昨日、1か月前から編んでいたセーターが完成した。途中で間違えて、何度か（　）けれど、完成させることができてよかった。",
+      "options": [
+        "やりおわった",
+        "やりなおした",
+        "やっておいた",
+        "やってあった"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "複合動詞: やり直す (やりなおす)"
+      ],
+      "difficulty": 1,
+      "explanation": "途中で間違えて改めてもう一度行ったので「やり直した」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q06",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（高校で）\n先生「大学合格おめでとう。よく頑張ったね。」\n生徒「ありがとうございます。先生がいつも丁寧に教えてくださった（　）。」",
+      "options": [
+        "ようです",
+        "せいです",
+        "はずです",
+        "おかげです"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文法: 〜おかげで / おかげです"
+      ],
+      "difficulty": 1,
+      "explanation": "良い結果をもたらした感謝の理由・原因を表す「〜おかげです」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q07",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "祖母は20年以上前に買った掃除機をまだ（　）。壊れて使えなくなるまで、新しいのは買わないと言っていた。",
+      "options": [
+        "使った",
+        "使わない",
+        "使っている",
+        "使っていなかった"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "文法: ている (状態の継続)"
+      ],
+      "difficulty": 1,
+      "explanation": "過去から現在まで継続して使い続けていることを表す「使っている」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q08",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（レストランで）\n店員「いらっしゃいませ。2名様ですか。」\n客「はい。」\n店員「こちらへどうぞ。お席にご案内（　）。」",
+      "options": [
+        "いたします",
+        "なさいます",
+        "うかがいます",
+        "いらっしゃいます"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "敬語: ご案内いたします (謙譲語)"
+      ],
+      "difficulty": 2,
+      "explanation": "店員が客を案内する自分の動作をへりくだって言う謙譲表現「ご案内いたします」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q09",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "私はダンスが大好きで、毎日練習している。私より上手な人はたくさんいるが、ダンスが好きだという気持ちは（　）負けない。",
+      "options": [
+        "誰には",
+        "誰にも",
+        "誰かは",
+        "誰かも"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "助詞: にも (全面的否定)"
+      ],
+      "difficulty": 2,
+      "explanation": "「〜には負けない」に全面否定・強調の「も」がつき、「誰にも負けない」となります。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q10",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（さくらホテルのホームページで）\nさくらホテルの会員に（　）、「ホームページからのお申し込み」、または、「郵送でのお申し込み」の二つの方法があります。",
+      "options": [
+        "なるには",
+        "するよりは",
+        "なるかどうかは",
+        "することは"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "文法: 〜には (目的・条件)"
+      ],
+      "difficulty": 2,
+      "explanation": "「会員になるためには」という目的・必要条件を表す「なるには」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q11",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "自分のレストランを（　）実際に店をオープンするまで5年以上かかったが、自分の店が持ててとてもうれしい。",
+      "options": [
+        "開こうと思えば",
+        "開こうと思ってから",
+        "開くようになれば",
+        "開くようになってから"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "文法: 〜てから (起点の明示)"
+      ],
+      "difficulty": 2,
+      "explanation": "意志をもった時点を起点として「〜と思ってから〜まで」と表す2が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q12",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（会社で）\n前川「森さん、この書類、ここにもサインを（　）ですか。」\n森「あ、忘れてました。すぐします。」",
+      "options": [
+        "してあげてもいい",
+        "してくれたらいい",
+        "してやったらいい",
+        "してもらってもいい"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "授受表現: 〜てもらってもいいですか (依頼)"
+      ],
+      "difficulty": 2,
+      "explanation": "相手に対して丁寧に依頼・確認を求める表現「〜てもらってもいいですか」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q13",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（会社で）\n青木「南さん、今日はもうお帰りですか。」\n南「ええ、これから子供を保育園に迎えに（　）。お先に失礼します。」",
+      "options": [
+        "行っているところなんです",
+        "行っているところですね",
+        "行かなければならないんです",
+        "行かなければならないですね"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "文法: 〜なければならないんです (理由説明)"
+      ],
+      "difficulty": 2,
+      "explanation": "早く退社する理由を相手に説明しているので、「行かなければならないんです」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q14",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "なかなか英語の単語が覚えられないので、英語の得意な友達が ＿＿ ★ ＿＿ ＿＿ した。",
+      "options": [
+        "ことに",
+        "やっていた",
+        "ように",
+        "何度も書いてみる"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "文法星並べ: 〜ように〜ことにした"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：友達が [2. やっていた] ★[3. ように] [4. 何度も書いてみる] [1. ことに] した。★に入るのは 3 です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q15",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "半年前から ＿＿ ＿＿ ★ ＿＿ 終わってしまった。",
+      "options": [
+        "とうとう",
+        "見ていた",
+        "毎週",
+        "大好きなドラマが"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文法星並べ: 毎週見ていた大好きなドラマがとうとう"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：半年前から [3. 毎週] [2. 見ていた] ★[4. 大好きなドラマが] [1. とうとう] 終わってしまった。★に入るのは 4 です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q16",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "大川橋は ＿＿ ＿＿ ★ ＿＿「めがね橋」とも呼ばれている。",
+      "options": [
+        "している",
+        "形を",
+        "ことから",
+        "めがねのような"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "文法星並べ: 〜ことから (理由・由来)"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：大川橋は [4. めがねのような] [2. 形を] ★[1. している] [3. ことから]「めがね橋」とも呼ばれている。★に入るのは 1 です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q17",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "田中「木村さん、仕事はどうですか。」\n木村「会社に入ってまだ少ししか ＿＿ ＿＿ ★ ＿＿ ですが、毎日楽しいです。」",
+      "options": [
+        "ので",
+        "たっていない",
+        "ばかり",
+        "わからないこと"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文法星並べ: 〜ので〜ばかり"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：会社に入ってまだ少ししか [2. たっていない] [1. ので] ★[4. わからないこと] [3. ばかり] ですが、毎日楽しいです。★に入るのは 4 です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q18",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（会社で）\n西川「林さん、来週のセミナーのポスター、知りませんか。さっき ＿＿ ＿＿ ★ ＿＿ 入ってたんですけど、気づいたら箱がなくなってて。」\n林「ああ、山下さんがどこかに持っていきましたよ。」",
+      "options": [
+        "まで",
+        "あった",
+        "あそこに",
+        "白い段ボール箱に"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "文法星並べ: さっきまであそこにあった〜に"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：さっき [1. まで] [3. あそこに] ★[2. あった] [4. 白い段ボール箱に] 入ってたんですけど。★に入るのは 2 です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q19",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から23の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2018_12_p07_m3",
+      "question": "【 19 】に入るものを選びなさい。",
+      "options": [
+        "案内されました",
+        "案内してあげました",
+        "案内していました",
+        "案内させてくれました"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "文脈文法: 受け身 (案内されました)"
+      ],
+      "difficulty": 2,
+      "explanation": "友達の家で自分が案内を受けた受動の立場なので「案内されました」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q20",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から23の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2018_12_p07_m3",
+      "question": "【 20 】に入るものを選びなさい。",
+      "options": [
+        "それに",
+        "一方",
+        "つまり",
+        "ところが"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "接続詞: それに (情報の添加)"
+      ],
+      "difficulty": 2,
+      "explanation": "前の「落ち着きました」に加えてさらに「涼しいと思いました」と良さを付け加えるため、「それに」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q21",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から23の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2018_12_p07_m3",
+      "question": "【 21 】に入るものを選びなさい。",
+      "options": [
+        "部屋",
+        "この部屋",
+        "あの部屋",
+        "その部屋"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "指示詞: この部屋 (現場指示)"
+      ],
+      "difficulty": 2,
+      "explanation": "今実際に二人でいるその場所（畳の部屋）を指して言っているので「この部屋」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q22",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から23の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2018_12_p07_m3",
+      "question": "【 22 】に入るものを選びなさい。",
+      "options": [
+        "では",
+        "でなら",
+        "でだけ",
+        "でしか"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文法: でしか〜ない (限定否定)"
+      ],
+      "difficulty": 2,
+      "explanation": "後ろに「寝たことがなかった」という否定があるため、「ベッドでしか〜ない」の形になります。"
+    },
+    {
+      "id": "jlpt_n3_2018_12_g_q23",
+      "book": "JLPT N3 2018年12月 過去問",
+      "book_code": "jlpt_n3_2018_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から23の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2018_12_p07_m3",
+      "question": "【 23 】に入るものを選びなさい。",
+      "options": [
+        "住むならいいです",
+        "住むつもりだからです",
+        "住んでみたいです",
+        "住もうとすることです"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "文末表現: 〜てみたいです (希望)"
+      ],
+      "difficulty": 1,
+      "explanation": "畳の良さを知って自分もそうしたいという希望を表す「住んでみたいです」が最も自然です。"
+    }
+  ]
+}

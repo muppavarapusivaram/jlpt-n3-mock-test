@@ -1,0 +1,23 @@
+{
+  "name": "jlpt-n3-mock-test-platform",
+  "version": "1.0.0",
+  "description": "Full-stack JLPT N3 Mock Exam Generator & Authentic Japanese Practice Platform",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix app run dev",
+    "build": "npm --prefix app run build",
+    "preview": "npm --prefix app run preview",
+    "validate:bank": "python scripts/validate_bank.py",
+    "test": "node scripts/run_all_tests.js"
+  },
+  "keywords": [
+    "jlpt",
+    "jlpt-n3",
+    "mock-test",
+    "japanese",
+    "react",
+    "vite"
+  ],
+  "author": "muppavarapusivaram",
+  "license": "MIT"
+}

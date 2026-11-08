@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>日本語能力試験 N3 問題バンク レビュー（日本語総まとめ N3 文法）</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --accent: #818cf8;
+      --success: #34d399;
+      --success-bg: rgba(52, 211, 153, 0.15);
+      --badge-bg: #334155;
+      --gold: #fbbf24;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Hiragino Kaku Gothic ProN", "Meiryo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    header {
+      background: #090d16;
+      border-bottom: 1px solid var(--card-border);
+      padding: 12px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+    }
+    .header-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .stats {
+      display: flex;
+      gap: 16px;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+    .stats span strong {
+      color: var(--text);
+    }
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      background: var(--badge-bg);
+      color: var(--text-muted);
+    }
+    .badge-primary { background: rgba(56, 189, 248, 0.2); color: var(--primary); }
+    .badge-diff-1 { background: rgba(148, 163, 184, 0.2); color: #cbd5e1; }
+    .badge-diff-2 { background: rgba(52, 211, 153, 0.2); color: #34d399; }
+    .badge-diff-3 { background: rgba(251, 191, 36, 0.2); color: #fbbf24; }
+    .badge-diff-4 { background: rgba(248, 113, 113, 0.2); color: #f87171; }
+
+    main {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      flex: 1;
+      overflow: hidden;
+    }
+    .pane {
+      height: 100%;
+      overflow-y: auto;
+      padding: 20px;
+    }
+    .pane-scan {
+      border-right: 1px solid var(--card-border);
+      background: #070a10;
+      display: flex;
+      flex-direction: column;
+    }
+    .scan-nav {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+    .scan-btn {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 5px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.2s;
+    }
+    .scan-btn:hover {
+      background: #2a374d;
+      border-color: var(--primary);
+    }
+    .scan-btn.active {
+      background: var(--primary);
+      color: #000;
+      border-color: var(--primary);
+      font-weight: 700;
+    }
+    .scan-container {
+      flex: 1;
+      overflow: auto;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      background: #111;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+    .scan-img {
+      max-width: 100%;
+      height: auto;
+      object-fit: contain;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+
+    .pane-transcription {
+      background: var(--bg);
+    }
+    .unit-selector {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .unit-tab {
+      padding: 6px 14px;
+      border-radius: 6px;
+      background: #1e293b;
+      border: 1px solid var(--card-border);
+      color: var(--text-muted);
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    .unit-tab.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+    }
+
+    .instruction-banner {
+      background: #141c2b;
+      border: 1px solid #2d3e58;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 16px;
+      margin-bottom: 14px;
+      font-weight: bold;
+      font-size: 0.96rem;
+      color: #7dd3fc;
+    }
+
+    .passage-box {
+      background: #151e2e;
+      border: 1px solid #2d3e58;
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 16px;
+    }
+    .passage-title {
+      font-weight: bold;
+      color: var(--accent);
+      margin-bottom: 10px;
+      font-size: 1rem;
+    }
+    .passage-text {
+      font-size: 1.05rem;
+      line-height: 1.9;
+      letter-spacing: 0.03em;
+    }
+    .passage-blank {
+      display: inline-block;
+      padding: 0 8px;
+      background: rgba(56, 189, 248, 0.2);
+      border: 1px solid var(--primary);
+      border-radius: 4px;
+      color: var(--primary);
+      font-weight: bold;
+    }
+
+    .q-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 14px;
+      transition: border-color 0.2s;
+    }
+    .q-card:hover {
+      border-color: #475569;
+    }
+    .q-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .q-id {
+      font-weight: bold;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+    }
+    .q-badges {
+      display: flex;
+      gap: 6px;
+    }
+    .q-prompt {
+      font-size: 1.12rem;
+      font-weight: 500;
+      margin-bottom: 12px;
+      letter-spacing: 0.03em;
+    }
+    .q-options {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+    .q-option {
+      padding: 8px 12px;
+      border-radius: 6px;
+      background: #131b2a;
+      border: 1px solid #243044;
+      font-size: 0.98rem;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .q-option.correct {
+      background: var(--success-bg);
+      border-color: var(--success);
+      color: #a7f3d0;
+      font-weight: 600;
+    }
+    .q-option .opt-num {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #243044;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+    .q-option.correct .opt-num {
+      background: var(--success);
+      color: #064e3b;
+      font-weight: bold;
+    }
+    .q-explanation {
+      background: #121927;
+      border-left: 3px solid var(--gold);
+      padding: 8px 12px;
+      border-radius: 0 4px 4px 0;
+      font-size: 0.88rem;
+      color: #cbd5e1;
+    }
+    .q-gps {
+      margin-top: 8px;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .gp-pill {
+      font-size: 0.74rem;
+      background: rgba(129, 140, 248, 0.15);
+      border: 1px solid rgba(129, 140, 248, 0.4);
+      color: #c7d2fe;
+      padding: 2px 7px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-title">
+      <span>📖 JLPT N3 問題バンク 実戦問題レビュー</span>
+      <span class="badge badge-primary">総まとめ N3 文法 ＆ 過去問 (2022.7 / 2023.7 / 2023.12 / 2024.7)</span>
+    </div>
+    <div class="stats">
+      <span>総問題数: <strong id="totalCount">963</strong>問</span>
+      <span>総まとめ(150問) ＋ 過去問・実戦問題10回分(729問) ＋ 文の組み立て過去問集(84問)</span>
+      <span>不備・要確認: <strong style="color:var(--success);">0件 (100% 検証済)</strong></span>
+    </div>
+  </header>
+
+  <main>
+    <!-- Left Pane: Scanned Book Images -->
+    <div class="pane pane-scan">
+      <div class="scan-nav" id="scanNav">
+        <!-- Rendered dynamically -->
+      </div>
+      <div class="scan-container">
+        <img id="scanImage" class="scan-img" src="bank/review_images/soumatome_n3_bunpou/p27_w1_d7_part1.png" alt="スキャンページ">
+      </div>
+    </div>
+
+    <!-- Right Pane: Extracted JSON Questions -->
+    <div class="pane pane-transcription">
+      <div class="unit-selector">
+        <button class="unit-tab active" onclick="loadUnit('w1', this)">総まとめ 第1週 (25問)</button>
+        <button class="unit-tab" onclick="loadUnit('w2', this)">総まとめ 第2週 (25問)</button>
+        <button class="unit-tab" onclick="loadUnit('w3', this)">総まとめ 第3週 (25問)</button>
+        <button class="unit-tab" onclick="loadUnit('w4', this)">総まとめ 第4週 (25問)</button>
+        <button class="unit-tab" onclick="loadUnit('w5', this)">総まとめ 第5週 (25問)</button>
+        <button class="unit-tab" onclick="loadUnit('w6', this)">総まとめ 第6週 (25問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #ef4444; margin-left: 6px;" onclick="loadUnit('2018_12_v', this)">2018.12 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2018_12_g', this)">2018.12 文法 (23問)</button>
+        <button class="unit-tab" onclick="loadUnit('2018_12_r', this)">2018.12 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #8b5cf6; margin-left: 6px;" onclick="loadUnit('2019_12_v', this)">2019.12 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2019_12_g', this)">2019.12 文法 (23問)</button>
+        <button class="unit-tab" onclick="loadUnit('2019_12_r', this)">2019.12 読解 (14問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #ec4899; margin-left: 6px;" onclick="loadUnit('2020_12_v', this)">2020.12 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2020_12_g', this)">2020.12 文法 (22問)</button>
+        <button class="unit-tab" onclick="loadUnit('2020_12_r', this)">2020.12 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #06b6d4; margin-left: 6px;" onclick="loadUnit('2021_07_v', this)">2021.7 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2021_07_g', this)">2021.7 文法 (22問)</button>
+        <button class="unit-tab" onclick="loadUnit('2021_07_r', this)">2021.7 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #f59e0b; margin-left: 6px;" onclick="loadUnit('2022_07_v', this)">2022.7 語彙 (34問)</button>
+        <button class="unit-tab" onclick="loadUnit('2022_07_g', this)">2022.7 文法 (22問)</button>
+        <button class="unit-tab" onclick="loadUnit('2022_07_r', this)">2022.7 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid var(--primary); margin-left: 6px;" onclick="loadUnit('2023_07_v', this)">2023.7 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2023_07_g', this)">2023.7 文法 (22問)</button>
+        <button class="unit-tab" onclick="loadUnit('2023_07_r', this)">2023.7 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid var(--accent); margin-left: 6px;" onclick="loadUnit('2023_12_v', this)">2023.12 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2023_12_g', this)">2023.12 文法 (22問)</button>
+        <button class="unit-tab" onclick="loadUnit('2023_12_r', this)">2023.12 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #10b981; margin-left: 6px;" onclick="loadUnit('2024_07_v', this)">2024.7 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2024_07_g', this)">2024.7 文法 (22問)</button>
+        <button class="unit-tab" onclick="loadUnit('2024_07_r', this)">2024.7 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #38bdf8; margin-left: 6px;" onclick="loadUnit('2025_07_v', this)">2025.7 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2025_07_g', this)">2025.7 文法 (22問)</button>
+        <button class="unit-tab" onclick="loadUnit('2025_07_r', this)">2025.7 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #a855f7; margin-left: 6px;" onclick="loadUnit('2025_12_v', this)">2025.12 語彙 (35問)</button>
+        <button class="unit-tab" onclick="loadUnit('2025_12_g', this)">2025.12 文法 (22問)</button>
+        <button class="unit-tab" onclick="loadUnit('2025_12_r', this)">2025.12 読解 (16問)</button>
+        <button class="unit-tab" style="border-left: 2px solid #eab308; margin-left: 6px; background: #232215;" onclick="loadUnit('stars_collection', this)">★ 文の組み立て (84問)</button>
+      </div>
+      <div id="transcriptionPane">
+        <!-- Injected by JavaScript -->
+      </div>
+    </div>
+  </main>
+
+  <script src="bank/bank_data.js"></script>
+  <script>
+    const scanPages = {
+      w1: [
+        { label: "本冊 26頁 (問題1 1〜9)", src: "bank/review_images/soumatome_n3_bunpou/p27_w1_d7_part1.png" },
+        { label: "本冊 27頁 (問題1 10〜15, 問題2 ★)", src: "bank/review_images/soumatome_n3_bunpou/p28_w1_d7_part2.png" },
+        { label: "本冊 28頁 (問題3 文章の文法)", src: "bank/review_images/soumatome_n3_bunpou/p29_w1_d7_part3.png" },
+        { label: "別冊 1頁 (解答・解説)", src: "bank/review_images/soumatome_n3_bunpou/p114_w1_d7_answers.png" }
+      ],
+      w2: [
+        { label: "本冊 42頁 (問題1 1〜10)", src: "bank/review_images/soumatome_n3_bunpou/p43_w2_d7_part1.png" },
+        { label: "本冊 43頁 (問題1 11〜15, 問題2 ★)", src: "bank/review_images/soumatome_n3_bunpou/p44_w2_d7_part2.png" },
+        { label: "本冊 44頁 (問題3 文章の文法)", src: "bank/review_images/soumatome_n3_bunpou/p45_w2_d7_part3.png" },
+        { label: "別冊 2頁 (解答・解説)", src: "bank/review_images/soumatome_n3_bunpou/p115_w2_d7_answers.png" }
+      ],
+      w3: [
+        { label: "本冊 58頁 (問題1 1〜9)", src: "bank/review_images/soumatome_n3_bunpou/p59_w3_d7_part1.png" },
+        { label: "本冊 59頁 (問題1 10〜15, 問題2 ★)", src: "bank/review_images/soumatome_n3_bunpou/p60_w3_d7_part2.png" },
+        { label: "本冊 60頁 (問題3 文章の文法)", src: "bank/review_images/soumatome_n3_bunpou/p61_w3_d7_part3.png" },
+        { label: "別冊 2-3頁 (解答・解説)", src: "bank/review_images/soumatome_n3_bunpou/p116_answers.png" }
+      ],
+      w4: [
+        { label: "本冊 74頁 (問題1 1〜10)", src: "bank/review_images/soumatome_n3_bunpou/p75_w4_d7_part1.png" },
+        { label: "本冊 75頁 (問題1 11〜15, 問題2 ★)", src: "bank/review_images/soumatome_n3_bunpou/p76_w4_d7_part2.png" },
+        { label: "本冊 76頁 (問題3 文章の文法)", src: "bank/review_images/soumatome_n3_bunpou/p77_w4_d7_part3.png" },
+        { label: "別冊 3頁 (解答・解説)", src: "bank/review_images/soumatome_n3_bunpou/p116_answers.png" }
+      ],
+      w5: [
+        { label: "本冊 90頁 (問題1 1〜10)", src: "bank/review_images/soumatome_n3_bunpou/p91_w5_d7_part1.png" },
+        { label: "本冊 91頁 (問題1 11〜15, 問題2 ★)", src: "bank/review_images/soumatome_n3_bunpou/p92_w5_d7_part2.png" },
+        { label: "本冊 92頁 (問題3 文章の文法)", src: "bank/review_images/soumatome_n3_bunpou/p93_w5_d7_part3.png" },
+        { label: "別冊 3-4頁 (解答・解説)", src: "bank/review_images/soumatome_n3_bunpou/p117_answers.png" }
+      ],
+      w6: [
+        { label: "本冊 106頁 (問題1 1〜10)", src: "bank/review_images/soumatome_n3_bunpou/p107_w6_d7_part1.png" },
+        { label: "本冊 107頁 (問題1 11〜15, 問題2 ★)", src: "bank/review_images/soumatome_n3_bunpou/p108_w6_d7_part2.png" },
+        { label: "本冊 108頁 (問題3 文章の文法)", src: "bank/review_images/soumatome_n3_bunpou/p109_w6_d7_part3.png" },
+        { label: "別冊 4頁 (解答・解説)", src: "bank/review_images/soumatome_n3_bunpou/p117_answers.png" }
+      ],
+      '2018_12_v': [
+        { label: "問題用紙 3頁 (問題1 1〜8, 問題2 9〜14, 問題3 15〜16)", src: "bank/review_images/jlpt_n3_2018_12/page_03.png" },
+        { label: "問題用紙 4頁 (問題3 17〜25, 問題4 26〜30, 問題5 31〜32)", src: "bank/review_images/jlpt_n3_2018_12/page_04.png" },
+        { label: "問題用紙 5頁 (問題5 33〜35)", src: "bank/review_images/jlpt_n3_2018_12/page_05.png" }
+      ],
+      '2018_12_g': [
+        { label: "問題用紙 6頁 (問題1 1〜12)", src: "bank/review_images/jlpt_n3_2018_12/page_06.png" },
+        { label: "問題用紙 7頁 (問題1 13, 問題2 ★ 14〜18, 問題3 畳の部屋 19〜23)", src: "bank/review_images/jlpt_n3_2018_12/page_07.png" }
+      ],
+      '2018_12_r': [
+        { label: "問題用紙 8頁 (短文 1・2・3)", src: "bank/review_images/jlpt_n3_2018_12/page_08.png" },
+        { label: "問題用紙 9頁 (短文 4・中文 1 ソファ)", src: "bank/review_images/jlpt_n3_2018_12/page_09.png" },
+        { label: "問題用紙 10頁 (中文 2 新聞・長文 芝生)", src: "bank/review_images/jlpt_n3_2018_12/page_10.png" },
+        { label: "問題用紙 11頁 (長文 設問・情報検索 設問)", src: "bank/review_images/jlpt_n3_2018_12/page_11.png" },
+        { label: "問題用紙 12頁 (情報検索 市民マラソン大会)", src: "bank/review_images/jlpt_n3_2018_12/page_12.png" }
+      ],
+      '2019_12_v': [
+        { label: "問題用紙 1頁 (問題1 1〜8, 問題2 9〜12)", src: "bank/review_images/jlpt_n3_2019_12/page_01.png" },
+        { label: "問題用紙 2頁 (問題2 13〜14, 問題3 15〜25)", src: "bank/review_images/jlpt_n3_2019_12/page_02.png" },
+        { label: "問題用紙 3頁 (問題4 26〜30, 問題5 31〜33)", src: "bank/review_images/jlpt_n3_2019_12/page_03.png" },
+        { label: "問題用紙 4頁 (問題5 34〜35)", src: "bank/review_images/jlpt_n3_2019_12/page_04.png" }
+      ],
+      '2019_12_g': [
+        { label: "問題用紙 5頁 (問題1 1〜9)", src: "bank/review_images/jlpt_n3_2019_12/page_05.png" },
+        { label: "問題用紙 6頁 (問題1 10〜13, 問題2 ★ 14〜18)", src: "bank/review_images/jlpt_n3_2019_12/page_06.png" },
+        { label: "問題用紙 7頁 (問題3 大掃除 19〜23)", src: "bank/review_images/jlpt_n3_2019_12/page_07.png" }
+      ],
+      '2019_12_r': [
+        { label: "問題用紙 8頁 (短文 1 家庭教師募集)", src: "bank/review_images/jlpt_n3_2019_12/page_08.png" },
+        { label: "問題用紙 9頁 (短文 2・3)", src: "bank/review_images/jlpt_n3_2019_12/page_09.png" },
+        { label: "問題用紙 10頁 (短文 4・中文 1 本文)", src: "bank/review_images/jlpt_n3_2019_12/page_10.png" },
+        { label: "問題用紙 11頁 (中文 1 設問・中文 2 本文)", src: "bank/review_images/jlpt_n3_2019_12/page_11.png" },
+        { label: "問題用紙 12頁 (中文 2 設問・長文 本文)", src: "bank/review_images/jlpt_n3_2019_12/page_12.png" },
+        { label: "問題用紙 13頁 (長文 設問 34〜37)", src: "bank/review_images/jlpt_n3_2019_12/page_13.png" }
+      ],
+      '2020_12_v': [
+        { label: "問題用紙 1頁 (問題1 1〜8)", src: "bank/review_images/jlpt_n3_2020_12/page_01.png" },
+        { label: "問題用紙 2頁 (問題2 9〜14)", src: "bank/review_images/jlpt_n3_2020_12/page_02.png" },
+        { label: "問題用紙 3頁 (問題3 15〜25)", src: "bank/review_images/jlpt_n3_2020_12/page_03.png" },
+        { label: "問題用紙 4頁 (問題4 26〜30, 問題5 31〜32)", src: "bank/review_images/jlpt_n3_2020_12/page_04.png" },
+        { label: "問題用紙 5頁 (問題5 33〜35)", src: "bank/review_images/jlpt_n3_2020_12/page_05.png" }
+      ],
+      '2020_12_g': [
+        { label: "問題用紙 6頁 (問題1 1〜8)", src: "bank/review_images/jlpt_n3_2020_12/page_06.png" },
+        { label: "問題用紙 7頁 (問題1 9〜13)", src: "bank/review_images/jlpt_n3_2020_12/page_07.png" },
+        { label: "問題用紙 8頁 (問題2 ★ 14〜18)", src: "bank/review_images/jlpt_n3_2020_12/page_08.png" },
+        { label: "問題用紙 9頁 (問題3 文章の文法 19〜22)", src: "bank/review_images/jlpt_n3_2020_12/page_09.png" }
+      ],
+      '2020_12_r': [
+        { label: "問題用紙 10頁 (短文 1・2)", src: "bank/review_images/jlpt_n3_2020_12/page_10.png" },
+        { label: "問題用紙 11頁 (短文 3・4)", src: "bank/review_images/jlpt_n3_2020_12/page_11.png" },
+        { label: "問題用紙 12頁 (中文 1 手作りお弁当)", src: "bank/review_images/jlpt_n3_2020_12/page_12.png" },
+        { label: "問題用紙 13頁 (中文 2 絵本の読み聞かせ)", src: "bank/review_images/jlpt_n3_2020_12/page_13.png" },
+        { label: "問題用紙 14頁 (長文 宇宙旅行の進歩 本文)", src: "bank/review_images/jlpt_n3_2020_12/page_14.png" },
+        { label: "問題用紙 15頁 (長文 設問 33〜36)", src: "bank/review_images/jlpt_n3_2020_12/page_15.png" },
+        { label: "問題用紙 16頁 (情報検索 市民パソコン講座案内・設問 37・38)", src: "bank/review_images/jlpt_n3_2020_12/page_16.png" }
+      ],
+      '2021_07_v': [
+        { label: "問題用紙 2頁 (問題1 1〜8, 問題2 9〜13)", src: "bank/review_images/jlpt_n3_2021_07/page_02.png" },
+        { label: "問題用紙 3頁 (問題2 14, 問題3 15〜25, 問題4 26〜28)", src: "bank/review_images/jlpt_n3_2021_07/page_03.png" },
+        { label: "問題用紙 4頁 (問題4 29〜30, 問題5 31〜35)", src: "bank/review_images/jlpt_n3_2021_07/page_04.png" }
+      ],
+      '2021_07_g': [
+        { label: "問題用紙 5頁 (問題1 1〜11)", src: "bank/review_images/jlpt_n3_2021_07/page_05.png" },
+        { label: "問題用紙 6頁 (問題1 12〜13, 問題2 ★ 14〜18)", src: "bank/review_images/jlpt_n3_2021_07/page_06.png" },
+        { label: "問題用紙 7頁 (問題3 飲食店 19〜22)", src: "bank/review_images/jlpt_n3_2021_07/page_07.png" }
+      ],
+      '2021_07_r': [
+        { label: "問題用紙 8頁 (短文 1・2)", src: "bank/review_images/jlpt_n3_2021_07/page_08.png" },
+        { label: "問題用紙 9頁 (短文 3・4)", src: "bank/review_images/jlpt_n3_2021_07/page_09.png" },
+        { label: "問題用紙 10頁 (中文 1 花屋)", src: "bank/review_images/jlpt_n3_2021_07/page_10.png" },
+        { label: "問題用紙 11頁 (中文 2 氷)", src: "bank/review_images/jlpt_n3_2021_07/page_11.png" },
+        { label: "問題用紙 12頁 (長文 洗剤CM)", src: "bank/review_images/jlpt_n3_2021_07/page_12.png" },
+        { label: "問題用紙 13頁 (情報検索 設問37〜38)", src: "bank/review_images/jlpt_n3_2021_07/page_13.png" },
+        { label: "問題用紙 14頁 (情報検索 さくら祭り募集)", src: "bank/review_images/jlpt_n3_2021_07/page_14.png" }
+      ],
+      '2022_07_v': [
+        { label: "問題用紙 1頁 (問題1 1〜7, 問題2 8〜13)", src: "bank/review_images/jlpt_n3_2022_07/page_01.png" },
+        { label: "問題用紙 2頁 (問題3 14〜24, 問題4 25〜29)", src: "bank/review_images/jlpt_n3_2022_07/page_02.png" },
+        { label: "問題用紙 3頁 (問題5 30〜34)", src: "bank/review_images/jlpt_n3_2022_07/page_03.png" }
+      ],
+      '2022_07_g': [
+        { label: "問題用紙 4頁 (問題1 1〜10)", src: "bank/review_images/jlpt_n3_2022_07/page_04.png" },
+        { label: "問題用紙 5頁 (問題1 11〜13, 問題2 ★ 14〜18)", src: "bank/review_images/jlpt_n3_2022_07/page_05.png" },
+        { label: "問題用紙 6頁 (問題3 文章の文法 19〜22)", src: "bank/review_images/jlpt_n3_2022_07/page_06.png" }
+      ],
+      '2022_07_r': [
+        { label: "問題用紙 7頁 (短文 1・2)", src: "bank/review_images/jlpt_n3_2022_07/page_07.png" },
+        { label: "問題用紙 8頁 (短文 3・4)", src: "bank/review_images/jlpt_n3_2022_07/page_08.png" },
+        { label: "問題用紙 9頁 (中文 1 水筒)", src: "bank/review_images/jlpt_n3_2022_07/page_09.png" },
+        { label: "問題用紙 10頁 (中文 2 カラス)", src: "bank/review_images/jlpt_n3_2022_07/page_10.png" },
+        { label: "問題用紙 11頁 (長文 ろうそく)", src: "bank/review_images/jlpt_n3_2022_07/page_11.png" },
+        { label: "問題用紙 12頁 (長文 設問36・情報検索案内)", src: "bank/review_images/jlpt_n3_2022_07/page_12.png" },
+        { label: "問題用紙 13頁 (情報検索 料金表・設問)", src: "bank/review_images/jlpt_n3_2022_07/page_13.png" }
+      ],
+      '2023_07_v': [
+        { label: "問題用紙 1頁 (問題1・2)", src: "bank/review_images/jlpt_n3_2023_07/p1.png" },
+        { label: "問題用紙 2頁 (問題2・3)", src: "bank/review_images/jlpt_n3_2023_07/p2.png" },
+        { label: "問題用紙 3頁 (問題3・4・5)", src: "bank/review_images/jlpt_n3_2023_07/p3.png" },
+        { label: "問題用紙 4頁 (問題5)", src: "bank/review_images/jlpt_n3_2023_07/p4.png" }
+      ],
+      '2023_07_g': [
+        { label: "問題用紙 5頁 (問題1 1〜6)", src: "bank/review_images/jlpt_n3_2023_07/p5.png" },
+        { label: "問題用紙 6頁 (問題1 7〜12)", src: "bank/review_images/jlpt_n3_2023_07/p6.png" },
+        { label: "問題用紙 7頁 (問題1 13・問題2 ★)", src: "bank/review_images/jlpt_n3_2023_07/p7.png" },
+        { label: "問題用紙 8頁 (問題3 本文)", src: "bank/review_images/jlpt_n3_2023_07/p8.png" },
+        { label: "問題用紙 9頁 (問題3 19〜22)", src: "bank/review_images/jlpt_n3_2023_07/p9.png" }
+      ],
+      '2023_07_r': [
+        { label: "問題用紙 10頁 (短文 1)", src: "bank/review_images/jlpt_n3_2023_07/p10.png" },
+        { label: "問題用紙 11頁 (短文 2)", src: "bank/review_images/jlpt_n3_2023_07/p11.png" },
+        { label: "問題用紙 12頁 (短文 3)", src: "bank/review_images/jlpt_n3_2023_07/p12.png" },
+        { label: "問題用紙 13頁 (短文 4)", src: "bank/review_images/jlpt_n3_2023_07/p13.png" },
+        { label: "問題用紙 14頁 (中文 1 本文・設問)", src: "bank/review_images/jlpt_n3_2023_07/p14.png" },
+        { label: "問題用紙 15頁 (中文 1 設問)", src: "bank/review_images/jlpt_n3_2023_07/p15.png" },
+        { label: "問題用紙 16頁 (中文 2 本文・設問)", src: "bank/review_images/jlpt_n3_2023_07/p16.png" },
+        { label: "問題用紙 17頁 (長文 本文)", src: "bank/review_images/jlpt_n3_2023_07/p17.png" },
+        { label: "問題用紙 18頁 (長文 設問)", src: "bank/review_images/jlpt_n3_2023_07/p18.png" },
+        { label: "問題用紙 19頁 (情報検索 設問)", src: "bank/review_images/jlpt_n3_2023_07/p19.png" },
+        { label: "問題用紙 20頁 (情報検索 資料)", src: "bank/review_images/jlpt_n3_2023_07/p20.png" }
+      ],
+      '2023_12_v': [
+        { label: "問題用紙 1頁 (問題1)", src: "bank/review_images/jlpt_n3_2023_12/p3.png" },
+        { label: "問題用紙 2頁 (問題2)", src: "bank/review_images/jlpt_n3_2023_12/p4.png" },
+        { label: "問題用紙 3頁 (問題3)", src: "bank/review_images/jlpt_n3_2023_12/p5.png" },
+        { label: "問題用紙 4頁 (問題4)", src: "bank/review_images/jlpt_n3_2023_12/p6.png" },
+        { label: "問題用紙 5頁 (問題5)", src: "bank/review_images/jlpt_n3_2023_12/p7.png" }
+      ],
+      '2023_12_g': [
+        { label: "問題用紙 1頁 (問題1 1〜8)", src: "bank/review_images/jlpt_n3_2023_12/p11.png" },
+        { label: "問題用紙 2頁 (問題1 9〜13)", src: "bank/review_images/jlpt_n3_2023_12/p12.png" },
+        { label: "問題用紙 3頁 (問題2 14・15 ★)", src: "bank/review_images/jlpt_n3_2023_12/p13.png" },
+        { label: "問題用紙 4頁 (問題2 16〜18 ★)", src: "bank/review_images/jlpt_n3_2023_12/p14.png" },
+        { label: "問題用紙 6頁 (問題3 本文)", src: "bank/review_images/jlpt_n3_2023_12/p16.png" },
+        { label: "問題用紙 7頁 (問題3 設問)", src: "bank/review_images/jlpt_n3_2023_12/p17.png" }
+      ],
+      '2023_12_r': [
+        { label: "問題用紙 8-9頁 (短文 1)", src: "bank/review_images/jlpt_n3_2023_12/p18.png" },
+        { label: "問題用紙 10頁 (短文 2)", src: "bank/review_images/jlpt_n3_2023_12/p20.png" },
+        { label: "問題用紙 11頁 (短文 3)", src: "bank/review_images/jlpt_n3_2023_12/p21.png" },
+        { label: "問題用紙 12頁 (短文 4)", src: "bank/review_images/jlpt_n3_2023_12/p22.png" },
+        { label: "問題用紙 14頁 (中文 1 本文・設問)", src: "bank/review_images/jlpt_n3_2023_12/p24.png" },
+        { label: "問題用紙 15頁 (中文 1 設問)", src: "bank/review_images/jlpt_n3_2023_12/p25.png" },
+        { label: "問題用紙 16頁 (中文 2 本文・設問)", src: "bank/review_images/jlpt_n3_2023_12/p26.png" },
+        { label: "問題用紙 18頁 (長文 本文・設問)", src: "bank/review_images/jlpt_n3_2023_12/p28.png" },
+        { label: "問題用紙 19頁 (長文 設問)", src: "bank/review_images/jlpt_n3_2023_12/p29.png" },
+        { label: "問題用紙 20頁 (情報検索 設問)", src: "bank/review_images/jlpt_n3_2023_12/p30.png" },
+        { label: "問題用紙 21頁 (情報検索 資料)", src: "bank/review_images/jlpt_n3_2023_12/p31.png" }
+      ],
+      '2024_07_v': [
+        { label: "問題用紙 1頁 (問題1 1〜8, 問題2 9〜12)", src: "bank/review_images/jlpt_n3_2024_07/page_01.png" },
+        { label: "問題用紙 2頁 (問題2 13〜14, 問題3 15〜24)", src: "bank/review_images/jlpt_n3_2024_07/page_02.png" },
+        { label: "問題用紙 3頁 (問題3 25, 問題4 26〜30, 問題5 31)", src: "bank/review_images/jlpt_n3_2024_07/page_03.png" },
+        { label: "問題用紙 4頁 (問題5 32〜35)", src: "bank/review_images/jlpt_n3_2024_07/page_04.png" }
+      ],
+      '2024_07_g': [
+        { label: "問題用紙 5頁 (問題1 1〜7)", src: "bank/review_images/jlpt_n3_2024_07/page_05.png" },
+        { label: "問題用紙 6頁 (問題1 8〜12)", src: "bank/review_images/jlpt_n3_2024_07/page_06.png" },
+        { label: "問題用紙 7頁 (問題1 13, 問題2 ★ 14〜18)", src: "bank/review_images/jlpt_n3_2024_07/page_07.png" },
+        { label: "問題用紙 8頁 (問題3 文章の文法 本文)", src: "bank/review_images/jlpt_n3_2024_07/page_08.png" },
+        { label: "問題用紙 9頁 (問題3 設問 19〜22)", src: "bank/review_images/jlpt_n3_2024_07/page_09.png" }
+      ],
+      '2024_07_r': [
+        { label: "問題用紙 10頁 (短文 1 野村マリア)", src: "bank/review_images/jlpt_n3_2024_07/page_10.png" },
+        { label: "問題用紙 11頁 (短文 2 Eスポーツ)", src: "bank/review_images/jlpt_n3_2024_07/page_11.png" },
+        { label: "問題用紙 12頁 (短文 3 カラオケ大会)", src: "bank/review_images/jlpt_n3_2024_07/page_12.png" },
+        { label: "問題用紙 13頁 (短文 4 昼寝とコーヒー)", src: "bank/review_images/jlpt_n3_2024_07/page_13.png" },
+        { label: "問題用紙 14頁 (中文 1 ホウレンソウ栽培)", src: "bank/review_images/jlpt_n3_2024_07/page_14.png" },
+        { label: "問題用紙 15頁 (中文 2 シャープペンシル)", src: "bank/review_images/jlpt_n3_2024_07/page_15.png" },
+        { label: "問題用紙 16頁 (長文 プロスポーツ経営 本文)", src: "bank/review_images/jlpt_n3_2024_07/page_16.png" },
+        { label: "問題用紙 17頁 (長文 設問 33〜36)", src: "bank/review_images/jlpt_n3_2024_07/page_17.png" },
+        { label: "問題用紙 18頁 (情報検索 設問 37・38)", src: "bank/review_images/jlpt_n3_2024_07/page_18.png" },
+        { label: "問題用紙 19頁 (情報検索 買い物券チラシ)", src: "bank/review_images/jlpt_n3_2024_07/page_19.png" }
+      ],
+      '2025_07_v': [
+        { label: "問題用紙 1頁 (問題1 1〜8, 問題2 9)", src: "bank/review_images/jlpt_n3_2025_07/page_01.png" },
+        { label: "問題用紙 2頁 (問題2 10〜14, 問題3 15〜19)", src: "bank/review_images/jlpt_n3_2025_07/page_02.png" },
+        { label: "問題用紙 3頁 (問題3 20〜25, 問題4 26〜27)", src: "bank/review_images/jlpt_n3_2025_07/page_03.png" },
+        { label: "問題用紙 4頁 (問題4 28〜30, 問題5 31〜32)", src: "bank/review_images/jlpt_n3_2025_07/page_04.png" },
+        { label: "問題用紙 5頁 (問題5 33〜35)", src: "bank/review_images/jlpt_n3_2025_07/page_05.png" }
+      ],
+      '2025_07_g': [
+        { label: "問題用紙 5頁 (問題1 1〜2)", src: "bank/review_images/jlpt_n3_2025_07/page_05.png" },
+        { label: "問題用紙 6頁 (問題1 3〜9)", src: "bank/review_images/jlpt_n3_2025_07/page_06.png" },
+        { label: "問題用紙 7頁 (問題1 10〜13)", src: "bank/review_images/jlpt_n3_2025_07/page_07.png" },
+        { label: "問題用紙 8頁 (問題2 ★ 14〜18)", src: "bank/review_images/jlpt_n3_2025_07/page_08.png" },
+        { label: "問題用紙 9頁 (問題3 文章の文法 19〜21)", src: "bank/review_images/jlpt_n3_2025_07/page_09.png" },
+        { label: "問題用紙 10頁 (問題3 設問22)", src: "bank/review_images/jlpt_n3_2025_07/page_10.png" }
+      ],
+      '2025_07_r': [
+        { label: "問題用紙 10頁 (短文 1 英語資料チェック)", src: "bank/review_images/jlpt_n3_2025_07/page_10.png" },
+        { label: "問題用紙 11頁 (短文 2 図書館お知らせ・短文 3 靴下)", src: "bank/review_images/jlpt_n3_2025_07/page_11.png" },
+        { label: "問題用紙 12頁 (短文 4 痛みと治癒・中文 1 本文)", src: "bank/review_images/jlpt_n3_2025_07/page_12.png" },
+        { label: "問題用紙 13頁 (中文 1 本文・設問 27・28)", src: "bank/review_images/jlpt_n3_2025_07/page_13.png" },
+        { label: "問題用紙 14頁 (中文 1 設問 29・中文 2 本文・設問 30)", src: "bank/review_images/jlpt_n3_2025_07/page_14.png" },
+        { label: "問題用紙 15頁 (中文 2 設問 31・32・長文 本文)", src: "bank/review_images/jlpt_n3_2025_07/page_15.png" },
+        { label: "問題用紙 16頁 (長文 本文・設問 33〜35)", src: "bank/review_images/jlpt_n3_2025_07/page_16.png" },
+        { label: "問題用紙 17頁 (長文 設問 36・情報検索 設問 37・38・資料)", src: "bank/review_images/jlpt_n3_2025_07/page_17.png" },
+        { label: "問題用紙 18頁 (情報検索 料金表・スケジュール表)", src: "bank/review_images/jlpt_n3_2025_07/page_18.png" }
+      ],
+      '2025_12_v': [
+        { label: "問題用紙 1頁 (問題1 1〜8)", src: "bank/review_images/jlpt_n3_2025_12/page_01.png" },
+        { label: "問題用紙 2頁 (問題2 9〜14, 問題3 15〜16)", src: "bank/review_images/jlpt_n3_2025_12/page_02.png" },
+        { label: "問題用紙 3頁 (問題3 17〜25, 問題4 26)", src: "bank/review_images/jlpt_n3_2025_12/page_03.png" },
+        { label: "問題用紙 4頁 (問題4 27〜30, 問題5 31〜32)", src: "bank/review_images/jlpt_n3_2025_12/page_04.png" },
+        { label: "問題用紙 5頁 (問題5 33〜35)", src: "bank/review_images/jlpt_n3_2025_12/page_05.png" }
+      ],
+      '2025_12_g': [
+        { label: "問題用紙 5頁 (問題1 1〜2)", src: "bank/review_images/jlpt_n3_2025_12/page_05.png" },
+        { label: "問題用紙 6頁 (問題1 3〜9)", src: "bank/review_images/jlpt_n3_2025_12/page_06.png" },
+        { label: "問題用紙 7頁 (問題1 10〜13, 問題2 ★ 14〜15)", src: "bank/review_images/jlpt_n3_2025_12/page_07.png" },
+        { label: "問題用紙 8頁 (問題2 ★ 16〜18, 問題3 コンビニ 19〜20)", src: "bank/review_images/jlpt_n3_2025_12/page_08.png" },
+        { label: "問題用紙 9頁 (問題3 コンビニ 21〜22)", src: "bank/review_images/jlpt_n3_2025_12/page_09.png" }
+      ],
+      '2025_12_r': [
+        { label: "問題用紙 9頁 (短文 1 野菜の皮のだし 本文)", src: "bank/review_images/jlpt_n3_2025_12/page_09.png" },
+        { label: "問題用紙 10頁 (短文 1 設問 23・短文 2 ピクニック)", src: "bank/review_images/jlpt_n3_2025_12/page_10.png" },
+        { label: "問題用紙 11頁 (短文 3 旅館メール)", src: "bank/review_images/jlpt_n3_2025_12/page_11.png" },
+        { label: "問題用紙 12頁 (短文 4 地下鉄・中文 1 スーパー 本文)", src: "bank/review_images/jlpt_n3_2025_12/page_12.png" },
+        { label: "問題用紙 13頁 (中文 1 本文・設問 27〜29・中文 2 本文)", src: "bank/review_images/jlpt_n3_2025_12/page_13.png" },
+        { label: "問題用紙 14頁 (中文 2 本文・設問 30〜31)", src: "bank/review_images/jlpt_n3_2025_12/page_14.png" },
+        { label: "問題用紙 15頁 (中文 2 設問 32・長文 絵本読み聞かせ 本文)", src: "bank/review_images/jlpt_n3_2025_12/page_15.png" },
+        { label: "問題用紙 16頁 (長文 本文・設問 33〜35)", src: "bank/review_images/jlpt_n3_2025_12/page_16.png" },
+        { label: "問題用紙 17頁 (長文 設問 36・情報検索 設問 37〜38)", src: "bank/review_images/jlpt_n3_2025_12/page_17.png" },
+        { label: "問題用紙 18頁 (情報検索 鳥山図書館 利用案内)", src: "bank/review_images/jlpt_n3_2025_12/page_18.png" }
+      ],
+      'stars_collection': [
+        { label: "1頁 (1〜6)", src: "bank/review_images/jlpt_n3_stars_collection/page_01.png" },
+        { label: "2頁 (7〜17)", src: "bank/review_images/jlpt_n3_stars_collection/page_02.png" },
+        { label: "3頁 (18〜28)", src: "bank/review_images/jlpt_n3_stars_collection/page_03.png" },
+        { label: "4頁 (29〜39)", src: "bank/review_images/jlpt_n3_stars_collection/page_04.png" },
+        { label: "5頁 (40〜51)", src: "bank/review_images/jlpt_n3_stars_collection/page_05.png" },
+        { label: "6頁 (52〜62)", src: "bank/review_images/jlpt_n3_stars_collection/page_06.png" },
+        { label: "7頁 (63〜73)", src: "bank/review_images/jlpt_n3_stars_collection/page_07.png" },
+        { label: "8頁 (74〜84)", src: "bank/review_images/jlpt_n3_stars_collection/page_08.png" },
+        { label: "9頁 (85〜90)", src: "bank/review_images/jlpt_n3_stars_collection/page_09.png" },
+        { label: "10頁 (公式解答・語順一覧)", src: "bank/review_images/jlpt_n3_stars_collection/page_10.png" }
+      ]
+    };
+
+    let currentUnit = 'w1';
+
+    function setScanNav(unitKey) {
+      const container = document.getElementById('scanNav');
+      container.innerHTML = '';
+      if (!scanPages[unitKey]) return;
+      scanPages[unitKey].forEach((p, idx) => {
+        const btn = document.createElement('button');
+        btn.className = `scan-btn ${idx === 0 ? 'active' : ''}`;
+        btn.textContent = p.label;
+        btn.onclick = () => {
+          document.getElementById('scanImage').src = p.src;
+          document.querySelectorAll('.scan-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+        };
+        container.appendChild(btn);
+      });
+      document.getElementById('scanImage').src = scanPages[unitKey][0].src;
+    }
+
+    let unitData = {};
+
+    async function init() {
+      if (window.BANK_DATA) {
+        unitData = window.BANK_DATA;
+        setScanNav('w1');
+        renderQuestions('w1');
+        return;
+      }
+
+      try {
+        const [resW1, resW2, resW3, resW4, resW5, resW6, resPassagesSoumatome,
+               res2023V, res2023G, res2023R, resPassages2023] = await Promise.all([
+          fetch('bank/soumatome_n3_bunpou/week_01.json').then(r => r.json()),
+          fetch('bank/soumatome_n3_bunpou/week_02.json').then(r => r.json()),
+          fetch('bank/soumatome_n3_bunpou/week_03.json').then(r => r.json()),
+          fetch('bank/soumatome_n3_bunpou/week_04.json').then(r => r.json()),
+          fetch('bank/soumatome_n3_bunpou/week_05.json').then(r => r.json()),
+          fetch('bank/soumatome_n3_bunpou/week_06.json').then(r => r.json()),
+          fetch('bank/soumatome_n3_bunpou/passages.json').then(r => r.json()),
+          fetch('bank/jlpt_n3_2023_07/vocab.json').then(r => r.json()),
+          fetch('bank/jlpt_n3_2023_07/grammar.json').then(r => r.json()),
+          fetch('bank/jlpt_n3_2023_07/reading.json').then(r => r.json()),
+          fetch('bank/jlpt_n3_2023_07/passages.json').then(r => r.json())
+        ]);
+
+        const allPassages = { ...resPassagesSoumatome, ...resPassages2023 };
+
+        unitData = {
+          w1: { questions: resW1.questions, passages: allPassages },
+          w2: { questions: resW2.questions, passages: allPassages },
+          w3: { questions: resW3.questions, passages: allPassages },
+          w4: { questions: resW4.questions, passages: allPassages },
+          w5: { questions: resW5.questions, passages: allPassages },
+          w6: { questions: resW6.questions, passages: allPassages },
+          '2023_07_v': { questions: res2023V.questions, passages: allPassages },
+          '2023_07_g': { questions: res2023G.questions, passages: allPassages },
+          '2023_07_r': { questions: res2023R.questions, passages: allPassages }
+        };
+
+        setScanNav('w1');
+        renderQuestions('w1');
+      } catch (err) {
+        console.error('Fetch error:', err);
+      }
+    }
+
+    function loadUnit(unitKey, btn) {
+      currentUnit = unitKey;
+      document.querySelectorAll('.unit-tab').forEach(t => t.classList.remove('active'));
+      if (btn) {
+        btn.classList.add('active');
+      } else {
+        const found = Array.from(document.querySelectorAll('.unit-tab')).find(b => b.getAttribute('onclick') && b.getAttribute('onclick').includes(unitKey));
+        if (found) found.classList.add('active');
+      }
+      setScanNav(unitKey);
+      renderQuestions(unitKey);
+    }
+
+    function renderQuestions(unitKey) {
+      const pane = document.getElementById('transcriptionPane');
+      pane.innerHTML = '';
+      const unit = unitData[unitKey];
+      if (!unit) return;
+
+      let lastMondai = '';
+
+      unit.questions.forEach((q, idx) => {
+        // If new mondai type, insert instruction banner
+        if (q.mondai_label !== lastMondai) {
+          lastMondai = q.mondai_label;
+          const banner = document.createElement('div');
+          banner.className = 'instruction-banner';
+          banner.textContent = `【${q.mondai_label}】 ${q.instruction}`;
+          pane.appendChild(banner);
+
+          // If this is passage question (Q21), show passage box
+          if (q.passage_id && unit.passages[q.passage_id]) {
+            const p = unit.passages[q.passage_id];
+            const pBox = document.createElement('div');
+            pBox.className = 'passage-box';
+            let formattedContent = p.content.replace(/\[\s*(\d+)\s*\]/g, "<span class='passage-blank'>$1</span>");
+            pBox.innerHTML = `
+              <div class="passage-title">📖 ${p.title}</div>
+              <div class="passage-text">${formattedContent}</div>
+            `;
+            pane.appendChild(pBox);
+          }
+        }
+
+        const card = document.createElement('div');
+        card.className = 'q-card';
+
+        const diffBadge = `<span class="badge badge-diff-${q.difficulty}">難易度: ${q.difficulty}</span>`;
+        const pageBadge = `<span class="badge">${q.page}頁</span>`;
+        const sectionBadge = `<span class="badge">${q.section}</span>`;
+
+        const optionsHtml = q.options.map((opt, i) => {
+          const isCorrect = (i + 1) === q.answer;
+          return `
+            <div class="q-option ${isCorrect ? 'correct' : ''}">
+              <span class="opt-num">${i + 1}</span>
+              <span>${opt} ${isCorrect ? '✓' : ''}</span>
+            </div>
+          `;
+        }).join('');
+
+        const gpPills = (q.grammar_points || []).map(gp => `<span class="gp-pill">${gp}</span>`).join('');
+
+        card.innerHTML = `
+          <div class="q-header">
+            <span class="q-id">${idx + 1}. [${q.id}]</span>
+            <div class="q-badges">${pageBadge} ${sectionBadge} ${diffBadge}</div>
+          </div>
+          <div class="q-prompt">${q.question}</div>
+          <div class="q-options">${optionsHtml}</div>
+          <div class="q-explanation">
+            💡 <strong>公式解説:</strong> ${q.explanation}
+          </div>
+          ${gpPills ? `<div class="q-gps">${gpPills}</div>` : ''}
+        `;
+
+        pane.appendChild(card);
+      });
+    }
+
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

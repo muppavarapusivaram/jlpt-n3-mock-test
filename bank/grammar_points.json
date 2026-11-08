@@ -1,0 +1,64 @@
+{
+  "grammar_points": [
+    {
+      "id": "GP-N3-001",
+      "canonical_form": "〜させてもらう／くれる",
+      "meaning": "Causative + receiving favor (asking permission / being allowed to)",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-002",
+      "canonical_form": "〜ようとする",
+      "meaning": "Attempting / about to / trying to do something",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-003",
+      "canonical_form": "〜ちゃう／じゃう",
+      "meaning": "Spoken contraction of 〜てしまう (completion / regret)",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-004",
+      "canonical_form": "〜ように（目的・指示・比況・変化）",
+      "meaning": "In order that / so that / manner / advice",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-005",
+      "canonical_form": "〜みたいだ／な／に",
+      "meaning": "Looks like / resembles / similarity",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-006",
+      "canonical_form": "〜らしい",
+      "meaning": "Seeming like / typical of (representative attribute)",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-007",
+      "canonical_form": "〜っぽい",
+      "meaning": "-ish / tends to / having the feel of",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-008",
+      "canonical_form": "〜とく／どく",
+      "meaning": "Spoken contraction of 〜ておく (doing in advance / leaving as is)",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-009",
+      "canonical_form": "〜られる（受身・迷惑受身）",
+      "meaning": "Passive voice / suffering passive",
+      "jlpt_level": "N3"
+    },
+    {
+      "id": "GP-N3-010",
+      "canonical_form": "〜ないと／なくちゃ",
+      "meaning": "Spoken contraction of 〜なければならない (must / have to)",
+      "jlpt_level": "N3"
+    }
+  ]
+}

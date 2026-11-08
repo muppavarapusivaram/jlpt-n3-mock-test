@@ -1,0 +1,598 @@
+{
+  "questions": [
+    {
+      "id": "jlpt_n3_2025_07_g_q01",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "先月東京で行われたサッカーの国際大会には、世界中（　）多くのサッカーファンが集まった。",
+      "options": [
+        "に",
+        "で",
+        "から",
+        "まで"
+      ],
+      "answer": 3,
+      "explanation": "各地を起点として人々が集まってくる移動の起点・出所を表す助詞は「から」です。「世界中から集まる」が正解です。",
+      "grammar_points": [
+        "助詞: から (起点・出所)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q02",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "食事のマナーは国（　）違うので、私は旅行に行く前に、気をつけたほうがいいことはないか調べるようにしている。",
+      "options": [
+        "によって",
+        "に対して",
+        "にとって",
+        "において"
+      ],
+      "answer": 1,
+      "explanation": "名詞に応じてそれぞれ異なる多様性・相違を表す「〜によって（違う）」が適切です。",
+      "grammar_points": [
+        "〜によって (相違・多様性)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q03",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「もうすぐ（　）この前言ってたけど、準備は進んでる？」\nB「うん。」",
+      "options": [
+        "引っ越す",
+        "引っ越すか",
+        "引っ越すって",
+        "引っ越すのを"
+      ],
+      "answer": 3,
+      "explanation": "相手が以前発言した内容を引用・取り上げるくだけた引用表現「〜って（この前言ってた）」が適切です。",
+      "grammar_points": [
+        "〜って (引用の「と」のくだけた口語形)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q04",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "田中「山下さん、映画をよく見るそうですね。映画館で見るんですか。」\n山下「映画館にも行きますが、（　）、家でDVDを見ることが多いですね。」",
+      "options": [
+        "確かに",
+        "まるで",
+        "必ずしも",
+        "どちらかというと"
+      ],
+      "answer": 4,
+      "explanation": "二者択一や傾向を問われた際に、強いて選ぶならそちらの傾向が強いと述べる「どちらかというと」が最適です。",
+      "grammar_points": [
+        "副詞表現: どちらかというと"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q05",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "（料理番組で）\n「じゃがいもは、ゆでてから皮をむいたほうが、きれいに皮がむけます。ゆでた後、熱い（　）皮をむきましょう。」",
+      "options": [
+        "のに",
+        "うちに",
+        "ことで",
+        "とすると"
+      ],
+      "answer": 2,
+      "explanation": "ある状態（熱い状態）が続いている間に動作を行うことを表す「〜うちに」が適切です。",
+      "grammar_points": [
+        "〜うちに (ある状態が継続している間に)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q06",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "少し前にご飯を食べた（　）なのに、もうおなかがすいてきた。",
+      "options": [
+        "せい",
+        "とき",
+        "よう",
+        "ばかり"
+      ],
+      "answer": 4,
+      "explanation": "動作が終わってから心理的にまだほとんど時間が経過していないことを表す「〜たばかり（なのに）」が適切です。",
+      "grammar_points": [
+        "〜たばかり (完了直後の心理的近接)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q07",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "私は小学生のころ、ゲームが大好きだった。早く家でゲームが（　）、毎日学校から走って帰っていた。",
+      "options": [
+        "したくて",
+        "したくても",
+        "するためで",
+        "するためでも"
+      ],
+      "answer": 1,
+      "explanation": "願望（〜たい）の理由・動機を表して後続の行動へとつなげる接続「〜したくて」が最も自然です。",
+      "grammar_points": [
+        "願望接続: 〜たくて (理由・動機)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q08",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "弟の誕生日プレゼントを何にするか考えている。何を（　）、喜ぶだろうか。",
+      "options": [
+        "くれたら",
+        "あげたら",
+        "くれるから",
+        "あげるから"
+      ],
+      "answer": 2,
+      "explanation": "話者から身内である弟への授受表現は「あげる」であり、仮定条件をつなぐ「あげたら」が正解です。",
+      "grammar_points": [
+        "授受動詞と条件: 〜てあげる / 〜たら"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q09",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "（電話で）\nA「この前借りた小説、もう1回貸してもらえない？」\nB「うん、いいよ。あした、学校に（　）ね。」",
+      "options": [
+        "持っとく",
+        "持ってる",
+        "持ってく",
+        "持っちゃう"
+      ],
+      "answer": 3,
+      "explanation": "「持っていく」の口語縮約形「持ってく」が正解です。学校へ本を持って行くという移動を伴う行為を表します。",
+      "grammar_points": [
+        "口語縮約: 〜ていく → 〜てく"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q10",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「再来週の登山、楽しみだね。」\nB「うん、（　）ね。」",
+      "options": [
+        "晴れてきた",
+        "晴れるといい",
+        "晴れるんだ",
+        "晴れてよかった"
+      ],
+      "answer": 2,
+      "explanation": "将来の望ましい事態を願う表現は「〜といい（ね）」です。",
+      "grammar_points": [
+        "希望・願いの表現: 〜といい"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q11",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "（市のホームページで）\n9月30日に絵本作家の坂木みどりさんによる講演会が開かれます。市民の方であれば、どなたでも無料で（　）。",
+      "options": [
+        "ご参加になれます",
+        "参加いたします",
+        "ご参加になっています",
+        "参加できております"
+      ],
+      "answer": 1,
+      "explanation": "市民に対する敬語（尊敬語）かつ可能表現です。「ご＋動詞の連用形＋になる」に可能の助動詞がついた「ご参加になれます」が適切です。",
+      "grammar_points": [
+        "敬語 (尊敬可能表現): ご〜になれる"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q12",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "以前は、会社の窓から海を見ることができたが、隣に高いビルができて、（　）。",
+      "options": [
+        "見えなくてもよくなった",
+        "見られたかもしれない",
+        "見えなくなってしまった",
+        "見られるようにならない"
+      ],
+      "answer": 3,
+      "explanation": "以前は見えていたものがビルによって遮られ、残念な結果として視認不可能になった変化を表す「見えなくなってしまった」が適切です。",
+      "grammar_points": [
+        "可能動詞の否定変化と残念の意: 〜なくなる ＋ 〜てしまう"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q13",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "（病院で）\n医者「この薬を五日間飲んでください。」\n患者「わかりました。熱が下がっても（　）。」\n医者「はい。五日間必ず飲んでください。」",
+      "options": [
+        "飲んではいけませんか",
+        "飲んでいないんでしょうか",
+        "飲んでみようと思いますか",
+        "飲んだほうがいいでしょうか"
+      ],
+      "answer": 4,
+      "explanation": "熱が下がった場合でも服用を継続すべきかどうかを医師に相談・確認する表現「〜たほうがいいでしょうか」が最も適切です。",
+      "grammar_points": [
+        "助言を求める表現: 〜たほうがいいでしょうか"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q14",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "今年の夏も暑いが、＿＿ ＿＿ ★ ＿＿ ずっと涼しく感じる。",
+      "options": [
+        "異常な",
+        "に比べると",
+        "暑さだった",
+        "去年の夏"
+      ],
+      "answer": 4,
+      "explanation": "正しい語順は「異常な(1) → 暑さだった(3) → 去年の夏(4) → に比べると(2)」となります。★に入るのは 4（去年の夏）です。",
+      "grammar_points": [
+        "文の組み立て: 連体修飾 ＋ 〜に比べると"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q15",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "初めてアルバイトをして、お金を稼ぐ＿＿ ＿＿ ★ ＿＿ わかった。",
+      "options": [
+        "ことか",
+        "大変な",
+        "ことが",
+        "どれだけ"
+      ],
+      "answer": 2,
+      "explanation": "正しい語順は「ことが(3) → どれだけ(4) → 大変な(2) → ことか(1)」となります。★に入るのは 2（大変な）です。",
+      "grammar_points": [
+        "文の組み立て: どれだけ〜ことか (感嘆・強調)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q16",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "今日、昼食の後、図書館へ行って本を読んでいたら ＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+        "ので",
+        "外が暗くなっていた",
+        "驚いた",
+        "いつの間にか"
+      ],
+      "answer": 1,
+      "explanation": "正しい語順は「いつの間にか(4) → 外が暗くなっていた(2) → ので(1) → 驚いた(3)」となります。★に入るのは 1（ので）です。",
+      "grammar_points": [
+        "文の組み立て: 副詞 ＋ 状況変化 ＋ 原因・理由 (〜ので)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q17",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "このチーズケーキの ＿＿ ＿＿ ★ ＿＿、誰でも簡単に作れると思う。",
+      "options": [
+        "だから",
+        "作り方",
+        "だけ",
+        "材料を混ぜて冷やす"
+      ],
+      "answer": 3,
+      "explanation": "正しい語順は「作り方は材料を混ぜて冷やす(4) → だけ(3) → だから(1)」(このチーズケーキの作り方は...「作り方(2) → 材料を混ぜて冷やす(4) → だけ(3) → だから(1)」)となります。★に入るのは 3（だけ）です。",
+      "grammar_points": [
+        "文の組み立て: 〜だけだから (限定・理由)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q18",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「あさってのサッカーの試合、応援に行くね。天気予報では曇りと言っていたけど、雨だったら中止になる？」\nB「ありがとう。もし ＿＿ ＿＿ ★ ＿＿ 応援には無理して来なくてもいいよ。」",
+      "options": [
+        "雨が降ったら",
+        "試合は",
+        "雨が降ったとしても",
+        "中止にならないんだけど"
+      ],
+      "answer": 4,
+      "explanation": "正しい語順は「試合は(2) → 雨が降ったとしても(3) → 中止にならないんだけど(4)、もし雨が降ったら(1) 応援には無理して来なくてもいいよ」となります。★に入るのは 4（中止にならないんだけど）です。",
+      "grammar_points": [
+        "文の組み立て: 〜としても (譲歩条件) ＋ 〜んだけど (前置き)"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q19",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（19）から（22）の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "jlpt_n3_2025_07_p09",
+      "question": "（19）に入る最もよいものをえらびなさい。",
+      "options": [
+        "例えば",
+        "それでも",
+        "実は",
+        "また"
+      ],
+      "answer": 2,
+      "explanation": "直前の「暖かいところにいたいと思った」という消極的な思いに反して、「せっかく来たのだから」と気持ちを切り替えて練習を始める逆接の接続詞「それでも」が適切です。",
+      "grammar_points": [
+        "文章の文法: 逆接接続詞 (それでも)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q20",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（19）から（22）の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "jlpt_n3_2025_07_p09",
+      "question": "（20）に入る最もよいものをえらびなさい。",
+      "options": [
+        "滑れるようになりました",
+        "滑れるようにしてあげました",
+        "滑ってくれました",
+        "滑ってもらえました"
+      ],
+      "answer": 1,
+      "explanation": "練習の成果として筆者自身が半日で上達し、転ばずに滑ることができる状態に変化したことを表す「滑れるようになりました」が正解です。",
+      "grammar_points": [
+        "文章の文法: 能力変化表現 (〜ようになる)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q21",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（19）から（22）の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "jlpt_n3_2025_07_p09",
+      "question": "（21）に入る最もよいものをえらびなさい。",
+      "options": [
+        "あの広告の",
+        "ああいう",
+        "ある",
+        "あの"
+      ],
+      "answer": 4,
+      "explanation": "筆者の記憶の中にある「あの（去年のスキー旅行）」を指し示す連体詞「あの」が適切です。",
+      "grammar_points": [
+        "文章の文法: 指示詞のア系列 (追想・共通記憶)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2025_07_g_q22",
+      "book": "JLPT N3 2025年7月 実戦問題集",
+      "book_code": "jlpt_n3_2025_07",
+      "unit": "言語知識（文法）",
+      "page": 10,
+      "pdf_page": 10,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（19）から（22）の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "jlpt_n3_2025_07_p09",
+      "question": "（22）に入る最もよいものをえらびなさい。",
+      "options": [
+        "わかっていきます",
+        "わかるのでしょう",
+        "わかりました",
+        "わかったそうです"
+      ],
+      "answer": 3,
+      "explanation": "自分でスキーを実際に体験した結果、納得・理解に至った過去の心理的到達点を表す「わかりました」が適切です。",
+      "grammar_points": [
+        "文章の文法: 文末表現 (理解の完了・納得)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    }
+  ]
+}

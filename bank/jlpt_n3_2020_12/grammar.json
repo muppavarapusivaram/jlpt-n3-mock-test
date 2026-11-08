@@ -1,0 +1,600 @@
+{
+  "book": "JLPT N3 2020年12月 過去問",
+  "unit": "文法",
+  "questions": [
+    {
+      "id": "jlpt_n3_2020_12_g_q01",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "今年の夏は去年（　）暑くない。",
+      "options": [
+        "から",
+        "ほど",
+        "まで",
+        "しか"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "文法: 〜ほど〜ない (比較否定)"
+      ],
+      "difficulty": 1,
+      "explanation": "「AはBほど〜ない」で、Bほどその程度が高くないことを表します。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q02",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "今朝、電車で隣に座った人から、シャンプー（　）何（　）わからないが、とにかくいい香りがしてきた。",
+      "options": [
+        "か／か",
+        "は／は",
+        "が／が",
+        "で／で"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "助詞: か何か (不確定例示)"
+      ],
+      "difficulty": 2,
+      "explanation": "はっきり断定できないものを例示する「シャンプーか何か」の形です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q03",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "課長「林さん、急で悪いんだけど、出張のレポートと明日の会議の資料、今日のお昼ごろまでにできる？」\n林「両方は難しそうです。会議の資料（　）できると思いますが。」",
+      "options": [
+        "とでも",
+        "となら",
+        "だけでも",
+        "だけなら"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "とりたて助詞: だけなら (限定条件)"
+      ],
+      "difficulty": 2,
+      "explanation": "「両方は無理だが、その部分に限れば可能である」という限定条件を表す「だけなら」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q04",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "このごろ、朝、早く起こしても、息子が（　）私の言うことを聞かないので困っている。",
+      "options": [
+        "やっと",
+        "きっと",
+        "ちっとも",
+        "せっかく"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "副詞: ちっとも〜ない (完全否定)"
+      ],
+      "difficulty": 2,
+      "explanation": "後ろに否定「〜ない」を伴って「少しも〜ない」を強調する「ちっとも」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q05",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "私たちの生活は、技術の進歩の（　）とても便利になった。",
+      "options": [
+        "おかげで",
+        "ようで",
+        "ことで",
+        "ほかで"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "文法: 〜のおかげで (好結果の原因)"
+      ],
+      "difficulty": 1,
+      "explanation": "望ましい良い結果をもたらした原因を表す「〜のおかげで」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q06",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "今度の旅行で泊まるYホテルは駅前にあるので、夜遅く駅に（　）、安心だ。",
+      "options": [
+        "着いたり",
+        "着いたため",
+        "着いたとしても",
+        "着いたかどうか"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "文法: 〜としても (仮定逆接・譲歩)"
+      ],
+      "difficulty": 2,
+      "explanation": "「たとえ夜遅くに駅に着いた場合であっても（駅前だから安心だ）」という譲歩仮定を表す「着いたとしても」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q07",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "日本に来たのは今回が2度目だ。前に来たのは20年前だが、そのときに人った喫茶店がまだ（　）驚いた。",
+      "options": [
+        "営業して",
+        "営業しなくて",
+        "営業していて",
+        "営業していなくて"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "て形・理由接続: 〜て驚いた"
+      ],
+      "difficulty": 1,
+      "explanation": "驚いた直接の原因を表す「まだ営業していて驚いた」が自然です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q08",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "子供のころ、いつも親に絵本を（　）寝ていた。",
+      "options": [
+        "読んでくれてから",
+        "読んでもらってから",
+        "読んでくれるから",
+        "読んでもらうから"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "授受表現・時間順序: 〜てもらってから"
+      ],
+      "difficulty": 2,
+      "explanation": "「親に絵本を読んでもらう」＋その完了後に寝る順序「〜てから」で「読んでもらってから」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q09",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（料理番組で）\n「まず、フライパンで肉をいためます。肉の色が（　）、野菜を入れてください」",
+      "options": [
+        "変わっていって",
+        "変わってくるのに",
+        "変わっていくと",
+        "変わってきたら"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文法: 〜てきたら (変化の完了条件)"
+      ],
+      "difficulty": 2,
+      "explanation": "肉の色が変化してきたそのタイミングを条件として次に移るため「変わってきたら」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q10",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "赤ちゃんがなかなか寝ない時は、赤ちゃんにクラシック音楽を（　）とよく寝ると聞いた。",
+      "options": [
+        "聞かせる",
+        "聞かれる",
+        "聞かされる",
+        "聞いている"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "使役形: 聞かせる"
+      ],
+      "difficulty": 1,
+      "explanation": "他者（赤ちゃん）に音楽を聞くように仕向ける使役動詞「聞かせる」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q11",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（電話で）\n森先生:「はい、北山日本語学校です。」\nリー:「もしもし、中級クラスのリーですが、森先生は（　）か」\n森先生:「あ、リーさん。森です、どうしましたか。」",
+      "options": [
+        "ございます",
+        "いらっしゃいます",
+        "拝見します",
+        "お目にかかりまし"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "敬語: いらっしゃる (尊敬語)"
+      ],
+      "difficulty": 2,
+      "explanation": "先生がその場所に居るかどうかを尋ねる尊敬語「いらっしゃいますか」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q12",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "A:「子供が来週から水泳教室に通うんだけど、いろいろ心配なんだよね。」\nB:「始める前から心配（　）しかたないでしょう。大丈夫だよ」",
+      "options": [
+        "よりしていれば",
+        "よりしていても",
+        "ばかりしていれば",
+        "ばかりしていても"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文法: 〜てばかりいても仕方がない"
+      ],
+      "difficulty": 2,
+      "explanation": "「心配ばかりしていても（何も解決しないので）仕方がない」という逆接・無意味を表す構文です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q13",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "夫:「これから会社に行ってくるよ。」\n妻:「あれ、今日は休みでしょう？」\n夫:「さっき会社から電話があって、急に出勤（　）」",
+      "options": [
+        "しなきゃならなくなった",
+        "しちゃいけなくなった",
+        "するつもりでいる",
+        "しないようにしている"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "口語義務表現: 〜なきゃならなくなった"
+      ],
+      "difficulty": 2,
+      "explanation": "予定外の電話連絡により出勤する必要が生じたため「出勤しなきゃならなくなった」が自然です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q14",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "この喫茶店は、コーヒー ＿＿ ＿＿ ★ ＿＿ おいしい。",
+      "options": [
+        "などの",
+        "スパゲティ",
+        "料理も",
+        "だけでなく"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "文法星並べ: 〜だけでなく〜などの〜も"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：コーヒー [4 だけでなく] [2 スパゲティ] ★[1 などの] [3 料理も] おいしい。★に入るのは 1 です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q15",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "（映画館で）\n妻「私、ちょっとジュース買いに行ってくるね。」\n夫「うん。あ、でも、映画が ＿＿ ＿＿ ★ ＿＿ よ。急いでね。」",
+      "options": [
+        "しかない",
+        "始まる",
+        "あと3分",
+        "まで"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "文法星並べ: 〜まであと〜しかない"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：映画が [2 始まる] [4 まで] ★[3 あと3分] [1 しかない] よ。★に入るのは 3 です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q16",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "今度の日曜日に友人の結婚式がある。＿＿ ＿＿ ★ ＿＿ が。",
+      "options": [
+        "の",
+        "いい",
+        "晴れる",
+        "と"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "文法星並べ: 〜といいのだが (願望)"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：[3 晴れる] [4 と] ★[2 いい] [1 の] が。★に入るのは 2 です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q17",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "息子は、サッカークラブの練習がきついと ＿＿ ＿＿ ★ ＿＿ 好きだからだと思う。",
+      "options": [
+        "よく言っているが",
+        "やっぱりサッカーが",
+        "続けているのは",
+        "それでもやめずに"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "文法星並べ: 〜が〜続けているのは"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：きついと [1 よく言っているが] [4 それでもやめずに] ★[3 続けているのは] [2 やっぱりサッカーが] 好きだからだと思う。★に入るのは 3 です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q18",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "うちから学校まで自転車で40分かかる。電車なら20分だが、朝の ＿＿ ＿＿ ★ ＿＿ 自転車で通っている。",
+      "options": [
+        "こんでいる電車は",
+        "よい運動になるから",
+        "嫌いだし",
+        "自転車で行けば"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文法星並べ: 〜は〜だし〜ば〜から"
+      ],
+      "difficulty": 2,
+      "explanation": "正しい並び順：朝の [1 こんでいる電車は] [3 嫌いだし] ★[4 自転車で行けば] [2 よい運動になるから] 自転車で通っている。★に入るのは 4 です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q19",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から22の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2020_12_p09_m3",
+      "question": "【 19 】に入るものを選びなさい。",
+      "options": [
+        "待つことです",
+        "待ちにくいからです",
+        "待ったところです",
+        "待っているのです"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "文脈説明: 〜ているのです (状況の説明)"
+      ],
+      "difficulty": 2,
+      "explanation": "行列を作って並んでいる人たちの行動理由を説明する「店に入るために待っているのです」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q20",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から22の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2020_12_p09_m3",
+      "question": "【 20 】に入るものを選びなさい。",
+      "options": [
+        "でも",
+        "また",
+        "つもり",
+        "そのうえ"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "接続詞: でも (逆接)"
+      ],
+      "difficulty": 1,
+      "explanation": "大勢並んでいたが、友達と話しながら待っていたので苦にならなかったという逆接の「でも」が正解です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q21",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から22の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2020_12_p09_m3",
+      "question": "【 21 】に入るものを選びなさい。",
+      "options": [
+        "言えて",
+        "言われて",
+        "言ってきて",
+        "言ってくれて"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "受動態: 言われて (他者からの発言)"
+      ],
+      "difficulty": 2,
+      "explanation": "先輩から「いいなあ」とその言葉をかけられた受動の立場を表す「言われて」が適切です。"
+    },
+    {
+      "id": "jlpt_n3_2020_12_g_q22",
+      "book": "JLPT N3 2020年12月 過去問",
+      "book_code": "jlpt_n3_2020_12",
+      "unit": "文法",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、19から22の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": "jlpt_n3_2020_12_p09_m3",
+      "question": "【 22 】に入るものを選びなさい。",
+      "options": [
+        "その",
+        "どの",
+        "別の",
+        "チーズケーキの"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "連体詞: 別の (他の同類)"
+      ],
+      "difficulty": 1,
+      "explanation": "今回の店とはまた違う「ほかの人気店」という意味を表す「別の」が正解です。"
+    }
+  ]
+}

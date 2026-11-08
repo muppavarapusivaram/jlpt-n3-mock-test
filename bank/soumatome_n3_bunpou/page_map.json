@@ -1,0 +1,1302 @@
+{
+  "book_title": "Nihongo Sou Matome N3 - Bunpou",
+  "filename": "Nihongo Sou Matome N3 - Bunpou.pdf",
+  "jlpt_level": "N3",
+  "total_pdf_pages": 118,
+  "pages": [
+    {
+      "pdf_page": 1,
+      "book_page": null,
+      "type": "cover / intro / how-to-use",
+      "unit": "表紙 (Front Cover)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 2,
+      "book_page": null,
+      "type": "other",
+      "unit": "白頁 (Blank)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 3,
+      "book_page": null,
+      "type": "cover / intro / how-to-use",
+      "unit": "扉 (Title page)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 4,
+      "book_page": 3,
+      "type": "cover / intro / how-to-use",
+      "unit": "はじめに (Introduction)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 5,
+      "book_page": 4,
+      "type": "cover / intro / how-to-use",
+      "unit": "目次 1 (Table of Contents)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 6,
+      "book_page": 5,
+      "type": "cover / intro / how-to-use",
+      "unit": "目次 2 (Table of Contents)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 7,
+      "book_page": 6,
+      "type": "cover / intro / how-to-use",
+      "unit": "新しい「日本語能力試験」N3について",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 8,
+      "book_page": 7,
+      "type": "cover / intro / how-to-use",
+      "unit": "N3「文法」の問題構成と問題形式",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 9,
+      "book_page": 8,
+      "type": "cover / intro / how-to-use",
+      "unit": "この本を勉強する人へ",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 10,
+      "book_page": 9,
+      "type": "cover / intro / how-to-use",
+      "unit": "この本の使い方 1",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 11,
+      "book_page": 10,
+      "type": "cover / intro / how-to-use",
+      "unit": "この本の使い方 2",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 12,
+      "book_page": 11,
+      "type": "cover / intro / how-to-use",
+      "unit": "接続の表示方法 1",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 13,
+      "book_page": 12,
+      "type": "cover / intro / how-to-use",
+      "unit": "接続の表示方法 2",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 14,
+      "book_page": 13,
+      "type": "cover / intro / how-to-use",
+      "unit": "第1週 がんばらなくちゃ！ 今週の表現",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 15,
+      "book_page": 14,
+      "type": "explanation",
+      "unit": "第1週 1日目 ぼくにもやらせて",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 16,
+      "book_page": 15,
+      "type": "exercise",
+      "unit": "第1週 1日目 れんしゅう (ぼくにもやらせて)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        17
+      ]
+    },
+    {
+      "pdf_page": 17,
+      "book_page": 16,
+      "type": "explanation",
+      "unit": "第1週 2日目 そこに置いといて",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 18,
+      "book_page": 17,
+      "type": "exercise",
+      "unit": "第1週 2日目 れんしゅう (そこに置いといて)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        19
+      ]
+    },
+    {
+      "pdf_page": 19,
+      "book_page": 18,
+      "type": "explanation",
+      "unit": "第1週 3日目 女らしい",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 20,
+      "book_page": 19,
+      "type": "exercise",
+      "unit": "第1週 3日目 れんしゅう (女らしい)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        21
+      ]
+    },
+    {
+      "pdf_page": 21,
+      "book_page": 20,
+      "type": "explanation",
+      "unit": "第1週 4日目 できるようになっった！",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 22,
+      "book_page": 21,
+      "type": "exercise",
+      "unit": "第1週 4日目 れんしゅう (できるようになっった！)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        23
+      ]
+    },
+    {
+      "pdf_page": 23,
+      "book_page": 22,
+      "type": "explanation",
+      "unit": "第1週 5日目 言ったように",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 24,
+      "book_page": 23,
+      "type": "exercise",
+      "unit": "第1週 5日目 れんしゅう (言ったように)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        25
+      ]
+    },
+    {
+      "pdf_page": 25,
+      "book_page": 24,
+      "type": "explanation",
+      "unit": "第1週 6日目 話を聞こうとしない",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 26,
+      "book_page": 25,
+      "type": "exercise",
+      "unit": "第1週 6日目 れんしゅう (話を聞こうとしない)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        29
+      ]
+    },
+    {
+      "pdf_page": 27,
+      "book_page": 26,
+      "type": "mock test / review test",
+      "unit": "第1週 7日目 実戦問題 (問題1 前半)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        114
+      ]
+    },
+    {
+      "pdf_page": 28,
+      "book_page": 27,
+      "type": "mock test / review test",
+      "unit": "第1週 7日目 実戦問題 (問題1 後半・問題2 ★)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        114
+      ]
+    },
+    {
+      "pdf_page": 29,
+      "book_page": 28,
+      "type": "reading passage with questions",
+      "unit": "第1週 7日目 実戦問題 (問題3 文章の文法)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        114
+      ]
+    },
+    {
+      "pdf_page": 30,
+      "book_page": 29,
+      "type": "cover / intro / how-to-use",
+      "unit": "第2週 がんばってごらん！ 今週の表現",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 31,
+      "book_page": 30,
+      "type": "explanation",
+      "unit": "第2週 1日目 うそばっかり！",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 32,
+      "book_page": 31,
+      "type": "exercise",
+      "unit": "第2週 1日目 れんしゅう (うそばっかり！)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        33
+      ]
+    },
+    {
+      "pdf_page": 33,
+      "book_page": 32,
+      "type": "explanation",
+      "unit": "第2週 2日目 事故などによる渋滞",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 34,
+      "book_page": 33,
+      "type": "exercise",
+      "unit": "第2週 2日目 れんしゅう (事故などによる渋滞)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        35
+      ]
+    },
+    {
+      "pdf_page": 35,
+      "book_page": 34,
+      "type": "explanation",
+      "unit": "第2週 3日目 あなたのこと",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 36,
+      "book_page": 35,
+      "type": "exercise",
+      "unit": "第2週 3日目 れんしゅう (あなたのこと)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        37
+      ]
+    },
+    {
+      "pdf_page": 37,
+      "book_page": 36,
+      "type": "explanation",
+      "unit": "第2週 4日目 省エネというのは…",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 38,
+      "book_page": 37,
+      "type": "exercise",
+      "unit": "第2週 4日目 れんしゅう (省エネというのは…)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        39
+      ]
+    },
+    {
+      "pdf_page": 39,
+      "book_page": 38,
+      "type": "explanation",
+      "unit": "第2週 5日目 美人というより",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 40,
+      "book_page": 39,
+      "type": "exercise",
+      "unit": "第2週 5日目 れんしゅう (美人というより)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        41
+      ]
+    },
+    {
+      "pdf_page": 41,
+      "book_page": 40,
+      "type": "explanation",
+      "unit": "第2週 6日目 食べてごらん",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 42,
+      "book_page": 41,
+      "type": "exercise",
+      "unit": "第2週 6日目 れんしゅう (食べてごらん)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        45
+      ]
+    },
+    {
+      "pdf_page": 43,
+      "book_page": 42,
+      "type": "mock test / review test",
+      "unit": "第2週 7日目 実戦問題 (問題1 前半)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        115
+      ]
+    },
+    {
+      "pdf_page": 44,
+      "book_page": 43,
+      "type": "mock test / review test",
+      "unit": "第2週 7日目 実戦問題 (問題1 後半・問題2 ★)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        115
+      ]
+    },
+    {
+      "pdf_page": 45,
+      "book_page": 44,
+      "type": "reading passage with questions",
+      "unit": "第2週 7日目 実戦問題 (問題3 文章の文法)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        115
+      ]
+    },
+    {
+      "pdf_page": 46,
+      "book_page": 45,
+      "type": "cover / intro / how-to-use",
+      "unit": "第3週 もっとがんばってほしい！ 今週の表現",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 47,
+      "book_page": 46,
+      "type": "explanation",
+      "unit": "第3週 1日目 いくら安くても",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 48,
+      "book_page": 47,
+      "type": "exercise",
+      "unit": "第3週 1日目 れんしゅう (いくら安くても)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        49
+      ]
+    },
+    {
+      "pdf_page": 49,
+      "book_page": 48,
+      "type": "explanation",
+      "unit": "第3週 2日目 それにしては",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 50,
+      "book_page": 49,
+      "type": "exercise",
+      "unit": "第3週 2日目 れんしゅう (それにしては)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        51
+      ]
+    },
+    {
+      "pdf_page": 51,
+      "book_page": 50,
+      "type": "explanation",
+      "unit": "第3週 3日目 勉強するつもりでしたが…",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 52,
+      "book_page": 51,
+      "type": "exercise",
+      "unit": "第3週 3日目 れんしゅう (勉強するつもりでしたが…)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        53
+      ]
+    },
+    {
+      "pdf_page": 53,
+      "book_page": 52,
+      "type": "explanation",
+      "unit": "第3週 4日目 会うたびに",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 54,
+      "book_page": 53,
+      "type": "exercise",
+      "unit": "第3週 4日目 れんしゅう (会うたびに)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        55
+      ]
+    },
+    {
+      "pdf_page": 55,
+      "book_page": 54,
+      "type": "explanation",
+      "unit": "第3週 5日目 一人っきり",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 56,
+      "book_page": 55,
+      "type": "exercise",
+      "unit": "第3週 5日目 れんしゅう (一人っきり)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        57
+      ]
+    },
+    {
+      "pdf_page": 57,
+      "book_page": 56,
+      "type": "explanation",
+      "unit": "第3週 6日目 教えてほしい",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 58,
+      "book_page": 57,
+      "type": "exercise",
+      "unit": "第3週 6日目 れんしゅう (教えてほしい)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        61
+      ]
+    },
+    {
+      "pdf_page": 59,
+      "book_page": 58,
+      "type": "mock test / review test",
+      "unit": "第3週 7日目 実戦問題 (問題1 前半)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        115,
+        116
+      ]
+    },
+    {
+      "pdf_page": 60,
+      "book_page": 59,
+      "type": "mock test / review test",
+      "unit": "第3週 7日目 実戦問題 (問題1 後半・問題2 ★)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        115,
+        116
+      ]
+    },
+    {
+      "pdf_page": 61,
+      "book_page": 60,
+      "type": "reading passage with questions",
+      "unit": "第3週 7日目 実戦問題 (問題3 文章の文法)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        115,
+        116
+      ]
+    },
+    {
+      "pdf_page": 62,
+      "book_page": 61,
+      "type": "cover / intro / how-to-use",
+      "unit": "第4週 がんばるしかない！ 今週の表現",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 63,
+      "book_page": 62,
+      "type": "explanation",
+      "unit": "第4週 1日目 子どものくせに",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 64,
+      "book_page": 63,
+      "type": "exercise",
+      "unit": "第4週 1日目 れんしゅう (子どものくせに)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        65
+      ]
+    },
+    {
+      "pdf_page": 65,
+      "book_page": 64,
+      "type": "explanation",
+      "unit": "第4週 2日目 そのかわり",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 66,
+      "book_page": 65,
+      "type": "exercise",
+      "unit": "第4週 2日目 れんしゅう (そのかわり)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        67
+      ]
+    },
+    {
+      "pdf_page": 67,
+      "book_page": 66,
+      "type": "explanation",
+      "unit": "第4週 3日目 見れば見るほど",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 68,
+      "book_page": 67,
+      "type": "exercise",
+      "unit": "第4週 3日目 れんしゅう (見れば見るほど)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        69
+      ]
+    },
+    {
+      "pdf_page": 69,
+      "book_page": 68,
+      "type": "explanation",
+      "unit": "第4週 4日目 やってみることだ",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 70,
+      "book_page": 69,
+      "type": "exercise",
+      "unit": "第4週 4日目 れんしゅう (やってみることだ)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        71
+      ]
+    },
+    {
+      "pdf_page": 71,
+      "book_page": 70,
+      "type": "explanation",
+      "unit": "第4週 5日目 聞いてみるしかない",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 72,
+      "book_page": 71,
+      "type": "exercise",
+      "unit": "第4週 5日目 れんしゅう (聞いてみるしかない)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        73
+      ]
+    },
+    {
+      "pdf_page": 73,
+      "book_page": 72,
+      "type": "explanation",
+      "unit": "第4週 6日目 つまり…",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 74,
+      "book_page": 73,
+      "type": "exercise",
+      "unit": "第4週 6日目 れんしゅう (つまり…)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        77
+      ]
+    },
+    {
+      "pdf_page": 75,
+      "book_page": 74,
+      "type": "mock test / review test",
+      "unit": "第4週 7日目 実戦問題 (問題1 前半)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        116
+      ]
+    },
+    {
+      "pdf_page": 76,
+      "book_page": 75,
+      "type": "mock test / review test",
+      "unit": "第4週 7日目 実戦問題 (問題1 後半・問題2 ★)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        116
+      ]
+    },
+    {
+      "pdf_page": 77,
+      "book_page": 76,
+      "type": "reading passage with questions",
+      "unit": "第4週 7日目 実戦問題 (問題3 文章の文法)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        116
+      ]
+    },
+    {
+      "pdf_page": 78,
+      "book_page": 77,
+      "type": "cover / intro / how-to-use",
+      "unit": "第5週 もっとがんばればよかった！ 今週の表現",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 79,
+      "book_page": 78,
+      "type": "explanation",
+      "unit": "第5週 1日目 子どもばかりか",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 80,
+      "book_page": 79,
+      "type": "exercise",
+      "unit": "第5週 1日目 れんしゅう (子どもばかりか)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        81
+      ]
+    },
+    {
+      "pdf_page": 81,
+      "book_page": 80,
+      "type": "explanation",
+      "unit": "第5週 2日目 炊きたて",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 82,
+      "book_page": 81,
+      "type": "exercise",
+      "unit": "第5週 2日目 れんしゅう (炊きたて)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        83
+      ]
+    },
+    {
+      "pdf_page": 83,
+      "book_page": 82,
+      "type": "explanation",
+      "unit": "第5週 3日目 受かっていたらいいなあ",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 84,
+      "book_page": 83,
+      "type": "exercise",
+      "unit": "第5週 3日目 れんしゅう (受かっていたらいいなあ)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        85
+      ]
+    },
+    {
+      "pdf_page": 85,
+      "book_page": 84,
+      "type": "explanation",
+      "unit": "第5週 4日目 今晩から明日の朝にかけて",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 86,
+      "book_page": 85,
+      "type": "exercise",
+      "unit": "第5週 4日目 れんしゅう (今晩から明日の朝にかけて)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        87
+      ]
+    },
+    {
+      "pdf_page": 87,
+      "book_page": 86,
+      "type": "explanation",
+      "unit": "第5週 5日目 たとえ高くても",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 88,
+      "book_page": 87,
+      "type": "exercise",
+      "unit": "第5週 5日目 れんしゅう (たとえ高くても)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        89
+      ]
+    },
+    {
+      "pdf_page": 89,
+      "book_page": 88,
+      "type": "explanation",
+      "unit": "第5週 6日目 ところで…",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 90,
+      "book_page": 89,
+      "type": "exercise",
+      "unit": "第5週 6日目 れんしゅう (ところで…)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        93
+      ]
+    },
+    {
+      "pdf_page": 91,
+      "book_page": 90,
+      "type": "mock test / review test",
+      "unit": "第5週 7日目 実戦問題 (問題1 前半)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        116,
+        117
+      ]
+    },
+    {
+      "pdf_page": 92,
+      "book_page": 91,
+      "type": "mock test / review test",
+      "unit": "第5週 7日目 実戦問題 (問題1 後半・問題2 ★)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        116,
+        117
+      ]
+    },
+    {
+      "pdf_page": 93,
+      "book_page": 92,
+      "type": "reading passage with questions",
+      "unit": "第5週 7日目 実戦問題 (問題3 文章の文法)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        116,
+        117
+      ]
+    },
+    {
+      "pdf_page": 94,
+      "book_page": 93,
+      "type": "cover / intro / how-to-use",
+      "unit": "第6週 もっとがんばることにした！ 今週の表現",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 95,
+      "book_page": 94,
+      "type": "explanation",
+      "unit": "第6週 1日目 もし私じゃなかったら",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 96,
+      "book_page": 95,
+      "type": "exercise",
+      "unit": "第6週 1日目 れんしゅう (もし私じゃなかったら)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        97
+      ]
+    },
+    {
+      "pdf_page": 97,
+      "book_page": 96,
+      "type": "explanation",
+      "unit": "第6週 2日目 話せることは話せますが…",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 98,
+      "book_page": 97,
+      "type": "exercise",
+      "unit": "第6週 2日目 れんしゅう (話せることは話せますが…)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        99
+      ]
+    },
+    {
+      "pdf_page": 99,
+      "book_page": 98,
+      "type": "explanation",
+      "unit": "第6週 3日目 もう少しで乗り遅れるところだった",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 100,
+      "book_page": 99,
+      "type": "exercise",
+      "unit": "第6週 3日目 れんしゅう (もう少しで乗り遅れるところだった)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        101
+      ]
+    },
+    {
+      "pdf_page": 101,
+      "book_page": 100,
+      "type": "explanation",
+      "unit": "第6週 4日目 できるわけがない",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 102,
+      "book_page": 101,
+      "type": "exercise",
+      "unit": "第6週 4日目 れんしゅう (できるわけがない)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        103
+      ]
+    },
+    {
+      "pdf_page": 103,
+      "book_page": 102,
+      "type": "explanation",
+      "unit": "第6週 5日目 めったに行かない",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 104,
+      "book_page": 103,
+      "type": "exercise",
+      "unit": "第6週 5日目 れんしゅう (めったに行かない)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        105
+      ]
+    },
+    {
+      "pdf_page": 105,
+      "book_page": 104,
+      "type": "explanation",
+      "unit": "第6週 6日目 その上…",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 106,
+      "book_page": 105,
+      "type": "exercise",
+      "unit": "第6週 6日目 れんしゅう (その上…)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        109
+      ]
+    },
+    {
+      "pdf_page": 107,
+      "book_page": 106,
+      "type": "mock test / review test",
+      "unit": "第6週 7日目 実戦問題 (問題1 前半)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        117
+      ]
+    },
+    {
+      "pdf_page": 108,
+      "book_page": 107,
+      "type": "mock test / review test",
+      "unit": "第6週 7日目 実戦問題 (問題1 後半・問題2 ★)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        117
+      ]
+    },
+    {
+      "pdf_page": 109,
+      "book_page": 108,
+      "type": "reading passage with questions",
+      "unit": "第6週 7日目 実戦問題 (問題3 文章の文法)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": [
+        117
+      ]
+    },
+    {
+      "pdf_page": 110,
+      "book_page": 109,
+      "type": "other",
+      "unit": "さくいん 1 (Index)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 111,
+      "book_page": 110,
+      "type": "other",
+      "unit": "さくいん 2 (Index)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 112,
+      "book_page": 111,
+      "type": "other",
+      "unit": "さくいん 3 (Index)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 113,
+      "book_page": 112,
+      "type": "other",
+      "unit": "奥付 (Colophon / Publication Details)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 114,
+      "book_page": null,
+      "type": "answer key / explanations section",
+      "unit": "[別冊] 実戦問題 解答・解説 p.1 (第1週)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 115,
+      "book_page": null,
+      "type": "answer key / explanations section",
+      "unit": "[別冊] 実戦問題 解答・解説 p.2 (第2週・第3週)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 116,
+      "book_page": null,
+      "type": "answer key / explanations section",
+      "unit": "[別冊] 実戦問題 解答・解説 p.3 (第3週・第4週・第5週)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 117,
+      "book_page": null,
+      "type": "answer key / explanations section",
+      "unit": "[別冊] 実戦問題 解答・解説 p.4 (第5週・第6週)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": true,
+      "answer_pages": []
+    },
+    {
+      "pdf_page": 118,
+      "book_page": null,
+      "type": "cover / intro / how-to-use",
+      "unit": "裏表紙裏 (Back Cover)",
+      "level": "N3",
+      "level_flag": null,
+      "extract": false,
+      "answer_pages": []
+    }
+  ]
+}

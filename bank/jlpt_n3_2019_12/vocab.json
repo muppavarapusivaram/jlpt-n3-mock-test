@@ -1,0 +1,951 @@
+{
+  "book": "JLPT N3 2019年12月 過去問",
+  "unit": "文字・語彙",
+  "questions": [
+    {
+      "id": "jlpt_n3_2019_12_v_q01",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "１０時に【予約】をお願いします。",
+      "options": [
+        "ようやく",
+        "よやく",
+        "よよく",
+        "ようやく"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "漢字読み: 予約 (よやく)"
+      ],
+      "difficulty": 1,
+      "explanation": "「予約」の読み方は「よやく」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q02",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "あの頃は私も【若かった】。",
+      "options": [
+        "わるかった",
+        "さむかった",
+        "こわかった",
+        "わかかった"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "漢字読み: 若い (わかい)"
+      ],
+      "difficulty": 1,
+      "explanation": "「若い」の読み方は「わかい」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q03",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【上品な】人ですね。",
+      "options": [
+        "じょうひん",
+        "じょうびん",
+        "じょひん",
+        "じょびん"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "漢字読み: 上品 (じょうひん)"
+      ],
+      "difficulty": 2,
+      "explanation": "「上品」の読み方は「じょうひん」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q04",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "山田さんに【助けて】もらった。",
+      "options": [
+        "とどけて",
+        "たすけて",
+        "うけて",
+        "かたづけて"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "漢字読み: 助ける (たすける)"
+      ],
+      "difficulty": 1,
+      "explanation": "「助ける」の読み方は「たすける」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q05",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【未来】を考えてみる。",
+      "options": [
+        "しょらい",
+        "しょうらい",
+        "みらい",
+        "みいらい"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "漢字読み: 未来 (みらい)"
+      ],
+      "difficulty": 1,
+      "explanation": "「未来」の読み方は「みらい」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q06",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "この電車は【各駅】に止まります。",
+      "options": [
+        "かくえき",
+        "がくえき",
+        "きゃくえき",
+        "ぎゃくえき"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "漢字読み: 各駅 (かくえき)"
+      ],
+      "difficulty": 2,
+      "explanation": "「各駅」の読み方は「かくえき」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q07",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "誰が【勝った】んですか？",
+      "options": [
+        "かざった",
+        "おった",
+        "のこった",
+        "かった"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "漢字読み: 勝つ (かつ)"
+      ],
+      "difficulty": 1,
+      "explanation": "「勝つ」の過去形は「かった」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q08",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 1,
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "彼に初めて会ったときの【印象】はどうでしたか？",
+      "options": [
+        "いんしょう",
+        "いんそう",
+        "にんしょう",
+        "にんそう"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "漢字読み: 印象 (いんしょう)"
+      ],
+      "difficulty": 2,
+      "explanation": "「印象」の読み方は「いんしょう」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q09",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【りゆう】はよくわかりません。",
+      "options": [
+        "理有",
+        "利由",
+        "自由",
+        "理由"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "表記: 理由"
+      ],
+      "difficulty": 1,
+      "explanation": "「りゆう」は漢字で「理由」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q10",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "この【しま】には、初めて来ました。",
+      "options": [
+        "寺",
+        "村",
+        "島",
+        "庭"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "表記: 島"
+      ],
+      "difficulty": 1,
+      "explanation": "「しま」は漢字で「島」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q11",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "卒業の【きねん】に写真を撮りました。",
+      "options": [
+        "気念",
+        "祈念",
+        "木念",
+        "記念"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "表記: 記念"
+      ],
+      "difficulty": 1,
+      "explanation": "「きねん」は漢字で「記念」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q12",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "これが【いっぱんてき】な方法です。",
+      "options": [
+        "一藩的",
+        "一番的",
+        "一般的",
+        "一番適"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "表記: 一般的"
+      ],
+      "difficulty": 2,
+      "explanation": "「いっぱんてき」は漢字で「一般的」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q13",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "今日も【かならず】行きます。",
+      "options": [
+        "必ず",
+        "必らず",
+        "要ず",
+        "心ず"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "表記: 必ず"
+      ],
+      "difficulty": 1,
+      "explanation": "「かならず」は漢字で「必ず」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q14",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 2,
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "効果が【あらわれた】ようですよ。",
+      "options": [
+        "改れた",
+        "現れた",
+        "表た",
+        "現た"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "表記: 現れた"
+      ],
+      "difficulty": 2,
+      "explanation": "効果などが出現する場合は「現れた」と書きます。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q15",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "おじさんの会社を（ ）するつもりだ。",
+      "options": [
+        "登場",
+        "進行",
+        "就職",
+        "同席"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "語彙: 就職"
+      ],
+      "difficulty": 2,
+      "explanation": "会社に勤めることを「会社に就職する」と言います。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q16",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "この店の帽子は全部私が色や形などの（ ）を考えています。",
+      "options": [
+        "レシピ",
+        "デザイン",
+        "サイン",
+        "ミックス"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "語彙: デザイン"
+      ],
+      "difficulty": 1,
+      "explanation": "色や形などを構想することを「デザイン（を考える）」と言います。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q17",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "申し込みの（ ）は来週の月曜日ですから、それまでに申込書を出してください。",
+      "options": [
+        "あて先",
+        "合図",
+        "締め切り",
+        "合計"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "語彙: 締め切り"
+      ],
+      "difficulty": 1,
+      "explanation": "期日・期限のことを「締め切り」と言います。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q18",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "英語で会議をするときは、英語がわかる佐藤さんが英語を日本語に（ ）してくれる。",
+      "options": [
+        "通訳",
+        "案内",
+        "伝言",
+        "連絡"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "語彙: 通訳"
+      ],
+      "difficulty": 1,
+      "explanation": "ある言語で話された言葉を別の言語に訳して伝えることを「通訳」と言います。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q19",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "部屋の電気が（ ）消えて、驚いた。",
+      "options": [
+        "突然",
+        "急いで",
+        "結構",
+        "庭"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "語彙: 突然"
+      ],
+      "difficulty": 1,
+      "explanation": "予告なく急に起きる様子を表す「突然」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q20",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "誰も木村さんはうそをついていると思うが、私は彼が言ったことを（ ）。",
+      "options": [
+        "手伝います",
+        "褒めます",
+        "守ります",
+        "信じます"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "語彙: 信じる"
+      ],
+      "difficulty": 2,
+      "explanation": "「言ったことを信じる」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q21",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "このホテル慎重に清掃されているために部屋はとても（ ）だ。",
+      "options": [
+        "新鮮",
+        "清潔",
+        "正常",
+        "丁寧"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "語彙: 清潔"
+      ],
+      "difficulty": 2,
+      "explanation": "汚れがなく綺麗な状態を表す「清潔」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q22",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "仕事で遅くなってしまい、今日はご飯を作るのが（ ）ので、お弁当を買うことにしました。",
+      "options": [
+        "にくらしい",
+        "だらしない",
+        "しょうがない",
+        "面倒臭い"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "語彙: 面倒臭い"
+      ],
+      "difficulty": 2,
+      "explanation": "手間がかかって億劫な様子を表す「面倒臭い」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q23",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "みんなの前でスピーチをしたときは、緊張して胸が（ ）しました。",
+      "options": [
+        "こんこん",
+        "だぶだぶ",
+        "どきどき",
+        "ちかちか"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "オノマトペ: どきどき"
+      ],
+      "difficulty": 1,
+      "explanation": "心臓が速く脈打つ様子を表す「どきどき（する）」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q24",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "とても暑かったので、スーパーで買ったアイスクリームが家に着く前に（ ）しまった。",
+      "options": [
+        "もえて",
+        "とけて",
+        "さめて",
+        "かれて"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "語彙: 溶ける"
+      ],
+      "difficulty": 1,
+      "explanation": "熱で固体が液体になることを「溶ける（とける）」と言います。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q25",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 3,
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "（ ）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "アパートの鍵をなくしてしまったので、大家さんに（ ）を話して、鍵を開けてもらった。",
+      "options": [
+        "秘密",
+        "歴史",
+        "具合",
+        "事情"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "語彙: 事情"
+      ],
+      "difficulty": 2,
+      "explanation": "物事のいきさつ・理由を説明することを「事情を話す」と言います。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q26",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "鈴木さんへ【感謝】の手紙を送った。",
+      "options": [
+        "お願い",
+        "お礼",
+        "お見舞い",
+        "お知らせ"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "類義語: 感謝 ≒ お礼"
+      ],
+      "difficulty": 1,
+      "explanation": "「感謝の手紙」に最も近い意味は「お礼」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q27",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "子どもたちは【キッチン】にいます。",
+      "options": [
+        "廊下",
+        "居間",
+        "玄関",
+        "台所"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "類義語: キッチン ≒ 台所"
+      ],
+      "difficulty": 1,
+      "explanation": "「キッチン」は「台所」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q28",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【不安なので】、私は行かないことにした。",
+      "options": [
+        "時間がない",
+        "お金がない",
+        "危険な",
+        "心配な"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "類義語: 不安 ≒ 心配"
+      ],
+      "difficulty": 1,
+      "explanation": "「不安」に最も近い意味は「心配」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q29",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "おなかが【ぺこぺこだ】。",
+      "options": [
+        "痛い",
+        "すいている",
+        "かゆい",
+        "いっぱい"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "オノマトペ: ぺこぺこ ≒ すいている"
+      ],
+      "difficulty": 1,
+      "explanation": "「おなかがぺこぺこ」は「すいている」という意味です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q30",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 4,
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "＿＿に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "兄は【黙って】ずっと漫画を読んでいる。",
+      "options": [
+        "何も話さないで",
+        "何も食べないで",
+        "勉強しないで",
+        "寝ないで"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "語彙: 黙る ≒ 何も話さない"
+      ],
+      "difficulty": 2,
+      "explanation": "「黙って」は言葉を発しない様子、「何も話さないで」です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q31",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【健康】",
+      "options": [
+        "弟の成績がいつもより健康だったので、両親は喜んだ。",
+        "祖父は毎日運動をしているから、今でもとても健康だ。",
+        "前にある大きなビルは、古いけど健康だそうだ。",
+        "最近パソコンが健康ではないみたいので、ときどき変な音がする。"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "用法: 健康"
+      ],
+      "difficulty": 2,
+      "explanation": "「健康」は体や精神が健やかな状態を表します。「祖父は今でもとても健康だ」が正しい用法です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q32",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【参加】",
+      "options": [
+        "高橋さんは今度の留学セミナーに参加しますか。",
+        "林の中に参加したら、涼しくて気持ちがいいですよ。",
+        "昨日タクシーに乗ったとき、渋滞に参加してしまった。",
+        "猫が私の家族に参加しました。"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "用法: 参加"
+      ],
+      "difficulty": 1,
+      "explanation": "「セミナーに参加する」が自然で正しい用法です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q33",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【中旬】",
+      "options": [
+        "その本は本棚の中旬にあります。",
+        "今日のサッカーは試合の中旬に点に入りました。",
+        "来月の中旬に国へ帰るつもりです。",
+        "私は三人兄弟の中旬です。"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "用法: 中旬"
+      ],
+      "difficulty": 2,
+      "explanation": "「中旬」は月の11日〜20日頃を指し、「来月の中旬」が正しい用法です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q34",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【落ち着く】",
+      "options": [
+        "この店は人気があるので、朝早くから店の前に大勢の人が落ち着いている。",
+        "買った本が袋に入ったまま、床に落ち着いている。",
+        "好きな音楽を聞いているとき、気持ちが落ち着いている。",
+        "祭りの後はいつも道にゴミがたくさん落ち着いている。"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "用法: 落ち着く"
+      ],
+      "difficulty": 2,
+      "explanation": "「気持ちが落ち着く」が正しい用法です。"
+    },
+    {
+      "id": "jlpt_n3_2019_12_v_q35",
+      "book": "JLPT N3 2019年12月 過去問",
+      "book_code": "jlpt_n3_2019_12",
+      "unit": "文字・語彙",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_number": 5,
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎの言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage_id": null,
+      "question": "【ほえる】",
+      "options": [
+        "祖父の家の近くの森は、いろいろな種類の鳥がほえている。",
+        "夜になると、隣さんの犬がほえていて、うるさい。",
+        "私は毎晩、目覚まし時計がほえる音で起きる。",
+        "この店は、いつもにぎやかな音楽がほえている。"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "用法: 吠える"
+      ],
+      "difficulty": 2,
+      "explanation": "「犬がほえていて」が正しい用法です。"
+    }
+  ]
+}

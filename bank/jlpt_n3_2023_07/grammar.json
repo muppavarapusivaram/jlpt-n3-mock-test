@@ -1,0 +1,611 @@
+{
+  "book_id": "jlpt_n3_2023_07",
+  "book_title": "日本語能力試験 N3 2023年7月 過去問",
+  "unit": "文法",
+  "questions": [
+    {
+      "id": "jlpt_n3_2023_07_g_q01",
+      "page": 5,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "歌手の青山ケイは、海外でも人気があり、アジア（　）中心にいろいろな国でコンサートを行っている。",
+      "options": [
+        "が",
+        "で",
+        "の",
+        "を"
+      ],
+      "answer": 4,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜を中心に"
+      ],
+      "difficulty": 2,
+      "explanation": "「〜を中心に」で「〜を主要な対象・中心として」を表します。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 5,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q02",
+      "page": 5,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "南中学校で、読書の習慣について調査が行われた。調査の結果を見ると、学年が上がる（　）生徒の読書時間が減っていることがわかる。",
+      "options": [
+        "ことから",
+        "としたら",
+        "にしたがって",
+        "のに比べて"
+      ],
+      "answer": 3,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜にしたがって"
+      ],
+      "difficulty": 3,
+      "explanation": "「〜にしたがって」は一方が変化するのに伴ってもう一方も変化することを表します。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 5,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q03",
+      "page": 5,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "友達に誘われて、夏休みに二人で海外旅行に行くことになった。海外旅行は今まで家族（　）行ったことがないので、楽しみだ。",
+      "options": [
+        "だけで",
+        "だけが",
+        "となら",
+        "としか"
+      ],
+      "answer": 4,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜としか〜ない"
+      ],
+      "difficulty": 2,
+      "explanation": "否定の「行ったことがない」と呼応して限定を表す「家族としか」が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 5,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q04",
+      "page": 5,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "（不動産屋で）\n店員「こちらのアパートはいかがですか。駅から歩いて15分なんですが、広くてきれいですよ。」\n客「ああ、部屋はよさそうなんですが、ちょっと駅から遠いですね。（　）もう少し近いところがいいんですが……。」",
+      "options": [
+        "できれば",
+        "別に",
+        "せっかく",
+        "確かに"
+      ],
+      "answer": 1,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "できれば"
+      ],
+      "difficulty": 2,
+      "explanation": "控えめに要望や希望を伝える副詞「できれば（可能であれば）」が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 5,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q05",
+      "page": 5,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "散歩中、急に雨が（　）だしたので、慌てて近くの喫茶店に入った。",
+      "options": [
+        "降る",
+        "降り",
+        "降って",
+        "降った"
+      ],
+      "answer": 2,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜だす"
+      ],
+      "difficulty": 2,
+      "explanation": "動詞マス形＋だす（降りだす）で「突然〜し始める」を表します。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 5,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q06",
+      "page": 5,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "（病院の受付で）\n受付の人「お名前が（　）、診察室の前でお待ちください。」",
+      "options": [
+        "呼ぶと",
+        "呼ぶまで",
+        "呼ばれると",
+        "呼ばれるまで"
+      ],
+      "answer": 4,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "受身形",
+        "〜まで"
+      ],
+      "difficulty": 2,
+      "explanation": "「名前が呼ばれる」（受身）＋継続の期限「まで」で「呼ばれるまで」となります。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 5,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q07",
+      "page": 6,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "今朝は電車が遅れた（　）、会社に遅刻してしまった。",
+      "options": [
+        "間に",
+        "点で",
+        "たびに",
+        "せいで"
+      ],
+      "answer": 4,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜せいで"
+      ],
+      "difficulty": 2,
+      "explanation": "好ましくない結果の原因・理由を表す「〜せいで」が正解です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 6,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q08",
+      "page": 6,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "明日の授業までにテキストを30ページまで（　）のに、まだ全然読んでいない。",
+      "options": [
+        "読んでおいてはいけない",
+        "読んでおかなければならない",
+        "読むことにしてはいけない",
+        "読むことにしなければならない"
+      ],
+      "answer": 2,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜ておく",
+        "〜なければならない"
+      ],
+      "difficulty": 2,
+      "explanation": "準備行為「読んでおく」と義務「〜なければならない」が組み合わさった「読んでおかなければならない」が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 6,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q09",
+      "page": 6,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "昨日の夜は風の音が気になって、少しも（　）。",
+      "options": [
+        "眠りたかった",
+        "眠ろうとした",
+        "眠れなかった",
+        "眠らなくなった"
+      ],
+      "answer": 3,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "少しも〜ない",
+        "可能動詞"
+      ],
+      "difficulty": 2,
+      "explanation": "呼応表現「少しも〜ない」とともに、眠ることが不可能だったことを表す可能動詞否定「眠れなかった」が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 6,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q10",
+      "page": 6,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "私の夢は、いつか自分のケーキ屋を（　）。",
+      "options": [
+        "開くと思う",
+        "開きたいと思う",
+        "開くことだ",
+        "開きたいことだ"
+      ],
+      "answer": 3,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜ことだ"
+      ],
+      "difficulty": 2,
+      "explanation": "「私の夢は〜ことだ」という文末呼応表現です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 6,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q11",
+      "page": 6,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "妻「雨、全然（　）ね。今日は出かけるのやめようか。」\n夫「そうだね。」",
+      "options": [
+        "やまないはずがない",
+        "やみそうにない",
+        "やむに違いない",
+        "やんでもしかたない"
+      ],
+      "answer": 2,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜そうにない"
+      ],
+      "difficulty": 3,
+      "explanation": "動詞マス形＋そうにない で「〜しそうもない／可能性が極めて低い」を表します。「全然やみそうにない」が正解です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 6,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q12",
+      "page": 6,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "（大学で）\nA「先輩に聞いたんだけど、今度、駅前に新しいカフェが（　）よ。」\nB「そうなんだ。楽しみだね。」",
+      "options": [
+        "できるらしい",
+        "できてほしい",
+        "できることがある",
+        "できたほうがいい"
+      ],
+      "answer": 1,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜らしい"
+      ],
+      "difficulty": 2,
+      "explanation": "「先輩に聞いたんだけど」という情報源に基づく伝聞を表す「できるらしい」が正解です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 6,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q13",
+      "page": 7,
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "（美容院で）\n店員「長さは、このぐらいでいいですか。」\n客「もう少し短く（　）。」\n店員「はい、わかりました。」",
+      "options": [
+        "してあげますか",
+        "なってあげますか",
+        "してもらえますか",
+        "なってもらえますか"
+      ],
+      "answer": 3,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜てもらえますか"
+      ],
+      "difficulty": 2,
+      "explanation": "店員に対して丁寧に依頼する表現「（短く）してもらえますか」が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 7,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q14",
+      "page": 7,
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "question": "パソコンや携帯電話の ______  ______  ★  ______ 原因で、頭が痛くなることもあるそうだ。",
+      "options": [
+        "が",
+        "による",
+        "見すぎ",
+        "目の疲れ"
+      ],
+      "answer": 4,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜による"
+      ],
+      "difficulty": 3,
+      "explanation": "正しい語順は「パソコンや携帯電話の 見すぎ(3) による(2) ★目の疲れ(4) が(1) 原因で」となります。★に入るのは 4（目の疲れ）です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 7,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q15",
+      "page": 7,
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "question": "私は子供のとき、ピアノを習っていたが、3年でやめてしまった。何回 ______  ______  ★  ______ 嫌になってしまったのだ。",
+      "options": [
+        "上手に弾けない",
+        "練習しても",
+        "なかなか",
+        "曲があって"
+      ],
+      "answer": 1,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜ても",
+        "なかなか〜ない"
+      ],
+      "difficulty": 3,
+      "explanation": "正しい語順は「何回 練習しても(2) なかなか(3) ★上手に弾けない(1) 曲があって(4)、嫌になってしまったのだ」となります。★に入るのは 1（上手に弾けない）です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 7,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q16",
+      "page": 7,
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "question": "失敗をすることは誰にでもある。大切な ______  ______  ★  ______ 考えて、同じ失敗を繰り返さないようにすることだ。",
+      "options": [
+        "失敗をしてしまった",
+        "どうして",
+        "のか",
+        "のは"
+      ],
+      "answer": 1,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜のは",
+        "〜のか"
+      ],
+      "difficulty": 3,
+      "explanation": "正しい語順は「大切な のは(4) どうして(2) ★失敗をしてしまった(1) のか(3) 考えて」となります。★に入るのは 1（失敗をしてしまった）です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 7,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q17",
+      "page": 7,
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "question": "（教室で）\n南「西川さんの誕生日に、何かプレゼントをあげない？」\n森「いいね。スポーツが好きだと言っていた ______  ______  ★  ______ ？」",
+      "options": [
+        "いいんじゃない",
+        "から",
+        "とか",
+        "タオル"
+      ],
+      "answer": 3,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜から",
+        "〜とか",
+        "〜んじゃない"
+      ],
+      "difficulty": 3,
+      "explanation": "正しい語順は「スポーツが好きだと言っていた から(2) タオル(4) ★とか(3) いいんじゃない(1) ？」となります。★に入るのは 3（とか）です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 7,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q18",
+      "page": 7,
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "question": "（講演会で）\n司会者「本日は、鳥の ______  ______  ★  ______ 見ることができる様々な鳥について、お話をしていただきます。」",
+      "options": [
+        "専門家で",
+        "都会で",
+        "いらっしゃる",
+        "花子先生に"
+      ],
+      "answer": 4,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "敬語（いらっしゃる）",
+        "〜に〜ていただく"
+      ],
+      "difficulty": 3,
+      "explanation": "正しい語順は「鳥の 専門家で(1) いらっしゃる(3) ★花子先生に(4) 都会で(2) 見ることができる」となります。★に入るのは 4（花子先生に）です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 7,
+      "passage_id": null
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q19",
+      "passage_id": "jlpt_n3_2023_07_p08",
+      "page": 9,
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（19）から（22）の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "[ 19 ]",
+      "options": [
+        "でも",
+        "だから",
+        "すると",
+        "そのうえ"
+      ],
+      "answer": 1,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "接続詞（でも）"
+      ],
+      "difficulty": 2,
+      "explanation": "前段落の「続けることができました」に対し、「でも今学期から勉強が忙しくなって…辞めました」と逆接で話を展開させるため「でも」が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 9
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q20",
+      "passage_id": "jlpt_n3_2023_07_p08",
+      "page": 9,
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（19）から（22）の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "[ 20 ]",
+      "options": [
+        "書いておいた",
+        "書きたかった",
+        "書かれていた",
+        "書いてほしかった"
+      ],
+      "answer": 3,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "受身形",
+        "〜ていた"
+      ],
+      "difficulty": 2,
+      "explanation": "カードに仲間からの言葉が「書かれていた」という客観的な状態・結果を表す受身形が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 9
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q21",
+      "passage_id": "jlpt_n3_2023_07_p08",
+      "page": 9,
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（19）から（22）の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "[ 21 ]",
+      "options": [
+        "そこ",
+        "大学",
+        "その大学",
+        "そういうところ"
+      ],
+      "answer": 2,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "指示語・名詞照応"
+      ],
+      "difficulty": 2,
+      "explanation": "「今学期から勉強が忙しくなって」とあるため、勉強をしに向かう具体的な場所として「大学」が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 9
+    },
+    {
+      "id": "jlpt_n3_2023_07_g_q22",
+      "passage_id": "jlpt_n3_2023_07_p08",
+      "page": 9,
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、（19）から（22）の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "question": "[ 22 ]",
+      "options": [
+        "頑張っているのです",
+        "頑張ることができるからです",
+        "頑張っているみたいです",
+        "頑張ることができそうです"
+      ],
+      "answer": 2,
+      "section": "言語知識（文法）",
+      "grammar_points": [
+        "〜からだ（理由・根拠）",
+        "可能動詞"
+      ],
+      "difficulty": 3,
+      "explanation": "直前の「カードを見ると元気が出ます」という理由・心理的支えを補足説明する表現として「頑張ることができるからです」が適切です。",
+      "book": "JLPT N3 2023年7月 過去問",
+      "book_code": "jlpt_n3_2023_07",
+      "unit": "文法",
+      "pdf_page": 9
+    }
+  ]
+}

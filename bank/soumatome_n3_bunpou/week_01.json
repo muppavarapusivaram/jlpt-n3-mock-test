@@ -1,0 +1,688 @@
+{
+  "unit_id": "soumatome_n3_bunpou_week_01",
+  "book": "日本語総まとめ N3 文法",
+  "book_code": "soumatome_n3_bunpou",
+  "unit": "第1週 実戦問題",
+  "total_questions": 25,
+  "questions": [
+    {
+      "id": "sn3_b_w01_q01",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "30分だけここに車を（　　）もらえませんか。",
+      "options": [
+        "止められて",
+        "止めさせて",
+        "止まらせて",
+        "止まられて"
+      ],
+      "answer": 2,
+      "explanation": "止めさせてもらえませんか（＝止めてもいいですか／止めさせてください）",
+      "grammar_points": [
+        "〜させてもらう／くれる"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q02",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "どうして悪いところを（　　）としないんですか。",
+      "options": [
+        "直しよう",
+        "直ろう",
+        "直そう",
+        "直られよう"
+      ],
+      "answer": 3,
+      "explanation": "直そうとしない（＝直す意志がない）",
+      "grammar_points": [
+        "〜ようとする"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q03",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "もっと話そうとしたら、電話が（　　）",
+      "options": [
+        "切らせた",
+        "切っといた",
+        "切らないと",
+        "切れちゃった"
+      ],
+      "answer": 4,
+      "explanation": "切れちゃった（＝切れてしまった）",
+      "grammar_points": [
+        "〜ちゃう／じゃう"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q04",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "このグラフからもわかる（　　）人口は減っています。",
+      "options": [
+        "ために",
+        "ように",
+        "らしく",
+        "みたい"
+      ],
+      "answer": 2,
+      "explanation": "グラフからもわかるように（＝グラフからわかるのと同じで）",
+      "grammar_points": [
+        "〜ように（目的・指示・比況・変化）"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q05",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "新しい車が（　　）ように貯金しています。",
+      "options": [
+        "買えない",
+        "買う",
+        "買わない",
+        "買える"
+      ],
+      "answer": 4,
+      "explanation": "車が買えるように（＝車が買える状態にすることが目的で）",
+      "grammar_points": [
+        "〜ように（目的・指示・比況・変化）"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q06",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この写真（　　）ヘアスタイルにしてください。",
+      "options": [
+        "みたいな",
+        "みたいに",
+        "みたいの",
+        "みたく"
+      ],
+      "answer": 1,
+      "explanation": "この写真みたいな（＝この写真のような）",
+      "grammar_points": [
+        "〜みたいだ／な／に"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q07",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "ちゃんと世話をしないと、金魚は（　　）よ。",
+      "options": [
+        "死んちゃった",
+        "死んちゃう",
+        "死んじゃった",
+        "死んじゃう"
+      ],
+      "answer": 4,
+      "explanation": "死んじゃう（＝死んでしまう）",
+      "grammar_points": [
+        "〜ちゃう／じゃう"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q08",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "間に合わなくなってしまうよ。早く準備（　　）！",
+      "options": [
+        "されると",
+        "しちゃうと",
+        "しないと",
+        "しとくと"
+      ],
+      "answer": 3,
+      "explanation": "早く準備しないと（＝早く準備をしなければならない）",
+      "grammar_points": [
+        "〜ないと／なくちゃ"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q09",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 26,
+      "pdf_page": 27,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "みなさんの国でよく（　　）日本人はだれですか。",
+      "options": [
+        "知らされている",
+        "知らせている",
+        "知られている",
+        "知らさせている"
+      ],
+      "answer": 3,
+      "explanation": "よく知られている（＝多くの人が知っている）",
+      "grammar_points": [
+        "〜られる（受身・迷惑受身）"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q10",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "シャワーを（　　）としたが、水が出なかった。",
+      "options": [
+        "あばよう",
+        "あびよう",
+        "あびろう",
+        "あばろう"
+      ],
+      "answer": 2,
+      "explanation": "浴びようとした（＝浴びる動作を始めたが）",
+      "grammar_points": [
+        "〜ようとする"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q11",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "折り紙を図（　　）折ります。",
+      "options": [
+        "っぽく",
+        "みたいな",
+        "らしく",
+        "のように"
+      ],
+      "answer": 4,
+      "explanation": "図のように（＝図と同じに）",
+      "grammar_points": [
+        "〜ように（目的・指示・比況・変化）"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q12",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "習った日本語はすぐに（　　）しましょう。",
+      "options": [
+        "使って",
+        "使おう",
+        "使わない",
+        "使うように"
+      ],
+      "answer": 4,
+      "explanation": "使うようにしましょう（＝使う努力をしましょう）",
+      "grammar_points": [
+        "〜ように（目的・指示・比況・変化）"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q13",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この牛乳はちょっとうすくて（　　）。",
+      "options": [
+        "水っぽい",
+        "水っぽくない",
+        "水らしい",
+        "水らしくない"
+      ],
+      "answer": 1,
+      "explanation": "水っぽい（＝水分が多くて薄い感じがする）",
+      "grammar_points": [
+        "〜っぽい"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q14",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "テレビ、見ないなら（　　）。",
+      "options": [
+        "ついといて",
+        "消しといて",
+        "つけといて",
+        "消えといて"
+      ],
+      "answer": 2,
+      "explanation": "消しといて（＝消しておいて）",
+      "grammar_points": [
+        "〜とく／どく"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q15",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1 文法形式の判断",
+      "instruction": "つぎの文の（　　）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "そこに（　　）じゃまだから、向こうに行って。",
+      "options": [
+        "いさせると",
+        "いられると",
+        "いさせないと",
+        "いられないと"
+      ],
+      "answer": 2,
+      "explanation": "そこにいられると（＝あなたがそこにいると）＊いると迷惑という気持ち",
+      "grammar_points": [
+        "〜られる（受身・迷惑受身）"
+      ],
+      "difficulty": 4,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q16",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2 文の組み立て",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "ここで ____ ____ ★ ____ されています。",
+      "options": [
+        "多くの国に",
+        "車は",
+        "輸出",
+        "作られた"
+      ],
+      "answer": 1,
+      "explanation": "4→2→1→3 (ここで作られた車は多くの国に輸出されています。 ★=1)",
+      "grammar_points": [
+        "〜られる（受身・迷惑受身）"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q17",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2 文の組み立て",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "あの学生は日本語が ____ ____ ★ ____ みたい。",
+      "options": [
+        "明るくなった",
+        "ように",
+        "なってから",
+        "わかる"
+      ],
+      "answer": 3,
+      "explanation": "4→2→3→1 (あの学生は日本語がわかるようになってから明るくなったみたい。 ★=3)",
+      "grammar_points": [
+        "〜ように（目的・指示・比況・変化）",
+        "〜みたいだ／な／に"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q18",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2 文の組み立て",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "忘れちゃうと ____ ____ ★ ____ なくしちゃった。",
+      "options": [
+        "のに",
+        "メモしといた",
+        "いけないから",
+        "そのメモを"
+      ],
+      "answer": 1,
+      "explanation": "3→2→1→4 (忘れちゃうといけないからメモしといたのにそのメモをなくしちゃった。 ★=1)",
+      "grammar_points": [
+        "〜ちゃう／じゃう",
+        "〜とく／どく"
+      ],
+      "difficulty": 4,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q19",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2 文の組み立て",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この子は ____ ____ ★ ____ らしくない。",
+      "options": [
+        "大人",
+        "子ども",
+        "話し方をして",
+        "みたいな"
+      ],
+      "answer": 3,
+      "explanation": "1→4→3→2 (この子は大人みたいな話し方をして子どもらしくない。 ★=3)",
+      "grammar_points": [
+        "〜みたいだ／な／に",
+        "〜らしい"
+      ],
+      "difficulty": 4,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q20",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 27,
+      "pdf_page": 28,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2 文の組み立て",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "安売りセールで、買おうと ____ ____ ★ ____ しまいました。",
+      "options": [
+        "シャツを",
+        "買われて",
+        "思っていた",
+        "ほかの人に"
+      ],
+      "answer": 4,
+      "explanation": "3→1→4→2 (安売りセールで、買おうと思っていたシャツをほかの人に買われてしまいました。 ★=4)",
+      "grammar_points": [
+        "〜ようとする",
+        "〜られる（受身・迷惑受身）"
+      ],
+      "difficulty": 4,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q21",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 28,
+      "pdf_page": 29,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3 文章の文法",
+      "instruction": "つぎの文章を読んで、21から25の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "soumatome_n3_b_w01_p28",
+      "question": "21",
+      "options": [
+        "行くようになりました",
+        "行こうとしました",
+        "行かせました",
+        "行かれました"
+      ],
+      "answer": 2,
+      "explanation": "中のほうはすいていました。それで？ 行こうとしました（意志・試み）が、行けませんでした。",
+      "grammar_points": [
+        "〜ようとする"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q22",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 28,
+      "pdf_page": 29,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3 文章の文法",
+      "instruction": "つぎの文章を読んで、21から25の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "soumatome_n3_b_w01_p28",
+      "question": "22",
+      "options": [
+        "動かせた",
+        "動かれた",
+        "動くようになった",
+        "動こうとしない"
+      ],
+      "answer": 4,
+      "explanation": "～行けませんでした。～からです。＊行けなかった理由は？ ドアのところに立っている人たちが動こうとしない（否定の意志）からです。",
+      "grammar_points": [
+        "〜ようとする"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q23",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 28,
+      "pdf_page": 29,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3 文章の文法",
+      "instruction": "つぎの文章を読んで、21から25の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "soumatome_n3_b_w01_p28",
+      "question": "23",
+      "options": [
+        "入らないで",
+        "入らせて",
+        "入らないと",
+        "入られて"
+      ],
+      "answer": 2,
+      "explanation": "「中に入らせてください」入りたいと ていねいに頼む（許可を求める）表現。",
+      "grammar_points": [
+        "〜させてもらう／くれる"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q24",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 28,
+      "pdf_page": 29,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3 文章の文法",
+      "instruction": "つぎの文章を読んで、21から25の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "soumatome_n3_b_w01_p28",
+      "question": "24",
+      "options": [
+        "降りた",
+        "降りろう",
+        "降りよう",
+        "降ります"
+      ],
+      "answer": 3,
+      "explanation": "降りようとしても（＝降りる動作・意志を試みても）なかなか降りられない。",
+      "grammar_points": [
+        "〜ようとする"
+      ],
+      "difficulty": 3,
+      "needs_review": false
+    },
+    {
+      "id": "sn3_b_w01_q25",
+      "book": "日本語総まとめ N3 文法",
+      "book_code": "soumatome_n3_bunpou",
+      "unit": "第1週 実戦問題",
+      "page": 28,
+      "pdf_page": 29,
+      "section": "言語知識（文法）",
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3 文章の文法",
+      "instruction": "つぎの文章を読んで、21から25の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "soumatome_n3_b_w01_p28",
+      "question": "25",
+      "options": [
+        "入る",
+        "入れる",
+        "入らない",
+        "入れない"
+      ],
+      "answer": 1,
+      "explanation": "なるべく中へ入るようにしたほうがいい（＝中に入る努力・配慮をしたほうがいい）。",
+      "grammar_points": [
+        "〜ように（目的・指示・比況・変化）"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    }
+  ]
+}

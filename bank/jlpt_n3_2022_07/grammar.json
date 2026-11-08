@@ -1,0 +1,601 @@
+{
+  "book_id": "jlpt_n3_2022_07",
+  "book_title": "JLPT N3 2022年7月 過去問",
+  "unit": "文法",
+  "questions": [
+    {
+      "id": "jlpt_n3_2022_07_g_q01",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "友達がおいしいカレー屋があると言って連れていってくれた。友達と同じものを頼んだが、私（ ）辛すぎた。",
+      "options": [
+        "で",
+        "へ",
+        "には",
+        "より"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "〜には（評価の対象）"
+      ],
+      "difficulty": 2,
+      "explanation": "評価や判断の基準・主体を表す「私には（辛すぎた）」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q02",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「（ ）絵本、知ってる？」\nB「うん、知ってるよ。子供のとき、大好きだった。」",
+      "options": [
+        "「大きな家」と",
+        "「大きな家」って",
+        "「大きな家」でも",
+        "「大きな家」なんか"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "〜って（話題提示）"
+      ],
+      "difficulty": 1,
+      "explanation": "名称や題目を取り立てる会話表現「〜って」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q03",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "昨日見た映画は、面白いと聞いていたのに（ ）面白くなかった。",
+      "options": [
+        "やっと",
+        "すっかり",
+        "せっかく",
+        "ちっとも"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "ちっとも〜ない"
+      ],
+      "difficulty": 2,
+      "explanation": "否定と呼応して「少しも〜ない」を表す「ちっとも（面白くなかった）」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q04",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "近所のパン屋は、パンの種類が多い。一年中売っているパン（ ）季節ごとに発売されるパンもある。",
+      "options": [
+        "のほかに",
+        "のことで",
+        "に比べて",
+        "について"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "〜のほかに"
+      ],
+      "difficulty": 2,
+      "explanation": "「〜に加えて、別に」を表す「のほかに」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q05",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "夫は、プロのサッカー選手として活動する（ ）大学院でスポーツ科学を学んでいる。",
+      "options": [
+        "点で",
+        "一方で",
+        "としたら",
+        "のだから"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "〜一方で"
+      ],
+      "difficulty": 2,
+      "explanation": "二つの活動を並行して行うことを表す「一方で」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q06",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "もうすぐ夏だ。（ ）エアコンが問題なく動くかどうか、確認しておこうと思う。",
+      "options": [
+        "暑くなるまで",
+        "暑くなる前に",
+        "暑くするまで",
+        "暑くする前に"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "〜前に"
+      ],
+      "difficulty": 1,
+      "explanation": "夏が来て「暑くなる前に」準備をする文脈です。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q07",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "新しいパソコンを買って1か月（ ）使っていないのに、壊れてしまった。",
+      "options": [
+        "ごろしか",
+        "ごろだけ",
+        "ぐらいしか",
+        "ぐらいだけ"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "数量詞＋しか〜ない"
+      ],
+      "difficulty": 2,
+      "explanation": "期間「1か月ぐらい」に限定と不満を表す「しか（使っていない）」が続きます。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q08",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(薬局で)\n店員「この薬を1日3回、食事の後に飲んでください。飲むと眠く（ ）、飲んだ後、車の運転などはしないでください。」",
+      "options": [
+        "なればいいので",
+        "なったばかりなので",
+        "なることがあるので",
+        "なってはいけないので"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "〜ことがある"
+      ],
+      "difficulty": 2,
+      "explanation": "副作用として眠くなる可能性があることを表す「なることがあるので」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q09",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(インタビューで)\n選手「優勝できたのは皆さんの応援の（ ）。ありがとうございました。」",
+      "options": [
+        "はずです",
+        "ようです",
+        "ことです",
+        "おかげです"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "〜のおかげです"
+      ],
+      "difficulty": 1,
+      "explanation": "好ましい結果への恩恵や感謝を表す「おかげです」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q10",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(電話で)\n田中「はい、営業課の田中です。」\n石山「会計課の石山ですが、今ちょっとよろしいですか。」\n田中「すみません。これから会議なんです。」\n石山「わかりました。では、またあとで（ ）。」",
+      "options": [
+        "かけ直します",
+        "かけ出します",
+        "かけています",
+        "かけておきます"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "〜直す（やり直す）"
+      ],
+      "difficulty": 1,
+      "explanation": "電話を再度かけるビジネス表現「かけ直します」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q11",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(玄関で)\n妻「あれ、出かけるの？散歩？」\n夫「うん」\n妻「じゃあ、帰りにスーパーで卵を（ ）？」\n夫「わかった。」",
+      "options": [
+        "買っていってもらわない",
+        "買っていってくれない",
+        "買ってきてもらわない",
+        "買ってきてくれない"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "〜てきてくれない？（依頼）"
+      ],
+      "difficulty": 2,
+      "explanation": "出先から戻るときに買ってきてほしいと依頼する表現「買ってきてくれない？」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q12",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "村山「中野さん、3月で会社を辞めるって本当ですか。」\n中野「はい、私、4月から（ ）。」",
+      "options": [
+        "留学することにしたんです",
+        "留学することにしそうです",
+        "留学したことがあるんです",
+        "留学したことがありそうです"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "〜ことにした（意志・決定）"
+      ],
+      "difficulty": 2,
+      "explanation": "自分自身で決断した進路を説明する「留学することにしたんです」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q13",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_number": 1,
+      "mondai_type": "bunpou_keishiki",
+      "mondai_label": "問題1",
+      "instruction": "つぎの文の（ ）に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(銀行のホームページで)\nキャッシュカードの暗証番号は決して他人に（ ）。",
+      "options": [
+        "知ってはいけません",
+        "知らせにくいです",
+        "知られないようにしてください",
+        "知らないほうがいいでしょう"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "受身＋〜ようにしてください"
+      ],
+      "difficulty": 2,
+      "explanation": "他人に知られる事態を防ぐための注意・指示表現「知られないようにしてください」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q14",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "私は、森先生の授業を受けてから数学が好きになった。 ______ ______ ★ ______ いないと思う。",
+      "options": [
+        "先生は",
+        "先生ほど",
+        "あの",
+        "わかりやすく教えてくれる"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "〜ほど〜はいない"
+      ],
+      "difficulty": 2,
+      "explanation": "語順は「あの(3) 先生ほど(2) ★わかりやすく教えてくれる(4) 先生は(1) いないと思う。」となり、★には4が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q15",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "「今日は、コーラを使った鶏肉の煮物を紹介します。鶏肉は ______ ______ ★ ______ 知っていますか。」",
+      "options": [
+        "煮ることで",
+        "柔らかく",
+        "コーラで",
+        "なるのを"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "〜ことで〜になるのを"
+      ],
+      "difficulty": 2,
+      "explanation": "語順は「鶏肉は コーラで(3) 煮ることで(1) ★柔らかく(2) なるのを(4) 知っていますか。」となり、★には2が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q16",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "山下「今度、北森町に行くんだけど、北森町のレストランでどこかいいところ、知ってる？」\n南「私はあまり知らないんだけど、田中さん ______ ______ ★ ______ どう？」",
+      "options": [
+        "が",
+        "聞いてみたら",
+        "から",
+        "北森町に住んでいる"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "〜から聞いてみたらどう？"
+      ],
+      "difficulty": 2,
+      "explanation": "語順は「田中さん が(1) 北森町に住んでいる(4) ★から(3) 聞いてみたら(2) どう？」となり、★には3が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q17",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "林「タンさんは、夏休みに国へ帰りますか。」\nタン「いいえ、今年は帰りません。日本で ______ ______ ★ ______ なので楽しみです。」",
+      "options": [
+        "今年が",
+        "過ごすのは",
+        "初めて",
+        "夏休みを"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "〜のは〜が初めて"
+      ],
+      "difficulty": 2,
+      "explanation": "語順は「日本で 夏休みを(4) 過ごすのは(2) ★今年が(1) 初めて(3) なので楽しみです。」となり、★には1が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q18",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_number": 2,
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "次の文の ★ に入る最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "さくら大学の周りには、レストランや喫茶店などの ______ ______ ★ ______ ある。",
+      "options": [
+        "中心に",
+        "飲食店を",
+        "いろいろな店が",
+        "本屋や美容院など"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "〜を中心に〜など"
+      ],
+      "difficulty": 3,
+      "explanation": "語順は「飲食店を(2) 中心に(1) ★本屋や美容院など(4) いろいろな店が(3) ある。」となり、★には4が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q19",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、(19)から(22)の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "jlpt_n3_2022_07_p06",
+      "question": "[ 19 ] のはアイスクリームの会社の工場です。",
+      "options": [
+        "見学する",
+        "見学した",
+        "見学している",
+        "見学してある"
+      ],
+      "answer": 2,
+      "grammar_points": [
+        "〜たのは（過去の特定）"
+      ],
+      "difficulty": 1,
+      "explanation": "先月実際に行った過去の経験を述べているため、「見学したのは」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q20",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、(19)から(22)の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "jlpt_n3_2022_07_p06",
+      "question": "工場見学は本当に楽しかったです。[ 20 ]、どうして無料で見学をさせてくれるのかわかりませんでした。",
+      "options": [
+        "でも",
+        "また",
+        "すると",
+        "たとえば"
+      ],
+      "answer": 1,
+      "grammar_points": [
+        "接続詞（でも）"
+      ],
+      "difficulty": 1,
+      "explanation": "楽しかったというプラスの感想に対して、疑問を抱いたという逆接の接続詞「でも」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q21",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、(19)から(22)の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "jlpt_n3_2022_07_p06",
+      "question": "工場見学をした人の大部分が、[ 21 ] で作られている商品を好きになり、会社に対するイメージもよくなったそうです。",
+      "options": [
+        "これ",
+        "それ",
+        "ここ",
+        "そこ"
+      ],
+      "answer": 4,
+      "grammar_points": [
+        "指示詞（そこ）"
+      ],
+      "difficulty": 2,
+      "explanation": "見学した工場という話題の場所を指す指示詞「そこ」が入ります。"
+    },
+    {
+      "id": "jlpt_n3_2022_07_g_q22",
+      "book": "JLPT N3 2022年7月 過去問",
+      "book_code": "jlpt_n3_2022_07",
+      "unit": "文法",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_number": 3,
+      "mondai_type": "bunshou_bunpou",
+      "mondai_label": "問題3",
+      "instruction": "つぎの文章を読んで、文章全体の内容を考えて、(19)から(22)の中に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": "jlpt_n3_2022_07_p06",
+      "question": "日本にいる間にいろいろな工場に見学に [ 22 ]。",
+      "options": [
+        "行ってみてほしいです",
+        "行ってみたがっています",
+        "行ってみるつもりです",
+        "行ってみるといいです"
+      ],
+      "answer": 3,
+      "grammar_points": [
+        "〜つもりです（意志）"
+      ],
+      "difficulty": 2,
+      "explanation": "話し手自身のこれからの意図・希望を表す「行ってみるつもりです」が入ります。"
+    }
+  ]
+}

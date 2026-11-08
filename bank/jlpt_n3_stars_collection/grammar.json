@@ -1,0 +1,2272 @@
+{
+  "questions": [
+    {
+      "id": "jlpt_n3_stars_q01",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「じゃあ、あしたはコンサート会場の入り口に5 時に集まりませんか。」  \n     B「コンサートは7 時からですから、そんなに＿＿ ＿＿ ★ ＿＿と思いますよ。」",
+      "options": [
+        "早く",
+        "開いていない",
+        "まだ",
+        "行っても"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「早く」 → D「行っても」 → C「まだ」 → B「開いていない」」となります。★の位置（3番目）に入るのは 3（まだ）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q02",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(田中先生の研究室で）  \n     学生「田中先生はいらっしゃいますか。」  \n      秘書「今、ほかの学生と話して＿＿ ＿＿ ★ ＿＿ください。」",
+      "options": [
+        "すこし",
+        "から",
+        "待って",
+        "いらっしゃいます"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「いらっしゃいます」 → B「から」 → A「すこし」 → C「待って」」となります。★の位置（3番目）に入るのは 1（すこし）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q03",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "父も私も、今日はかさがなくても＿＿ ＿＿ ★ ＿＿が、雨に降られてしまった。",
+      "options": [
+        "だろう",
+        "と思って",
+        "大丈夫",
+        "出かけた"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「大丈夫」 → A「だろう」 → B「と思って」 → D「出かけた」」となります。★の位置（3番目）に入るのは 2（と思って）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q04",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "昨日動物園に行ったら、先月＿＿ ＿＿ ★ ＿＿見ることができました。",
+      "options": [
+        "生まれた",
+        "ライオンの",
+        "ばかりの",
+        "赤ちゃんを"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「生まれた」 → C「ばかりの」 → B「ライオンの」 → D「赤ちゃんを」」となります。★の位置（3番目）に入るのは 2（ライオンの）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q05",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 1,
+      "pdf_page": 1,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "ジョン「この『りかい』という言葉はどういう意味ですか。」 \n     アリ「ああ、確か『わかる』＿＿ ＿＿ ★ ＿＿んですけど。」",
+      "options": [
+        "意味だった",
+        "という",
+        "と思う",
+        "ような"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「という」 → D「ような」 → A「意味だった」 → C「と思う」」となります。★の位置（3番目）に入るのは 1（意味だった）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q06",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「来週、武合＿＿ ＿＿ ★ ＿＿んですか。」  \n      B「すみません。」  \n \n2",
+      "options": [
+        "何をやっていた",
+        "練習に来ないで",
+        "なのに",
+        "ちっとも"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「なのに」 → D「ちっとも」 → B「練習に来ないで」 → A「何をやっていた」」となります。★の位置（3番目）に入るのは 2（練習に来ないで）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q07",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "あの美術館は曜日＿＿ ＿＿ ★ ＿＿窓口で確認したほうがいいよ。",
+      "options": [
+        "始まる時間",
+        "違うから",
+        "によって",
+        "が"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「によって」 → A「始まる時間」 → D「が」 → B「違うから」」となります。★の位置（3番目）に入るのは 4（が）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q08",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "自分で野菜を作ってみて、おいしい野菜を育てる＿＿ ＿＿ ★ ＿＿わかりました。",
+      "options": [
+        "ことが",
+        "大変な",
+        "ことか",
+        "どんなに"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「ことが」 → D「どんなに」 → B「大変な」 → C「ことか」」となります。★の位置（3番目）に入るのは 2（大変な）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q09",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「今度のさよならパーティーで、みんなで歌う歌は、これでいいですか」 \n      B 「すみません。この歌は好きなんですが、少しむずかしいです＿＿ ＿＿ ★ ＿＿してほしいです。」",
+      "options": [
+        "の",
+        "ほか",
+        "に",
+        "から"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「から」 → B「ほか」 → A「の」 → C「に」」となります。★の位置（3番目）に入るのは 1（の）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q10",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "最近、子どもがピアノを習いたいと言いだした。わたしは、子どもが＿＿ ＿＿ ★ ＿＿と思っている。",
+      "options": [
+        "したい",
+        "やりたい",
+        "やらせて",
+        "と思うことは"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「したい」 → D「と思うことは」 → C「やらせて」 → B「やりたい」」となります。★の位置（3番目）に入るのは 3（やらせて）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q11",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "中山 「上田さんは、本当にこの仕事が好きなんですね。」  \n        上田 「はい、わたしは、＿＿ ＿＿ ★ ＿＿ないと思っているんです。」",
+      "options": [
+        "ほど",
+        "仕事は",
+        "これ",
+        "おもしろい"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「これ」 → A「ほど」 → D「おもしろい」 → B「仕事は」」となります。★の位置（3番目）に入るのは 4（おもしろい）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q12",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この美術館には、19 世紀の＿＿ ＿＿ ★ ＿＿たくさんあります。 よって 画家たちに 絵が 描かれた",
+      "options": [
+        "よって",
+        "画家たちに",
+        "絵が",
+        "描かれた"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「画家たちに」 → A「よって」 → D「描かれた」 → C「絵が」」となります。★の位置（3番目）に入るのは 4（描かれた）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q13",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "昨日のパーティ－は、友だちと話していたら、ほとんど＿＿ ＿＿ ★ ＿＿、あとでおなかがすいてしまった。",
+      "options": [
+        "終わってしまった",
+        "何も",
+        "うちに",
+        "食べない"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「何も」 → D「食べない」 → C「うちに」 → A「終わってしまった」」となります。★の位置（3番目）に入るのは 3（うちに）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q14",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "夏休みに行われた会社での実習は、わたしにとって、企業で＿＿ ＿＿ ★ ＿＿いい機会になった。",
+      "options": [
+        "考える",
+        "というのが",
+        "働く",
+        "どういうことか"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「働く」 → B「というのが」 → D「どういうことか」 → A「考える」」となります。★の位置（3番目）に入るのは 4（どういうことか）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q15",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "母は 「風をひかないのは、＿＿ ＿＿ ★ ＿＿。」とよく言っている。",
+      "options": [
+        "ジョギング",
+        "している",
+        "のおかげだ",
+        "毎朝"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「毎朝」 → B「している」 → A「ジョギング」 → C「のおかげだ」」となります。★の位置（3番目）に入るのは 1（ジョギング）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q16",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(電話で) 配達員 「お荷物の配達時間ですが、明日の夜 8 時ごろでいかがですか。」  \n         客 「その＿＿ ＿＿ ★ ＿＿ので大丈夫です。お願いします。」",
+      "options": [
+        "と思う",
+        "多分",
+        "時間は",
+        "家にいる"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「時間は」 → B「多分」 → D「家にいる」 → A「と思う」」となります。★の位置（3番目）に入るのは 4（家にいる）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q17",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "山下 「田中さん、ABC 大学のリュウ先生を知っていますか。」  \n         田中 「＿＿ ＿＿ ★ ＿＿ありません。」",
+      "options": [
+        "ありますが",
+        "会ったことは",
+        "聞いたことが",
+        "お名前は 3"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「お名前は 3」 → C「聞いたことが」 → A「ありますが」 → B「会ったことは」」となります。★の位置（3番目）に入るのは 1（ありますが）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q18",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "わたしが＿＿ ＿＿ ★ ＿＿京都の高山寺がある。",
+      "options": [
+        "行ってみたい",
+        "ひとつに",
+        "もっとも",
+        "寺の"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「もっとも」 → A「行ってみたい」 → D「寺の」 → B「ひとつに」」となります。★の位置（3番目）に入るのは 4（寺の）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q19",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "『プレゼント』という映画を見て、この映画＿＿ ＿＿ ★ ＿＿映画はないと思った。",
+      "options": [
+        "ほど",
+        "について",
+        "人生",
+        "考えさせられる"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「ほど」 → C「人生」 → B「について」 → D「考えさせられる」」となります。★の位置（3番目）に入るのは 2（について）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q20",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "友だちからの＿＿ ＿＿ ★ ＿＿。",
+      "options": [
+        "すっかり忘れていた",
+        "メールが来るまで",
+        "ということを",
+        "今日がレポートのしめ 切り日だった"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「メールが来るまで」 → D「今日がレポートのしめ 切り日だった」 → C「ということを」 → A「すっかり忘れていた」」となります。★の位置（3番目）に入るのは 3（ということを）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q21",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「片づけはあしたにしますか。」  \n         B「あしたは朝から＿＿ ＿＿ ★ ＿＿ましょう。」",
+      "options": [
+        "忙しくなり",
+        "今日中に",
+        "そうですし",
+        "やってしまい"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「忙しくなり」 → C「そうですし」 → B「今日中に」 → D「やってしまい」」となります。★の位置（3番目）に入るのは 2（今日中に）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q22",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "仕事から帰って、娘に笑顔で＿＿ ＿＿ ★ ＿＿幸せだといつも思う。",
+      "options": [
+        "私は本当に",
+        "「おかえり。」と言われ ると",
+        "娘がいる",
+        "こんなかわいい"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「「おかえり。」と言われ ると」 → D「こんなかわいい」 → C「娘がいる」 → A「私は本当に」」となります。★の位置（3番目）に入るのは 3（娘がいる）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q23",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "川名寺は桜が＿＿ ＿＿ ★ ＿＿秋の景色もすばらしいです。",
+      "options": [
+        "桜だけでなく",
+        "ことで",
+        "有名ですが",
+        "きれいな"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「きれいな」 → B「ことで」 → C「有名ですが」 → A「桜だけでなく」」となります。★の位置（3番目）に入るのは 3（有名ですが）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q24",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "父はいつも、「何も＿＿ ＿＿ ★ ＿＿ほうがいい。」と言っている。",
+      "options": [
+        "チャレンジして",
+        "失敗する",
+        "しないで",
+        "いるより"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「しないで」 → D「いるより」 → A「チャレンジして」 → B「失敗する」」となります。★の位置（3番目）に入るのは 1（チャレンジして）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q25",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「ねえ、来近の日曜日、北町の美術館に行かない?」  \n        B「いいね。あ、私、そこの割引券を持ってるよ。その＿＿ ＿＿ ★ ＿＿になるんだ。」",
+      "options": [
+        "三人",
+        "割引券一枚で",
+        "二割引",
+        "まで"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「割引券一枚で」 → A「三人」 → D「まで」 → C「二割引」」となります。★の位置（3番目）に入るのは 4（まで）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q26",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(病院で）村山「すみません。予約した村山ですが」 \n        受付 「はい、村山ですね。では、そちらの＿＿ ＿＿ ★ ＿＿ください」",
+      "options": [
+        "お待ち",
+        "おかげ",
+        "いすに",
+        "になって"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「いすに」 → B「おかげ」 → D「になって」 → A「お待ち」」となります。★の位置（3番目）に入るのは 1（お待ち）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q27",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "料理をする＿＿ ＿＿ ★ ＿＿おいしく作れる。",
+      "options": [
+        "私でも",
+        "ハンバーグだけは",
+        "それほど得意ではな い",
+        "のが"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「のが」 → C「それほど得意ではな い」 → A「私でも」 → B「ハンバーグだけは」」となります。★の位置（3番目）に入るのは 1（私でも）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q28",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "高木 「山村さんは、いつもポケットにメモ帳を入れているんですか。」 \n \n4 \n \n         山村 「はい。思ついた＿＿ ＿＿ ★ ＿＿しているんです。」",
+      "options": [
+        "忘れて",
+        "しまわないように",
+        "かならず持ち歩くように",
+        "アイデアを"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「アイデアを」 → A「忘れて」 → B「しまわないように」 → C「かならず持ち歩くように」」となります。★の位置（3番目）に入るのは 2（しまわないように）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q29",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "昨日の夜、誰も＿＿ ＿＿ ★ ＿＿気がした。",
+      "options": [
+        "いない",
+        "聞こえた",
+        "何か音が",
+        "部屋から"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「いない」 → D「部屋から」 → C「何か音が」 → B「聞こえた」」となります。★の位置（3番目）に入るのは 3（何か音が）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q30",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "現在、市民運動公園の中に、小犬＿＿ ＿＿ ★ ＿＿検討されている。",
+      "options": [
+        "体育館を",
+        "建設する",
+        "二つの",
+        "という案が"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「二つの」 → A「体育館を」 → B「建設する」 → D「という案が」」となります。★の位置（3番目）に入るのは 2（建設する）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q31",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "私は、息子が＿＿ ＿＿ ★ ＿＿見て、「どうしたの？」と声をかけた。",
+      "options": [
+        "顔を",
+        "何か",
+        "言いたさそうな",
+        "しているのを"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「何か」 → C「言いたさそうな」 → A「顔を」 → D「しているのを」」となります。★の位置（3番目）に入るのは 1（顔を）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q32",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この公園は、いろいろな花が咲き始める＿＿ ＿＿ ★ ＿＿と聞いた。",
+      "options": [
+        "最も",
+        "期待が",
+        "美しい",
+        "この"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「この」 → B「期待が」 → A「最も」 → C「美しい」」となります。★の位置（3番目）に入るのは 1（最も）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q33",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "友達が我慢で入院したと聞き、あわてて＿＿ ＿＿ ★ ＿＿元気で安心した。",
+      "options": [
+        "病院について",
+        "思って",
+        "みると",
+        "いたよりも"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「病院について」 → C「みると」 → B「思って」 → D「いたよりも」」となります。★の位置（3番目）に入るのは 2（思って）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q34",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "庭に植えたスイカは、これまでなかなか＿＿ ＿＿ ★ ＿＿今年になっておいしいのができた。",
+      "options": [
+        "あきらめないで",
+        "ようやく",
+        "うまく育たなかったが",
+        "毎年チャレンジしてい たら"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「うまく育たなかったが」 → A「あきらめないで」 → D「毎年チャレンジしてい たら」 → B「ようやく」」となります。★の位置（3番目）に入るのは 4（毎年チャレンジしてい たら）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q35",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "子供のころに祖母が作ってくれたワンピースを＿＿ ＿＿ ★ ＿＿いる",
+      "options": [
+        "着られなくなって",
+        "大切にもって",
+        "今でも",
+        "体が大きくなって"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「体が大きくなって」 → A「着られなくなって」 → C「今でも」 → B「大切にもって」」となります。★の位置（3番目）に入るのは 3（今でも）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q36",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "娘が歌手になることには反対でしたが、娘も一生けんめい＿＿ ＿＿ ★ ＿＿と思っています。",
+      "options": [
+        "がんばろうとして",
+        "応援して",
+        "やろうか",
+        "いるので"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「がんばろうとして」 → D「いるので」 → B「応援して」 → C「やろうか」」となります。★の位置（3番目）に入るのは 2（応援して）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q37",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "ここにある家具は＿＿ ＿＿ ★ ＿＿使うかもしれないと思うと、捨てられない。",
+      "options": [
+        "けれども",
+        "いつかまに",
+        "使っていない",
+        "今はどれも"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「今はどれも」 → C「使っていない」 → A「けれども」 → B「いつかまに」」となります。★の位置（3番目）に入るのは 1（けれども）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q38",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "書いた＿＿ ＿＿ ★ ＿＿手紙が引き出しにあった。",
+      "options": [
+        "まま",
+        "忘れていた",
+        "出すのを",
+        "友人への"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「まま」 → C「出すのを」 → B「忘れていた」 → D「友人への」」となります。★の位置（3番目）に入るのは 2（忘れていた）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q39",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "A「空が暗いですね。」  \n  B「そうですね。雨が＿＿ ＿＿ ★ ＿＿ですね。」",
+      "options": [
+        "ない",
+        "いつ",
+        "おかしく",
+        "降っても"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「いつ」 → D「降っても」 → C「おかしく」 → A「ない」」となります。★の位置（3番目）に入るのは 3（おかしく）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q40",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(電話で)  \n \n5 \n \n  A「もしもし、ちょっと話したいことがあるんだけど、今、時間ある?」  \n  B「ごめん。ちょうど出かける＿＿ ＿＿ ★ ＿＿私から電話する ね。」",
+      "options": [
+        "ゆっくり",
+        "あとで",
+        "ところで",
+        "時間がないから"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「ところで」 → A「ゆっくり」 → D「時間がないから」 → B「あとで」」となります。★の位置（3番目）に入るのは 4（時間がないから）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q41",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "僕の家族は、両親と弟三人の六人家族です。家族＿＿ ＿＿ ★ ＿＿だけです。",
+      "options": [
+        "は",
+        "女",
+        "母",
+        "で"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「で」 → B「女」 → A「は」 → C「母」」となります。★の位置（3番目）に入るのは 1（は）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q42",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "必ず＿＿ ＿＿ ★ ＿＿すっかり忘れていた。",
+      "options": [
+        "ことを",
+        "会議の資料",
+        "今日中に",
+        "作らなくてはいけない"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「今日中に」 → D「作らなくてはいけない」 → B「会議の資料」 → A「ことを」」となります。★の位置（3番目）に入るのは 2（会議の資料）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q43",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "先生「調べた結果を説明するとき、＿＿ ＿＿ ★ ＿＿なります。」",
+      "options": [
+        "わかりやすく",
+        "示しながら",
+        "表やグラム",
+        "説明すると"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「表やグラム」 → B「示しながら」 → D「説明すると」 → A「わかりやすく」」となります。★の位置（3番目）に入るのは 4（説明すると）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q44",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "昨日の夜、高校時代に、＿＿ ＿＿ ★ ＿＿たっていて、驚いた。",
+      "options": [
+        "いつのまにか3 時間 も",
+        "クラスだった",
+        "友人と電話で話して いたら",
+        "ずっと同じ"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「ずっと同じ」 → B「クラスだった」 → C「友人と電話で話して いたら」 → A「いつのまにか3 時間 も」」となります。★の位置（3番目）に入るのは 3（友人と電話で話して いたら）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q45",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "私が今住んでいるアパートは線路の近くにある。住み始めたころは、電車の通る＿＿ ＿＿ ★ ＿＿が、すぐ\n気にならなくなった。",
+      "options": [
+        "うるさいと",
+        "こともあった",
+        "音がして",
+        "思う"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「音がして」 → A「うるさいと」 → D「思う」 → B「こともあった」」となります。★の位置（3番目）に入るのは 4（思う）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q46",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "実家にある冷蔵庫は30 年も＿＿ ＿＿ ★ ＿＿親は「まだ買い替えない」と言っている。",
+      "options": [
+        "いつ壊れてもおかしく ない",
+        "古いもので",
+        "のに",
+        "使っている"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「使っている」 → B「古いもので」 → A「いつ壊れてもおかしく ない」 → C「のに」」となります。★の位置（3番目）に入るのは 1（いつ壊れてもおかしく ない）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q47",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "＿＿ ＿＿ ★ ＿＿遅れているそうだ。",
+      "options": [
+        "駅ビルの建設工事が",
+        "予定だった",
+        "半年で",
+        "終わる"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「半年で」 → D「終わる」 → B「予定だった」 → A「駅ビルの建設工事が」」となります。★の位置（3番目）に入るのは 2（予定だった）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q48",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "プレゼントをするときは、贈る相手の＿＿ ＿＿ ★ ＿＿時間も 楽しい。",
+      "options": [
+        "選ぶ",
+        "ことを",
+        "どれにする",
+        "考えながら"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「ことを」 → D「考えながら」 → C「どれにする」 → A「選ぶ」」となります。★の位置（3番目）に入るのは 3（どれにする）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q49",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "このパソコン教室にはさまざまなコースがあります。基礎コースは、パソコンの＿＿ ＿＿ ★ ＿＿ぴったりです。",
+      "options": [
+        "コースなので",
+        "初めて習う方",
+        "慣れるための",
+        "基本的な使い方に"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「基本的な使い方に」 → C「慣れるための」 → A「コースなので」 → B「初めて習う方」」となります。★の位置（3番目）に入るのは 1（コースなので）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q50",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "エアコンから＿＿ ＿＿ ★ ＿＿かというと、冷たい空気は暖かい空気より重いからだ。",
+      "options": [
+        "冷たい空気が",
+        "出た",
+        "どうして",
+        "部屋の下の方に行く のは"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「出た」 → A「冷たい空気が」 → D「部屋の下の方に行く のは」 → C「どうして」」となります。★の位置（3番目）に入るのは 4（部屋の下の方に行く のは）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q51",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "今日は、久しぶりに家族＿＿ ＿＿ ★ ＿＿過ごした。  \n \n6",
+      "options": [
+        "で",
+        "を",
+        "5 人",
+        "楽しい休日"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「5 人」 → A「で」 → D「楽しい休日」 → B「を」」となります。★の位置（3番目）に入るのは 4（楽しい休日）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q52",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "駅前の店のラーメンは、濃い＿＿ ＿＿ ★ ＿＿私はちょっと苦手だ。",
+      "options": [
+        "味が",
+        "いい",
+        "好きな人には",
+        "かもしれないが"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「味が」 → C「好きな人には」 → B「いい」 → D「かもしれないが」」となります。★の位置（3番目）に入るのは 2（いい）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q53",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "久しぶりにふるさとに帰ったが、昔は何もなかった＿＿ ＿＿ ★ ＿＿見て驚いた。",
+      "options": [
+        "のを",
+        "すっかり",
+        "駅の周りが",
+        "変わっている"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「駅の周りが」 → B「すっかり」 → D「変わっている」 → A「のを」」となります。★の位置（3番目）に入るのは 4（変わっている）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q54",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "これまでの人生の中で＿＿ ＿＿ ★ ＿＿日はない。",
+      "options": [
+        "日ほど",
+        "自分の子供が",
+        "うれしかった",
+        "生まれた"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「自分の子供が」 → D「生まれた」 → A「日ほど」 → C「うれしかった」」となります。★の位置（3番目）に入るのは 1（日ほど）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q55",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "今回の彼の新曲は、友情がテーマになっている＿＿ ＿＿ ★ ＿＿大きく違う。",
+      "options": [
+        "彼の曲と",
+        "発表されてきた",
+        "という点で",
+        "これまでに"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「という点で」 → D「これまでに」 → B「発表されてきた」 → A「彼の曲と」」となります。★の位置（3番目）に入るのは 2（発表されてきた）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q56",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この写真の鳥はとても珍しくて、この鳥の＿＿ ＿＿ ★ ＿＿そうだ。",
+      "options": [
+        "見る機会がない",
+        "専門家でも",
+        "なかなか",
+        "研究をしている"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「研究をしている」 → B「専門家でも」 → C「なかなか」 → A「見る機会がない」」となります。★の位置（3番目）に入るのは 3（なかなか）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q57",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "春から大学になる娘には、＿＿ ＿＿ ★ ＿＿できない経験をいろいろしてほしい。",
+      "options": [
+        "にも",
+        "にしか",
+        "勉強以外",
+        "大学時代"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「勉強以外」 → A「にも」 → D「大学時代」 → B「にしか」」となります。★の位置（3番目）に入るのは 4（大学時代）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q58",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "土曜日は買い物をしたり友達と食事をしたりし、日曜日、＿＿ ＿＿ ★ ＿＿私の好きな週末の          過\nごし方だ。",
+      "options": [
+        "のが",
+        "という",
+        "家で過ごす",
+        "どこにも出かけずに"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「どこにも出かけずに」 → C「家で過ごす」 → B「という」 → A「のが」」となります。★の位置（3番目）に入るのは 2（という）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q59",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(レストランで） \n         客「すみません。15 分ぐらい前に案内をお願いして、しばらくここで＿＿ ＿＿ ★ ＿＿まだですか。」 \n       店員「大変申し訳ありません。」",
+      "options": [
+        "待っているんです",
+        "言われた",
+        "から",
+        "けど"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「言われた」 → C「から」 → A「待っているんです」 → D「けど」」となります。★の位置（3番目）に入るのは 1（待っているんです）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q60",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "歴史を＿＿ ＿＿ ★ ＿＿進学を決めた。",
+      "options": [
+        "勉強すればするほど",
+        "歴史学科への",
+        "と思うようになって",
+        "もっと学びたい"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「勉強すればするほど」 → D「もっと学びたい」 → C「と思うようになって」 → B「歴史学科への」」となります。★の位置（3番目）に入るのは 3（と思うようになって）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q61",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "レストランA は＿＿ ＿＿ ★ ＿＿なかなか予約がとれない人気店になった。",
+      "options": [
+        "雑誌か",
+        "で",
+        "何か",
+        "紹介されてから"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「雑誌か」 → C「何か」 → B「で」 → D「紹介されてから」」となります。★の位置（3番目）に入るのは 2（で）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q62",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "(海岸で)」 \n        A  「わあ、夕日がきれいです。」 \n        B  「本当にすばらしいですね, ＿＿ ＿＿ ★ ＿＿ありません」 \n \n7",
+      "options": [
+        "夕日は",
+        "見たことが",
+        "きれいな",
+        "こんなに"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「こんなに」 → C「きれいな」 → A「夕日は」 → B「見たことが」」となります。★の位置（3番目）に入るのは 1（夕日は）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q63",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "昨日、テレビでテニスの試合を見た＿＿ ＿＿ ★ ＿＿最後まで本当にときどきした。",
+      "options": [
+        "試合で",
+        "どちらが",
+        "おかしくない",
+        "勝っても"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「どちらが」 → D「勝っても」 → C「おかしくない」 → A「試合で」」となります。★の位置（3番目）に入るのは 3（おかしくない）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q64",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "子供には、親の＿＿ ＿＿ ★ ＿＿習わせたほうがいいと思う。",
+      "options": [
+        "習わせるのではなくて",
+        "子供の",
+        "興味があるものを",
+        "習わせたいものを"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「習わせたいものを」 → A「習わせるのではなくて」 → B「子供の」 → C「興味があるものを」」となります。★の位置（3番目）に入るのは 2（子供の）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q65",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "来月、大学のスピーチ大会に出る。全部覚える＿＿ ＿＿ ★ ＿＿つもりだ。",
+      "options": [
+        "ようにする",
+        "たくさん練習して",
+        "まで",
+        "メモを見ないで話せる"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「まで」 → B「たくさん練習して」 → D「メモを見ないで話せる」 → A「ようにする」」となります。★の位置（3番目）に入るのは 4（メモを見ないで話せる）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q66",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "課長「山田さん、資料の整理をやってもらえますか。来週の金曜＿＿ ＿＿ ★ ＿＿、できるときにお願がい\nします。」",
+      "options": [
+        "ですから",
+        "で",
+        "いい",
+        "まで"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「まで」 → B「で」 → C「いい」 → A「ですから」」となります。★の位置（3番目）に入るのは 3（いい）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q67",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "私は、もし自分が＿＿ ＿＿ ★ ＿＿看護師の仕事をしています。",
+      "options": [
+        "考えながら",
+        "ということを",
+        "患者だったら",
+        "どうしてほしいか"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「患者だったら」 → D「どうしてほしいか」 → B「ということを」 → A「考えながら」」となります。★の位置（3番目）に入るのは 2（ということを）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q68",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "私はエアコンの風が好きではないので、夏の夜、暑くて＿＿ ＿＿ ★ ＿＿自分の部屋ではエアコンを使いま\nせん。",
+      "options": [
+        "どうしても",
+        "とき",
+        "寝られない",
+        "以外は"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「どうしても」 → C「寝られない」 → B「とき」 → D「以外は」」となります。★の位置（3番目）に入るのは 2（とき）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q69",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "最近、田中さんは元気がない。心配だが、何が＿＿ ＿＿ ★ ＿＿してあげられない。",
+      "options": [
+        "聞いても",
+        "あったのか",
+        "何も",
+        "答えてくれないので"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「あったのか」 → A「聞いても」 → D「答えてくれないので」 → C「何も」」となります。★の位置（3番目）に入るのは 4（答えてくれないので）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q70",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この辺りは自然が多く、いつかこういうところに住んでみたいと思うが、近くに買い物できる場所がないので、\n＿＿ ＿＿ ★ ＿＿のは大変そうだ。",
+      "options": [
+        "私には",
+        "できない",
+        "生活する",
+        "車の運転が"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「車の運転が」 → B「できない」 → A「私には」 → C「生活する」」となります。★の位置（3番目）に入るのは 1（私には）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q71",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "私、＿＿ ＿＿ ★ ＿＿なのは、家族の幸せだ。",
+      "options": [
+        "で",
+        "人生",
+        "にとって",
+        "いちばん大切"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「にとって」 → B「人生」 → A「で」 → D「いちばん大切」」となります。★の位置（3番目）に入るのは 1（で）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q72",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 7,
+      "pdf_page": 7,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この映画は昔から大好きで今まで、＿＿ ＿＿ ★ ＿＿感動して泣いてしまう。",
+      "options": [
+        "見ても",
+        "何度も",
+        "見たけれ",
+        "何度"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「何度も」 → C「見たけれ」 → D「何度」 → A「見ても」」となります。★の位置（3番目）に入るのは 4（何度）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q73",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "新しい家は、 駅に近くて便利なのだが、窓が、＿＿ ＿＿ ★ ＿＿聞こえてきて、 うるさいと感じることがあ\nる。",
+      "options": [
+        "ある",
+        "大通り側に",
+        "せいで",
+        "車の音が 8"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「大通り側に」 → A「ある」 → C「せいで」 → D「車の音が 8」」となります。★の位置（3番目）に入るのは 3（せいで）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q74",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "林さんの奥さんは料理がとても上手で、ハンバーグが特においしいらしい。林さん、＿＿ ＿＿ ★ ＿＿は奥さ\nんのものはないとよく言っている。",
+      "options": [
+        "作る",
+        "ほど",
+        "ハンバーグ",
+        "おいしい"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「作る」 → C「ハンバーグ」 → B「ほど」 → D「おいしい」」となります。★の位置（3番目）に入るのは 2（ほど）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q75",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "＿＿ ＿＿ ★ ＿＿のことを思い出す。",
+      "options": [
+        "食事をするたび",
+        "妻との初めてのデート で",
+        "来たとき",
+        "このレストランで"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「このレストランで」 → A「食事をするたび」 → C「来たとき」 → B「妻との初めてのデート で」」となります。★の位置（3番目）に入るのは 3（来たとき）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q77",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "半年前から＿＿ ＿＿ ★ ＿＿終わってしまた。",
+      "options": [
+        "とうとう",
+        "見ていた 毎",
+        "毎週",
+        "大好きなドラマが"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「毎週」 → B「見ていた 毎」 → D「大好きなドラマが」 → A「とうとう」」となります。★の位置（3番目）に入るのは 4（大好きなドラマが）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q78",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "第川橋は＿＿ ＿＿ ★ ＿＿「めがね橋」とも呼ばれている。",
+      "options": [
+        "している",
+        "形を",
+        "ことから",
+        "めがねのような"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「めがねのような」 → B「形を」 → A「している」 → C「ことから」」となります。★の位置（3番目）に入るのは 1（している）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q81",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "X 高校とY 高校のバスケットボールの試合は10 時開始の予定だったが、大雨＿＿ ＿＿ ★ ＿＿になった。",
+      "options": [
+        "のため",
+        "になる",
+        "１１時開始",
+        "電車の遅れ"
+      ],
+      "answer": 1,
+      "explanation": "文脈に合わせて語句を並べ替えると、「B「になる」 → D「電車の遅れ」 → A「のため」 → C「１１時開始」」となります。★の位置（3番目）に入るのは 1（のため）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q82",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "昨日行ったサクラ動物園には、５００種類以上の動物がいた。あんなに色々な＿＿ ＿＿ ★ ＿＿ないだ\nろう",
+      "options": [
+        "動物が",
+        "なかなか",
+        "動物園は",
+        "見られる"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「動物が」 → D「見られる」 → C「動物園は」 → B「なかなか」」となります。★の位置（3番目）に入るのは 3（動物園は）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q83",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 8,
+      "pdf_page": 8,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "母が姉＿＿ ＿＿ ★ ＿＿泣きそうな顔をしていた。",
+      "options": [
+        "今にも",
+        "大学に合格したという",
+        "お知らせを聞いて",
+        "一番行きたがっていた"
+      ],
+      "answer": 3,
+      "explanation": "文脈に合わせて語句を並べ替えると、「D「一番行きたがっていた」 → B「大学に合格したという」 → C「お知らせを聞いて」 → A「今にも」」となります。★の位置（3番目）に入るのは 3（お知らせを聞いて）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q84",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "２０階建ての大きいマンションが＿＿ ＿＿ ★ ＿＿昼でも部屋の中が暗い。",
+      "options": [
+        "隣に",
+        "私の家に",
+        "建ったことで",
+        "当たらなくなって 9"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「隣に」 → C「建ったことで」 → B「私の家に」 → D「当たらなくなって 9」」となります。★の位置（3番目）に入るのは 2（私の家に）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q85",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "中田「山下さんって、パソコンにすごく詳しいよね」  \n         木村「うん、大学生の＿＿ ＿＿ ★ ＿＿よ。」",
+      "options": [
+        "とき",
+        "アルバイトしていた",
+        "みたいだ",
+        "コンピューター会社で"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「とき」 → D「コンピューター会社で」 → B「アルバイトしていた」 → C「みたいだ」」となります。★の位置（3番目）に入るのは 2（アルバイトしていた）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q86",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "昨日父に、来週友だちと旅行に行く ＿＿ ＿＿ ★ ＿＿頼んだが、断られてしまった。",
+      "options": [
+        "と",
+        "車を",
+        "ので",
+        "使わせてほしい"
+      ],
+      "answer": 4,
+      "explanation": "文脈に合わせて語句を並べ替えると、「C「ので」 → B「車を」 → D「使わせてほしい」 → A「と」」となります。★の位置（3番目）に入るのは 4（使わせてほしい）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_stars_q88",
+      "book": "JLPT N3 文の組み立て 公式過去問集 (2010-2019)",
+      "book_code": "jlpt_n3_stars_collection",
+      "unit": "文の組み立て",
+      "page": 9,
+      "pdf_page": 9,
+      "section": "言語知識（文法）",
+      "mondai_type": "bun_kumitate",
+      "mondai_label": "問題2",
+      "instruction": "つぎの文の ★ に入る最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "食事の ＿＿ ＿＿ ★ ＿＿汚してしまった。",
+      "options": [
+        "ときに",
+        "ばかりの",
+        "白い T シャツ",
+        "買った"
+      ],
+      "answer": 2,
+      "explanation": "文脈に合わせて語句を並べ替えると、「A「ときに」 → D「買った」 → B「ばかりの」 → C「白い T シャツ」」となります。★の位置（3番目）に入るのは 2（ばかりの）です。",
+      "grammar_points": [
+        "文の組み立て (星並べ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    }
+  ]
+}
