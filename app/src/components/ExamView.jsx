@@ -67,7 +67,7 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
     }
   };
 
-  const currentSection = exam.sections.find(s => s.id === currentSectionId) || exam.sections[0];
+  const currentSection = exam.sections.find(s => (s.section_id || s.id) === currentSectionId) || exam.sections[0];
 
   const getCurrentQuestions = () => {
     return currentSection ? currentSection.questions : [];
@@ -149,9 +149,10 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
   const currentQ = questions[currentQIndex] || {};
 
   // Resilient passage lookup: checks exam.passages then falls back to questionBank.passages
-  const currentPassage = currentQ.passage_id 
-    ? (exam.passages?.[currentQ.passage_id] || questionBank.passages?.[currentQ.passage_id])
-    : null;
+  const passageId = currentQ.passage_id;
+  const currentPassage = passageId 
+    ? (exam.passages?.[passageId] || questionBank.passages?.[passageId] || currentQ.passage || null)
+    : (currentQ.passage || null);
 
   // Format timer string
   const mins = Math.floor(timeLeft / 60);
@@ -346,82 +347,122 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
             flex: 1,
             overflowY: 'auto',
             padding: 10,
-            display: 'grid',
-            gridTemplateColumns: 'repeat(4, 1fr)',
-            gap: 6,
-            alignContent: 'start'
+            display: 'flex',
+            flexDirection: 'column',
+            gap: 8
           }}>
-            {questions.map((q, idx) => {
-              const isSelected = userAnswers[q.id] !== undefined;
-              const isCurrent = idx === currentQIndex;
-              const isFlagged = flaggedIds.has(q.id);
-              const hasPassage = !!q.passage_id;
+            {/* Contextual Section Sub-label */}
+            <div style={{
+              fontSize: '0.74rem',
+              fontWeight: 700,
+              padding: '5px 8px',
+              borderRadius: 6,
+              textAlign: 'center',
+              background: isReadingActive 
+                ? 'rgba(197, 48, 48, 0.08)' 
+                : isGrammarActive 
+                ? 'rgba(217, 119, 6, 0.08)' 
+                : '#f1f5f9',
+              color: isReadingActive 
+                ? 'var(--torii-vermilion)' 
+                : isGrammarActive 
+                ? 'var(--momiji-amber)' 
+                : '#475569',
+              border: '1px solid ' + (
+                isReadingActive 
+                  ? 'rgba(197, 48, 48, 0.25)' 
+                  : isGrammarActive 
+                  ? 'rgba(217, 119, 6, 0.25)' 
+                  : '#e2e8f0'
+              )
+            }}>
+              {isReadingActive ? '📖 読解セクション (全16問・本文付き)' : isGrammarActive ? '文法セクション (1〜22問)' : '文字・語彙セクション (1〜35問)'}
+            </div>
 
-              return (
-                <button
-                  key={q.id}
-                  onClick={() => {
-                    setCurrentQIndex(idx);
-                    setShowPracticeAnswer(false);
-                  }}
-                  style={{
-                    height: 36,
-                    borderRadius: 6,
-                    background: isCurrent 
-                      ? 'rgba(197, 48, 48, 0.12)' 
-                      : isSelected 
-                      ? 'rgba(21, 128, 61, 0.1)' 
-                      : 'var(--bg-surface)',
-                    border: '1px solid ' + (
-                      isCurrent 
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(4, 1fr)',
+              gap: 6,
+              alignContent: 'start'
+            }}>
+              {(currentSectionId === 'sec_vocab' 
+                ? questions.map((q, idx) => ({ q, realIdx: idx }))
+                : isReadingActive 
+                ? questions.slice(22, 38).map((q, idx) => ({ q, realIdx: 22 + idx }))
+                : questions.slice(0, 22).map((q, idx) => ({ q, realIdx: idx }))
+              ).map(({ q, realIdx }) => {
+                const isSelected = userAnswers[q.id] !== undefined;
+                const isCurrent = realIdx === currentQIndex;
+                const isFlagged = flaggedIds.has(q.id);
+                const hasPassage = !!q.passage_id;
+
+                return (
+                  <button
+                    key={q.id}
+                    onClick={() => {
+                      setCurrentQIndex(realIdx);
+                      setShowPracticeAnswer(false);
+                    }}
+                    style={{
+                      height: 38,
+                      borderRadius: 6,
+                      background: isCurrent 
+                        ? 'rgba(197, 48, 48, 0.12)' 
+                        : isSelected 
+                        ? 'rgba(21, 128, 61, 0.1)' 
+                        : '#ffffff',
+                      border: '1.5px solid ' + (
+                        isCurrent 
+                          ? 'var(--torii-vermilion)' 
+                          : isSelected 
+                          ? 'rgba(21, 128, 61, 0.45)' 
+                          : '#e2e8f0'
+                      ),
+                      color: isCurrent 
                         ? 'var(--torii-vermilion)' 
                         : isSelected 
-                        ? 'rgba(21, 128, 61, 0.4)' 
-                        : 'var(--border-light)'
-                    ),
-                    color: isCurrent 
-                      ? 'var(--torii-vermilion)' 
-                      : isSelected 
-                      ? 'var(--pine-green)' 
-                      : 'var(--text-secondary)',
-                    fontWeight: isCurrent ? 800 : 600,
-                    fontSize: '0.82rem',
-                    cursor: 'pointer',
-                    position: 'relative',
-                    outline: isCurrent ? '2px solid var(--torii-vermilion)' : 'none'
-                  }}
-                  title={hasPassage ? `第${q.exam_number}問 [📖 本文パッセージあり]` : `第${q.exam_number}問`}
-                >
-                  {q.exam_number || (idx + 1)}
+                        ? 'var(--pine-green)' 
+                        : '#1e293b',
+                      fontWeight: isCurrent ? 800 : 600,
+                      fontSize: '0.84rem',
+                      cursor: 'pointer',
+                      position: 'relative',
+                      outline: isCurrent ? '2px solid var(--torii-vermilion)' : 'none',
+                      transition: 'all 0.12s ease'
+                    }}
+                    title={hasPassage ? `第${q.exam_number}問 [📖 本文パッセージあり]` : `第${q.exam_number}問`}
+                  >
+                    {q.exam_number || (realIdx + 1)}
 
-                  {/* Passage icon indicator on palette button */}
-                  {hasPassage && (
-                    <span style={{
-                      position: 'absolute',
-                      bottom: 1,
-                      right: 2,
-                      fontSize: '0.58rem',
-                      opacity: 0.8
-                    }}>
-                      📖
-                    </span>
-                  )}
+                    {/* Passage icon indicator on palette button */}
+                    {hasPassage && (
+                      <span style={{
+                        position: 'absolute',
+                        bottom: 1,
+                        right: 2,
+                        fontSize: '0.58rem',
+                        opacity: 0.9
+                      }}>
+                        📖
+                      </span>
+                    )}
 
-                  {/* Flag star indicator */}
-                  {isFlagged && (
-                    <span style={{
-                      position: 'absolute',
-                      top: 1,
-                      left: 2,
-                      color: 'var(--momiji-amber)',
-                      fontSize: '0.62rem'
-                    }}>
-                      ★
-                    </span>
-                  )}
-                </button>
-              );
-            })}
+                    {/* Flag star indicator */}
+                    {isFlagged && (
+                      <span style={{
+                        position: 'absolute',
+                        top: 1,
+                        left: 2,
+                        color: 'var(--momiji-amber)',
+                        fontSize: '0.62rem'
+                      }}>
+                        ★
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
           {/* Palette Footer Stats */}
@@ -445,40 +486,43 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
           {currentPassage && (
             <div style={{
               flex: 1.15,
-              background: 'var(--bg-surface)',
-              borderRight: '1px solid var(--border-light)',
+              background: '#fbfaf8',
+              borderRight: '1px solid #e2e8f0',
               overflowY: 'auto',
               padding: '24px 28px'
             }}>
-              <div className="washi-card" style={{
-                padding: '24px 28px',
-                borderLeft: '4px solid var(--torii-vermilion)',
-                boxShadow: '0 4px 20px rgba(87, 83, 78, 0.06)'
+              <div style={{
+                background: '#ffffff',
+                border: '1px solid #e2e8f0',
+                borderRadius: 14,
+                padding: '26px 30px',
+                borderLeft: '5px solid var(--torii-vermilion)',
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.05)'
               }}>
                 <div style={{
                   display: 'flex',
                   justifyContent: 'space-between',
                   alignItems: 'center',
                   marginBottom: 16,
-                  paddingBottom: 10,
-                  borderBottom: '1px solid var(--border-light)'
+                  paddingBottom: 12,
+                  borderBottom: '1px solid #e2e8f0'
                 }}>
                   <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
                     <span style={{
                       background: 'rgba(197, 48, 48, 0.08)',
                       color: 'var(--torii-vermilion)',
-                      padding: '3px 8px',
+                      padding: '3px 10px',
                       borderRadius: 4,
-                      fontSize: '0.78rem',
+                      fontSize: '0.8rem',
                       fontWeight: 700
                     }}>
                       📖 本文 (Reading Passage)
                     </span>
                     <h3 style={{
                       fontFamily: 'var(--font-serif)',
-                      fontSize: '1.2rem',
+                      fontSize: '1.25rem',
                       fontWeight: 700,
-                      color: 'var(--text-primary)',
+                      color: '#0f172a',
                       margin: 0
                     }}>
                       {currentPassage.title || '本文'}
@@ -486,20 +530,20 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                   </div>
 
                   {currentPassage.author && (
-                    <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
+                    <span style={{ fontSize: '0.82rem', color: '#64748b' }}>
                       作者: {currentPassage.author}
                     </span>
                   )}
                 </div>
 
-                {/* High Contrast Reading Passage Body */}
+                {/* High Contrast Reading Passage Body - Jet Sumi Ink */}
                 <div 
                   style={{
                     fontFamily: 'var(--font-serif)',
-                    fontSize: '1.08rem',
-                    lineHeight: 2.15,
+                    fontSize: '1.12rem',
+                    lineHeight: 2.2,
                     letterSpacing: '0.03em',
-                    color: 'var(--text-primary)',
+                    color: '#0f172a',
                     whiteSpace: 'pre-line'
                   }}
                   dangerouslySetInnerHTML={{
@@ -524,21 +568,22 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
           }}>
             {/* Mondai Instruction Banner */}
             <div style={{
-              background: 'var(--bg-surface)',
+              background: '#ffffff',
               borderLeft: '4px solid var(--momiji-amber)',
-              borderTop: '1px solid var(--border-light)',
-              borderRight: '1px solid var(--border-light)',
-              borderBottom: '1px solid var(--border-light)',
-              padding: '10px 16px',
+              borderTop: '1px solid #e2e8f0',
+              borderRight: '1px solid #e2e8f0',
+              borderBottom: '1px solid #e2e8f0',
+              padding: '12px 18px',
               borderRadius: '0 8px 8px 0',
-              fontSize: '0.9rem',
-              color: 'var(--text-primary)',
+              fontSize: '0.92rem',
+              color: '#1e293b',
               marginBottom: 16,
               display: 'flex',
               justifyContent: 'space-between',
               alignItems: 'center',
               flexWrap: 'wrap',
-              gap: 8
+              gap: 8,
+              boxShadow: '0 1px 3px rgba(0, 0, 0, 0.04)'
             }}>
               <div>
                 <strong style={{ color: 'var(--torii-vermilion)' }}>{currentQ.mondai_label}</strong> : {currentQ.instruction}
@@ -552,51 +597,55 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                     background: 'rgba(217, 119, 6, 0.08)',
                     border: '1px solid var(--momiji-amber)',
                     color: 'var(--momiji-amber)',
-                    padding: '3px 10px',
+                    padding: '4px 12px',
                     borderRadius: 6,
-                    fontSize: '0.74rem',
+                    fontSize: '0.78rem',
                     fontWeight: 700,
                     cursor: 'pointer',
                     display: 'flex',
                     alignItems: 'center',
-                    gap: 4
+                    gap: 5
                   }}
                   title="第2部の長文読解問題（本文パッセージあり）へ移動します"
                 >
-                  <BookOpen size={12} />
-                  📖 読解問題 (パッセージ) へ
+                  <BookOpen size={13} />
+                  📖 読解問題 (パッセージ) へ移動
                 </button>
               )}
             </div>
 
             {/* Question Card */}
-            <div className="washi-card" style={{
-              padding: '24px 28px',
-              marginBottom: 20
+            <div style={{
+              background: '#ffffff',
+              border: '1px solid #e2e8f0',
+              borderRadius: 14,
+              padding: '26px 30px',
+              marginBottom: 20,
+              boxShadow: '0 2px 12px rgba(0, 0, 0, 0.04)'
             }}>
               {/* Question Header */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
-                  <span style={{ fontSize: '1.12rem', fontWeight: 700, color: 'var(--torii-vermilion)' }}>
+                  <span style={{ fontSize: '1.15rem', fontWeight: 700, color: 'var(--torii-vermilion)' }}>
                     第 {currentQ.exam_number} 問 ({currentQ.mondai_label} #{currentQ.mondai_number})
                   </span>
                   {currentPassage ? (
                     <span style={{
                       background: 'rgba(197, 48, 48, 0.08)',
                       color: 'var(--torii-vermilion)',
-                      fontSize: '0.72rem',
+                      fontSize: '0.74rem',
                       fontWeight: 700,
-                      padding: '2px 6px',
+                      padding: '3px 8px',
                       borderRadius: 4
                     }}>
-                      📖 本文参照
+                      📖 左の本文を参照
                     </span>
                   ) : (
                     <span style={{
-                      background: 'var(--bg-surface)',
-                      color: 'var(--text-muted)',
-                      fontSize: '0.72rem',
-                      padding: '2px 6px',
+                      background: '#f1f5f9',
+                      color: '#64748b',
+                      fontSize: '0.74rem',
+                      padding: '3px 8px',
                       borderRadius: 4
                     }}>
                       単問 (本文なし)
@@ -607,12 +656,12 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                 <button
                   onClick={() => toggleFlag(currentQ.id)}
                   style={{
-                    background: flaggedIds.has(currentQ.id) ? 'rgba(217, 119, 6, 0.12)' : 'var(--bg-surface)',
-                    border: '1px solid ' + (flaggedIds.has(currentQ.id) ? 'var(--momiji-amber)' : 'var(--border-light)'),
-                    color: flaggedIds.has(currentQ.id) ? 'var(--momiji-amber)' : 'var(--text-muted)',
-                    padding: '5px 12px',
+                    background: flaggedIds.has(currentQ.id) ? 'rgba(217, 119, 6, 0.12)' : '#f8fafc',
+                    border: '1px solid ' + (flaggedIds.has(currentQ.id) ? 'var(--momiji-amber)' : '#cbd5e1'),
+                    color: flaggedIds.has(currentQ.id) ? 'var(--momiji-amber)' : '#64748b',
+                    padding: '6px 14px',
                     borderRadius: 6,
-                    fontSize: '0.8rem',
+                    fontSize: '0.82rem',
                     cursor: 'pointer',
                     display: 'flex',
                     alignItems: 'center',
@@ -631,13 +680,13 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                   fontWeight: 600,
                   lineHeight: 1.85,
                   marginBottom: 24,
-                  color: 'var(--text-primary)',
+                  color: '#0f172a',
                   letterSpacing: '0.02em'
                 }}
                 dangerouslySetInnerHTML={{
                   __html: (currentQ.question || '')
                     .replace(/\n/g, '<br>')
-                    .replace(/__([^_]+)__/g, '<u style="text-decoration:none; border-bottom:3px solid var(--torii-vermilion); padding:0 3px; font-weight:700; color:var(--text-primary);">$1</u>')
+                    .replace(/__([^_]+)__/g, '<u style="text-decoration:none; border-bottom:3px solid var(--torii-vermilion); padding:0 3px; font-weight:700; color:#0f172a;">$1</u>')
                 }}
               />
 
@@ -652,49 +701,50 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                       key={optIdx}
                       onClick={() => handleSelectOption(currentQ.id, optNum)}
                       style={{
-                        padding: '13px 18px',
+                        padding: '14px 18px',
                         borderRadius: 10,
-                        background: isSelected ? 'rgba(197, 48, 48, 0.08)' : 'var(--bg-surface)',
-                        border: '1.5px solid ' + (isSelected ? 'var(--torii-vermilion)' : 'var(--border-light)'),
-                        color: isSelected ? 'var(--torii-vermilion)' : 'var(--text-primary)',
+                        background: isSelected ? 'rgba(197, 48, 48, 0.08)' : '#ffffff',
+                        border: isSelected ? '2px solid var(--torii-vermilion)' : '1.5px solid #e2e8f0',
+                        color: isSelected ? '#991b1b' : '#1e293b',
                         fontWeight: isSelected ? 600 : 400,
                         cursor: 'pointer',
                         display: 'flex',
                         alignItems: 'center',
                         gap: 14,
-                        fontSize: '1.02rem',
+                        fontSize: '1.04rem',
                         transition: 'all 0.15s ease',
-                        boxShadow: isSelected ? '0 2px 8px var(--torii-glow)' : 'none'
+                        boxShadow: isSelected ? '0 2px 10px rgba(197, 48, 48, 0.15)' : 'none'
                       }}
                       onMouseEnter={e => {
                         if (!isSelected) {
                           e.currentTarget.style.borderColor = 'var(--momiji-amber)';
-                          e.currentTarget.style.background = 'var(--bg-hover)';
+                          e.currentTarget.style.background = '#f8fafc';
                         }
                       }}
                       onMouseLeave={e => {
                         if (!isSelected) {
-                          e.currentTarget.style.borderColor = 'var(--border-light)';
-                          e.currentTarget.style.background = 'var(--bg-surface)';
+                          e.currentTarget.style.borderColor = '#e2e8f0';
+                          e.currentTarget.style.background = '#ffffff';
                         }
                       }}
                     >
                       <div style={{
-                        width: 28,
-                        height: 28,
+                        width: 30,
+                        height: 30,
                         borderRadius: '50%',
-                        background: isSelected ? 'var(--torii-vermilion)' : 'var(--border-subtle)',
-                        color: isSelected ? '#ffffff' : 'var(--text-primary)',
+                        background: isSelected ? 'var(--torii-vermilion)' : '#f1f5f9',
+                        color: isSelected ? '#ffffff' : '#334155',
+                        border: isSelected ? 'none' : '1px solid #cbd5e1',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
                         fontWeight: 700,
-                        fontSize: '0.88rem',
+                        fontSize: '0.9rem',
                         flexShrink: 0
                       }}>
                         {optNum}
                       </div>
-                      <div style={{ flex: 1, letterSpacing: '0.02em' }}>
+                      <div style={{ flex: 1, letterSpacing: '0.02em', color: isSelected ? '#991b1b' : '#0f172a' }}>
                         {optText}
                       </div>
                     </div>

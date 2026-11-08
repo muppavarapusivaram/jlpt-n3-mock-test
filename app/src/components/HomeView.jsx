@@ -53,42 +53,48 @@ export default function HomeView({ onStartExam, onOpenExplorer }) {
   const exploredPercentage = Math.round((exploredQuestionsCount / totalBankQuestions) * 100);
 
   return (
-    <div style={{ width: '100%', position: 'relative' }}>
-      
-      {/* 1. Full-Width Panoramic Hero Section (Grand Torii Gate & Mount Fuji) */}
+    <div style={{
+      width: '100%',
+      minHeight: '100vh',
+      position: 'relative',
+      backgroundImage: `url(${fujiToriiImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center top',
+      backgroundAttachment: 'fixed',
+      backgroundRepeat: 'no-repeat'
+    }}>
+      {/* Soft Multi-stop Atmospheric Morning Mist Gradient Overlay across the entire page */}
+      <div style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        background: 'linear-gradient(to bottom, rgba(250, 249, 246, 0.2) 0%, rgba(250, 249, 246, 0.48) 320px, rgba(250, 249, 246, 0.86) 620px, rgba(250, 249, 246, 0.96) 100%)',
+        pointerEvents: 'none',
+        zIndex: 1
+      }} />
+
+      {/* 1. Full Hero Header Section (Grand Torii Gate & Mount Fuji) */}
       <div style={{
         position: 'relative',
+        zIndex: 2,
         width: '100%',
-        minHeight: 520,
-        backgroundImage: `url(${fujiToriiImage})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center 38%',
-        backgroundRepeat: 'no-repeat',
+        minHeight: 480,
         display: 'flex',
         flexDirection: 'column',
-        justifyContent: 'flex-end',
+        justifyContent: 'center',
         alignItems: 'center',
-        padding: '120px 20px 48px',
+        padding: '110px 20px 40px',
         overflow: 'hidden'
       }}>
-        {/* Soft Multi-stop Atmospheric Gradient Fade to White Washi */}
-        <div style={{
-          position: 'absolute',
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          background: 'linear-gradient(to bottom, rgba(250, 249, 246, 0.08) 0%, rgba(250, 249, 246, 0.25) 45%, rgba(250, 249, 246, 0.8) 78%, var(--bg-main) 100%)',
-          pointerEvents: 'none'
-        }} />
-
         {/* Top Floating Shrine Tag */}
         <div style={{
           position: 'absolute',
           top: 24,
           right: 28,
-          background: 'rgba(255, 255, 255, 0.88)',
-          backdropFilter: 'blur(8px)',
+          background: 'rgba(255, 255, 255, 0.92)',
+          backdropFilter: 'blur(10px)',
           border: '1px solid rgba(197, 48, 48, 0.25)',
           borderRadius: 24,
           padding: '6px 16px',
@@ -107,7 +113,7 @@ export default function HomeView({ onStartExam, onOpenExplorer }) {
           position: 'relative',
           zIndex: 2,
           textAlign: 'center',
-          maxWidth: 780,
+          maxWidth: 820,
           margin: '0 auto',
         }}>
           {/* Japanese Pill with Hanko Stamp */}
