@@ -86,32 +86,56 @@ body {
 /* Photorealistic 3D Falling Autumn Leaves (紅葉の舞) */
 .real-autumn-leaf {
   position: absolute;
-  top: -55px;
+  top: -60px;
   animation: leaf3DFall linear infinite;
+  transform-origin: center center;
+  will-change: transform, top;
+}
+.real-autumn-leaf-alt {
+  position: absolute;
+  top: -60px;
+  animation: leaf3DFallAlt linear infinite;
   transform-origin: center center;
   will-change: transform, top;
 }
 
 @keyframes leaf3DFall {
   0% {
-    top: -55px;
+    top: -60px;
     transform: perspective(600px) translateX(0) rotateX(10deg) rotateY(0deg) rotateZ(0deg);
   }
-  20% {
-    transform: perspective(600px) translateX(28px) rotateX(45deg) rotateY(55deg) rotateZ(35deg);
+  25% {
+    transform: perspective(600px) translateX(36px) rotateX(45deg) rotateY(55deg) rotateZ(45deg);
   }
-  40% {
-    transform: perspective(600px) translateX(-24px) rotateX(20deg) rotateY(-40deg) rotateZ(110deg);
+  50% {
+    transform: perspective(600px) translateX(-28px) rotateX(20deg) rotateY(-40deg) rotateZ(135deg);
   }
-  60% {
-    transform: perspective(600px) translateX(32px) rotateX(55deg) rotateY(65deg) rotateZ(200deg);
-  }
-  80% {
-    transform: perspective(600px) translateX(-14px) rotateX(30deg) rotateY(-30deg) rotateZ(290deg);
+  75% {
+    transform: perspective(600px) translateX(42px) rotateX(55deg) rotateY(65deg) rotateZ(240deg);
   }
   100% {
-    top: 106vh;
-    transform: perspective(600px) translateX(10px) rotateX(15deg) rotateY(0deg) rotateZ(360deg);
+    top: 108vh;
+    transform: perspective(600px) translateX(15px) rotateX(15deg) rotateY(0deg) rotateZ(360deg);
+  }
+}
+
+@keyframes leaf3DFallAlt {
+  0% {
+    top: -60px;
+    transform: perspective(600px) translateX(0) rotateX(-15deg) rotateY(10deg) rotateZ(0deg);
+  }
+  25% {
+    transform: perspective(600px) translateX(-42px) rotateX(35deg) rotateY(-50deg) rotateZ(-60deg);
+  }
+  50% {
+    transform: perspective(600px) translateX(30px) rotateX(-25deg) rotateY(35deg) rotateZ(-160deg);
+  }
+  75% {
+    transform: perspective(600px) translateX(-35px) rotateX(40deg) rotateY(-45deg) rotateZ(-260deg);
+  }
+  100% {
+    top: 108vh;
+    transform: perspective(600px) translateX(-12px) rotateX(-10deg) rotateY(0deg) rotateZ(-360deg);
   }
 }
 
