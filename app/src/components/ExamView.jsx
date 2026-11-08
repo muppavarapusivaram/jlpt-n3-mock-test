@@ -1,5 +1,5 @@
 // app/src/components/ExamView.jsx
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { 
   Clock, Flag, CheckCircle, ChevronLeft, ChevronRight, 
   HelpCircle, AlertCircle, Eye, EyeOff, Pause, Play, LogOut, ArrowRight 
@@ -52,41 +52,49 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
     };
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentSectionId, currentQIndex, userAnswers]);
+  }, [currentQIndex, currentSectionId, userAnswers]);
 
+  // Time expired handler
   const handleTimeUp = () => {
-    alert("試験時間が終了しました。採点画面に移行します。");
-    handleSubmitExam();
-  };
-
-  const getCurrentQuestions = () => {
-    const sec = exam.sections.find(s => s.section_id === currentSectionId);
-    return sec ? sec.questions : [];
-  };
-
-  const handleSelectSection = (secId) => {
-    if (secId === currentSectionId) return;
-    setCurrentSectionId(secId);
-    setCurrentQIndex(0);
-    setShowPracticeAnswer(false);
-    if (isTimed) {
-      const sec = exam.sections.find(s => s.section_id === secId);
-      setTimeLeft(sec.time_limit_minutes * 60);
+    if (currentSectionId === 'sec_vocab') {
+      alert("第1部（文字・語彙）の試験時間が終了しました。第2部（文法・読解：70分）に進みます。");
+      handleSelectSection('sec_grammar_reading');
+    } else {
+      alert("全試験時間が終了しました。回答を提出して採点結果を表示します。");
+      handleSubmitExam();
     }
   };
 
-  const handleSelectOption = (qid, optNum) => {
-    setUserAnswers(prev => ({
-      ...prev,
-      [qid]: optNum
-    }));
+  const currentSection = exam.sections.find(s => s.id === currentSectionId) || exam.sections[0];
+
+  const getCurrentQuestions = () => {
+    return currentSection ? currentSection.questions : [];
   };
 
-  const toggleFlag = (qid) => {
+  const handleSelectSection = (secId) => {
+    setCurrentSectionId(secId);
+    setCurrentQIndex(0);
+    setShowPracticeAnswer(false);
+
+    // If switching to section 2 in official mode, reset timer to 70 mins
+    if (isTimed) {
+      if (secId === 'sec_grammar_reading') {
+        setTimeLeft(70 * 60);
+      } else {
+        setTimeLeft(30 * 60);
+      }
+    }
+  };
+
+  const handleSelectOption = (qId, optionNum) => {
+    setUserAnswers(prev => ({ ...prev, [qId]: optionNum }));
+  };
+
+  const toggleFlag = (qId) => {
     setFlaggedIds(prev => {
       const next = new Set(prev);
-      if (next.has(qid)) next.delete(qid);
-      else next.add(qid);
+      if (next.has(qId)) next.delete(qId);
+      else next.add(qId);
       return next;
     });
   };
@@ -141,24 +149,25 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
   const totalAnswered = Object.keys(userAnswers).length;
 
   return (
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--sumi-deep)' }}>
+    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--bg-main)' }}>
       
       {/* Top Header */}
       <header style={{
-        background: 'var(--sumi-surface)',
-        borderBottom: '1px solid var(--border-subtle)',
-        padding: '10px 20px',
+        background: 'var(--bg-card)',
+        borderBottom: '1px solid var(--border-light)',
+        padding: '10px 24px',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
-        flexShrink: 0
+        flexShrink: 0,
+        boxShadow: '0 1px 4px rgba(87, 83, 78, 0.05)'
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           <button
             onClick={onExit}
             style={{
               background: 'transparent',
-              border: '1px solid var(--border-subtle)',
+              border: '1px solid var(--border-light)',
               color: 'var(--text-secondary)',
               padding: '6px 12px',
               borderRadius: 6,
@@ -166,21 +175,26 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
               display: 'flex',
               alignItems: 'center',
               gap: 6,
-              fontSize: '0.82rem'
+              fontSize: '0.82rem',
+              transition: 'all 0.15s'
             }}
+            onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--torii-vermilion)'; e.currentTarget.style.color = 'var(--torii-vermilion)'; }}
+            onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border-light)'; e.currentTarget.style.color = 'var(--text-secondary)'; }}
           >
             <LogOut size={14} /> 中断して戻る <span style={{ fontSize: '0.7rem', opacity: 0.75 }}>(Exit)</span>
           </button>
-          <div style={{ fontWeight: 700, fontSize: '1rem', color: '#fff' }}>
+          
+          <div style={{ fontWeight: 700, fontSize: '0.98rem', color: 'var(--text-primary)' }}>
             {exam.title}
           </div>
+
           <span style={{
-            background: mode === 'official' ? 'rgba(225, 29, 72, 0.15)' : 'rgba(56, 189, 248, 0.15)',
-            color: mode === 'official' ? 'var(--torii-vermilion)' : 'var(--fuji-cyan)',
-            border: '1px solid ' + (mode === 'official' ? 'var(--torii-vermilion)' : 'var(--fuji-cyan)'),
+            background: mode === 'official' ? 'rgba(197, 48, 48, 0.08)' : 'rgba(217, 119, 6, 0.08)',
+            color: mode === 'official' ? 'var(--torii-vermilion)' : 'var(--momiji-amber)',
+            border: '1px solid ' + (mode === 'official' ? 'rgba(197, 48, 48, 0.25)' : 'rgba(217, 119, 6, 0.25)'),
             padding: '2px 8px',
             borderRadius: 4,
-            fontSize: '0.75rem',
+            fontSize: '0.74rem',
             fontWeight: 700
           }}>
             {mode === 'official' ? '本番タイムアタック' : '練習モード'}
@@ -190,13 +204,13 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
         <div style={{ display: 'flex', alignItems: 'center', gap: 14 }}>
           {isTimed ? (
             <div style={{
-              background: isTimeWarning ? 'rgba(239, 68, 68, 0.2)' : '#1e293b',
-              border: '1px solid ' + (isTimeWarning ? '#ef4444' : '#334155'),
-              color: isTimeWarning ? '#fca5a5' : '#fff',
+              background: isTimeWarning ? 'rgba(220, 38, 38, 0.1)' : 'var(--bg-surface)',
+              border: '1px solid ' + (isTimeWarning ? '#ef4444' : 'var(--border-light)'),
+              color: isTimeWarning ? 'var(--torii-vermilion)' : 'var(--text-primary)',
               padding: '5px 14px',
               borderRadius: 20,
               fontFamily: 'monospace',
-              fontSize: '1.05rem',
+              fontSize: '1rem',
               fontWeight: 700,
               display: 'flex',
               alignItems: 'center',
@@ -213,23 +227,24 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
               </button>
             </div>
           ) : (
-            <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>時間無制限 (Practice)</span>
+            <span style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>時間無制限 (Practice)</span>
           )}
 
           <button
             onClick={handleSubmitExam}
             style={{
-              background: 'var(--bamboo-green)',
-              color: '#000',
+              background: 'linear-gradient(135deg, var(--pine-green), #166534)',
+              color: '#ffffff',
               border: 'none',
               padding: '7px 18px',
               borderRadius: 6,
               fontWeight: 700,
-              fontSize: '0.88rem',
+              fontSize: '0.86rem',
               cursor: 'pointer',
               display: 'flex',
               alignItems: 'center',
-              gap: 6
+              gap: 6,
+              boxShadow: '0 2px 8px rgba(21, 128, 61, 0.25)'
             }}
           >
             <CheckCircle size={15} />
@@ -244,14 +259,14 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
         {/* Left Sidebar Palette */}
         <div style={{
           width: 250,
-          background: 'var(--sumi-surface)',
-          borderRight: '1px solid var(--border-subtle)',
+          background: 'var(--bg-card)',
+          borderRight: '1px solid var(--border-light)',
           display: 'flex',
           flexDirection: 'column',
           flexShrink: 0
         }}>
           {/* Section Tabs */}
-          <div style={{ display: 'flex', borderBottom: '1px solid var(--border-subtle)' }}>
+          <div style={{ display: 'flex', borderBottom: '1px solid var(--border-light)' }}>
             <button
               onClick={() => handleSelectSection('sec_vocab')}
               style={{
@@ -259,10 +274,10 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                 padding: '10px 4px',
                 fontSize: '0.78rem',
                 fontWeight: 700,
-                background: currentSectionId === 'sec_vocab' ? 'var(--sumi-card)' : 'transparent',
-                color: currentSectionId === 'sec_vocab' ? 'var(--fuji-cyan)' : 'var(--text-muted)',
+                background: currentSectionId === 'sec_vocab' ? 'var(--bg-surface)' : 'transparent',
+                color: currentSectionId === 'sec_vocab' ? 'var(--torii-vermilion)' : 'var(--text-muted)',
                 border: 'none',
-                borderBottom: currentSectionId === 'sec_vocab' ? '2px solid var(--fuji-cyan)' : 'none',
+                borderBottom: currentSectionId === 'sec_vocab' ? '2px solid var(--torii-vermilion)' : 'none',
                 cursor: 'pointer'
               }}
             >
@@ -275,7 +290,7 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                 padding: '10px 4px',
                 fontSize: '0.78rem',
                 fontWeight: 700,
-                background: currentSectionId === 'sec_grammar_reading' ? 'var(--sumi-card)' : 'transparent',
+                background: currentSectionId === 'sec_grammar_reading' ? 'var(--bg-surface)' : 'transparent',
                 color: currentSectionId === 'sec_grammar_reading' ? 'var(--torii-vermilion)' : 'var(--text-muted)',
                 border: 'none',
                 borderBottom: currentSectionId === 'sec_grammar_reading' ? '2px solid var(--torii-vermilion)' : 'none',
@@ -311,14 +326,28 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                   style={{
                     height: 36,
                     borderRadius: 6,
-                    background: isSelected ? 'rgba(56, 189, 248, 0.22)' : 'var(--sumi-card)',
-                    border: '1px solid ' + (isCurrent ? 'var(--fuji-cyan)' : isSelected ? 'var(--fuji-cyan)' : 'var(--border-subtle)'),
-                    color: isCurrent ? '#fff' : isSelected ? 'var(--fuji-cyan)' : 'var(--text-secondary)',
+                    background: isCurrent 
+                      ? 'rgba(197, 48, 48, 0.12)' 
+                      : isSelected 
+                      ? 'rgba(21, 128, 61, 0.1)' 
+                      : 'var(--bg-surface)',
+                    border: '1px solid ' + (
+                      isCurrent 
+                        ? 'var(--torii-vermilion)' 
+                        : isSelected 
+                        ? 'rgba(21, 128, 61, 0.4)' 
+                        : 'var(--border-light)'
+                    ),
+                    color: isCurrent 
+                      ? 'var(--torii-vermilion)' 
+                      : isSelected 
+                      ? 'var(--pine-green)' 
+                      : 'var(--text-secondary)',
                     fontWeight: isCurrent ? 800 : 600,
                     fontSize: '0.82rem',
                     cursor: 'pointer',
                     position: 'relative',
-                    outline: isCurrent ? '2px solid var(--fuji-cyan)' : 'none'
+                    outline: isCurrent ? '2px solid var(--torii-vermilion)' : 'none'
                   }}
                 >
                   {q.exam_number || (idx + 1)}
@@ -327,7 +356,7 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                       position: 'absolute',
                       top: 1,
                       right: 2,
-                      color: 'var(--gold-amber)',
+                      color: 'var(--momiji-amber)',
                       fontSize: '0.65rem'
                     }}>
                       ★
@@ -341,14 +370,14 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
           {/* Palette Footer Stats */}
           <div style={{
             padding: '10px 14px',
-            borderTop: '1px solid var(--border-subtle)',
+            borderTop: '1px solid var(--border-light)',
             fontSize: '0.78rem',
             color: 'var(--text-muted)',
             display: 'flex',
             justifyContent: 'space-between'
           }}>
-            <span>回答済: <strong style={{ color: '#fff' }}>{totalAnswered}</strong> / {allExamQuestions.length}</span>
-            <span>目印: <strong style={{ color: 'var(--gold-amber)' }}>{flaggedIds.size}</strong></span>
+            <span>回答済: <strong style={{ color: 'var(--text-primary)' }}>{totalAnswered}</strong> / {allExamQuestions.length}</span>
+            <span>目印: <strong style={{ color: 'var(--momiji-amber)' }}>{flaggedIds.size}</strong></span>
           </div>
         </div>
 
@@ -359,17 +388,13 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
           {currentPassage && (
             <div style={{
               flex: 1.1,
-              background: '#0c1322',
-              borderRight: '1px solid var(--border-subtle)',
+              background: 'var(--bg-surface)',
+              borderRight: '1px solid var(--border-light)',
               overflowY: 'auto',
               padding: '24px 28px'
             }}>
-              <div style={{
-                background: 'var(--sumi-card)',
-                border: '1px solid var(--border-subtle)',
-                borderRadius: 12,
+              <div className="washi-card" style={{
                 padding: '24px 26px',
-                boxShadow: '0 4px 16px rgba(0,0,0,0.3)'
               }}>
                 <div style={{
                   display: 'flex',
@@ -377,13 +402,13 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                   alignItems: 'center',
                   marginBottom: 16,
                   paddingBottom: 10,
-                  borderBottom: '1px solid var(--border-subtle)'
+                  borderBottom: '1px solid var(--border-light)'
                 }}>
                   <h3 style={{
                     fontFamily: 'var(--font-serif)',
                     fontSize: '1.25rem',
                     fontWeight: 700,
-                    color: '#fff'
+                    color: 'var(--text-primary)'
                   }}>
                     {currentPassage.title || '本文'}
                   </h3>
@@ -398,8 +423,8 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                   fontFamily: 'var(--font-serif)',
                   fontSize: '1.08rem',
                   lineHeight: 2.1,
-                  letterSpacing: '0.04em',
-                  color: '#e2e8f0',
+                  letterSpacing: '0.03em',
+                  color: 'var(--text-primary)',
                   whiteSpace: 'pre-line'
                 }}>
                   {currentPassage.content}
@@ -418,70 +443,69 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
           }}>
             {/* Mondai Instruction Banner */}
             <div style={{
-              background: 'rgba(30, 41, 59, 0.65)',
-              borderLeft: '4px solid var(--fuji-cyan)',
+              background: 'var(--bg-surface)',
+              borderLeft: '4px solid var(--momiji-amber)',
+              borderTop: '1px solid var(--border-light)',
+              borderRight: '1px solid var(--border-light)',
+              borderBottom: '1px solid var(--border-light)',
               padding: '10px 16px',
               borderRadius: '0 8px 8px 0',
-              fontSize: '0.92rem',
-              color: '#cbd5e1',
-              marginBottom: 20
+              fontSize: '0.9rem',
+              color: 'var(--text-primary)',
+              marginBottom: 18
             }}>
-              <strong>{currentQ.mondai_label}</strong> : {currentQ.instruction}
+              <strong style={{ color: 'var(--torii-vermilion)' }}>{currentQ.mondai_label}</strong> : {currentQ.instruction}
             </div>
 
             {/* Question Card */}
-            <div style={{
-              background: 'var(--sumi-card)',
-              border: '1px solid var(--border-subtle)',
-              borderRadius: 12,
-              padding: '24px',
+            <div className="washi-card" style={{
+              padding: '24px 28px',
               marginBottom: 20
             }}>
               {/* Question Header */}
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 18 }}>
-                <span style={{ fontSize: '1.15rem', fontWeight: 800, color: 'var(--fuji-cyan)' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
+                <span style={{ fontSize: '1.12rem', fontWeight: 700, color: 'var(--torii-vermilion)' }}>
                   第 {currentQ.exam_number} 問 ({currentQ.mondai_label} #{currentQ.mondai_number})
                 </span>
                 <button
                   onClick={() => toggleFlag(currentQ.id)}
                   style={{
-                    background: flaggedIds.has(currentQ.id) ? 'var(--gold-glow)' : 'transparent',
-                    border: '1px solid ' + (flaggedIds.has(currentQ.id) ? 'var(--gold-amber)' : 'var(--border-subtle)'),
-                    color: flaggedIds.has(currentQ.id) ? 'var(--gold-amber)' : 'var(--text-muted)',
+                    background: flaggedIds.has(currentQ.id) ? 'rgba(217, 119, 6, 0.12)' : 'var(--bg-surface)',
+                    border: '1px solid ' + (flaggedIds.has(currentQ.id) ? 'var(--momiji-amber)' : 'var(--border-light)'),
+                    color: flaggedIds.has(currentQ.id) ? 'var(--momiji-amber)' : 'var(--text-muted)',
                     padding: '5px 12px',
                     borderRadius: 6,
+                    fontSize: '0.8rem',
                     cursor: 'pointer',
-                    fontSize: '0.82rem',
-                    fontWeight: 600,
                     display: 'flex',
                     alignItems: 'center',
                     gap: 6
                   }}
                 >
-                  <Flag size={13} fill={flaggedIds.has(currentQ.id) ? 'var(--gold-amber)' : 'none'} />
+                  <Flag size={13} fill={flaggedIds.has(currentQ.id) ? 'var(--momiji-amber)' : 'none'} />
                   {flaggedIds.has(currentQ.id) ? '見直し印済' : 'あとで見直す'}
                 </button>
               </div>
 
-              {/* Question Prompt */}
+              {/* Question Prompt - Crisp, Dark, High Contrast Text */}
               <div 
                 style={{
                   fontSize: '1.25rem',
-                  fontWeight: 500,
-                  lineHeight: 1.8,
+                  fontWeight: 600,
+                  lineHeight: 1.85,
                   marginBottom: 24,
-                  color: '#fff',
+                  color: 'var(--text-primary)',
                   letterSpacing: '0.02em'
                 }}
                 dangerouslySetInnerHTML={{
                   __html: (currentQ.question || '')
                     .replace(/\n/g, '<br>')
-                    .replace(/__([^_]+)__/g, '<u style="text-decoration:none; border-bottom:3px solid var(--fuji-cyan); padding:0 3px; font-weight:700;">$1</u>')
+                    .replace(/__([^_]+)__/g, '<u style="text-decoration:none; border-bottom:3px solid var(--torii-vermilion); padding:0 3px; font-weight:700; color:var(--text-primary);">$1</u>')
                 }}
               />
 
-              {/* Options Group */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+              {/* Options Group - Clean Light Cards */}
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                 {(currentQ.options || []).map((optText, optIdx) => {
                   const optNum = optIdx + 1;
                   const isSelected = userAnswers[currentQ.id] === optNum;
@@ -491,36 +515,44 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                       key={optIdx}
                       onClick={() => handleSelectOption(currentQ.id, optNum)}
                       style={{
-                        padding: '14px 18px',
-                        borderRadius: 8,
-                        background: isSelected ? 'rgba(56, 189, 248, 0.18)' : '#111b2b',
-                        border: '1px solid ' + (isSelected ? 'var(--fuji-cyan)' : 'var(--border-subtle)'),
-                        color: isSelected ? '#fff' : 'var(--text-primary)',
+                        padding: '13px 18px',
+                        borderRadius: 10,
+                        background: isSelected ? 'rgba(197, 48, 48, 0.08)' : 'var(--bg-surface)',
+                        border: '1.5px solid ' + (isSelected ? 'var(--torii-vermilion)' : 'var(--border-light)'),
+                        color: isSelected ? 'var(--torii-vermilion)' : 'var(--text-primary)',
+                        fontWeight: isSelected ? 600 : 400,
                         cursor: 'pointer',
                         display: 'flex',
                         alignItems: 'center',
                         gap: 14,
-                        fontSize: '1.05rem',
-                        transition: 'all 0.15s ease'
+                        fontSize: '1.02rem',
+                        transition: 'all 0.15s ease',
+                        boxShadow: isSelected ? '0 2px 8px var(--torii-glow)' : 'none'
                       }}
                       onMouseEnter={e => {
-                        if (!isSelected) e.currentTarget.style.borderColor = '#475569';
+                        if (!isSelected) {
+                          e.currentTarget.style.borderColor = 'var(--momiji-amber)';
+                          e.currentTarget.style.background = 'var(--bg-hover)';
+                        }
                       }}
                       onMouseLeave={e => {
-                        if (!isSelected) e.currentTarget.style.borderColor = 'var(--border-subtle)';
+                        if (!isSelected) {
+                          e.currentTarget.style.borderColor = 'var(--border-light)';
+                          e.currentTarget.style.background = 'var(--bg-surface)';
+                        }
                       }}
                     >
                       <div style={{
                         width: 28,
                         height: 28,
                         borderRadius: '50%',
-                        background: isSelected ? 'var(--fuji-cyan)' : '#1e293b',
-                        color: isSelected ? '#000' : 'var(--text-muted)',
+                        background: isSelected ? 'var(--torii-vermilion)' : 'var(--border-subtle)',
+                        color: isSelected ? '#ffffff' : 'var(--text-primary)',
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        fontWeight: 800,
-                        fontSize: '0.9rem',
+                        fontWeight: 700,
+                        fontSize: '0.88rem',
                         flexShrink: 0
                       }}>
                         {optNum}
@@ -535,16 +567,17 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
 
               {/* Practice Mode Instant Check Button */}
               {mode === 'practice' && (
-                <div style={{ marginTop: 20, paddingTop: 16, borderTop: '1px solid var(--border-subtle)' }}>
+                <div style={{ marginTop: 20, paddingTop: 16, borderTop: '1px solid var(--border-light)' }}>
                   <button
                     onClick={() => setShowPracticeAnswer(!showPracticeAnswer)}
                     style={{
-                      background: 'transparent',
-                      border: '1px solid var(--border-subtle)',
-                      color: 'var(--fuji-cyan)',
-                      padding: '6px 12px',
+                      background: 'var(--bg-surface)',
+                      border: '1px solid var(--border-light)',
+                      color: 'var(--momiji-amber)',
+                      padding: '6px 14px',
                       borderRadius: 6,
-                      fontSize: '0.85rem',
+                      fontSize: '0.84rem',
+                      fontWeight: 600,
                       cursor: 'pointer',
                       display: 'flex',
                       alignItems: 'center',
@@ -558,27 +591,28 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                   {showPracticeAnswer && (
                     <div style={{
                       marginTop: 12,
-                      background: '#0d1524',
-                      border: '1px solid var(--border-subtle)',
-                      borderRadius: 8,
-                      padding: '14px 16px',
-                      fontSize: '0.92rem',
-                      lineHeight: 1.7
+                      padding: 16,
+                      background: 'var(--bg-surface)',
+                      borderLeft: '4px solid var(--pine-green)',
+                      borderRadius: '0 8px 8px 0',
+                      fontSize: '0.9rem'
                     }}>
-                      <div style={{ color: 'var(--bamboo-green)', fontWeight: 700, marginBottom: 4 }}>
-                        正解: 【 {currentQ.answer} 】 {currentQ.options[currentQ.answer - 1]}
+                      <div style={{ fontWeight: 700, color: 'var(--pine-green)', marginBottom: 6 }}>
+                        ✓ 正解: {currentQ.answer} 番
                       </div>
-                      <div style={{ color: '#cbd5e1' }}>{currentQ.explanation}</div>
+                      <div style={{ color: 'var(--text-secondary)', lineHeight: 1.6 }}>
+                        💡 <strong>公式解説:</strong> {currentQ.explanation}
+                      </div>
                       {currentQ.grammar_points && currentQ.grammar_points.length > 0 && (
                         <div style={{ marginTop: 8, display: 'flex', gap: 6, flexWrap: 'wrap' }}>
                           {currentQ.grammar_points.map((gp, i) => (
                             <span key={i} style={{
-                              background: 'rgba(129, 140, 248, 0.15)',
-                              color: 'var(--accent)',
-                              border: '1px solid rgba(129, 140, 248, 0.3)',
+                              background: 'rgba(217, 119, 6, 0.1)',
+                              color: 'var(--momiji-amber)',
+                              border: '1px solid rgba(217, 119, 6, 0.25)',
+                              fontSize: '0.74rem',
                               padding: '2px 8px',
-                              borderRadius: 4,
-                              fontSize: '0.78rem'
+                              borderRadius: 4
                             }}>
                               {gp}
                             </span>
@@ -592,60 +626,60 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
             </div>
 
             {/* Bottom Nav Buttons */}
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: 'auto' }}>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              paddingTop: 12,
+              marginTop: 'auto'
+            }}>
               <button
                 onClick={handlePrev}
                 disabled={currentQIndex === 0}
                 style={{
-                  background: 'transparent',
-                  border: '1px solid var(--border-subtle)',
-                  color: currentQIndex === 0 ? 'var(--text-muted)' : '#fff',
+                  background: 'var(--bg-surface)',
+                  border: '1px solid var(--border-light)',
+                  color: currentQIndex === 0 ? 'var(--text-muted)' : 'var(--text-primary)',
                   padding: '9px 18px',
-                  borderRadius: 6,
+                  borderRadius: 8,
+                  fontSize: '0.86rem',
+                  fontWeight: 600,
                   cursor: currentQIndex === 0 ? 'not-allowed' : 'pointer',
                   display: 'flex',
                   alignItems: 'center',
-                  gap: 6,
-                  fontWeight: 600,
-                  fontSize: '0.9rem'
+                  gap: 6
                 }}
               >
                 <ChevronLeft size={16} /> 前の問
               </button>
 
-              <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+              <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
                 キーボード [1] [2] [3] [4] または [←] [→] で操作可能
-              </span>
+              </div>
 
               <button
                 onClick={handleNext}
                 style={{
-                  background: 'var(--fuji-cyan)',
-                  color: '#000',
+                  background: 'linear-gradient(135deg, var(--torii-vermilion), #b91c1c)',
+                  color: '#ffffff',
                   border: 'none',
                   padding: '9px 22px',
-                  borderRadius: 6,
+                  borderRadius: 8,
+                  fontSize: '0.86rem',
+                  fontWeight: 700,
                   cursor: 'pointer',
                   display: 'flex',
                   alignItems: 'center',
                   gap: 6,
-                  fontWeight: 700,
-                  fontSize: '0.9rem'
+                  boxShadow: '0 2px 8px var(--torii-glow)'
                 }}
               >
-                {currentQIndex === questions.length - 1 && currentSectionId === 'sec_vocab' ? (
-                  <>第2部へ進む <ArrowRight size={16} /></>
-                ) : (
-                  <>次の問 <ChevronRight size={16} /></>
-                )}
+                次の問 <ChevronRight size={16} />
               </button>
             </div>
-
           </div>
         </div>
-
       </div>
-
     </div>
   );
 }
