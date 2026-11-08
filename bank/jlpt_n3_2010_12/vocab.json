@@ -1,0 +1,949 @@
+{
+  "questions": [
+    {
+      "id": "jlpt_n3_2010_12_v01",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題1",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "______の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "この飛行機には、もう__空席__がありません。",
+      "options": [
+        "そらせき",
+        "そらぜき",
+        "くうせき",
+        "くうぜき"
+      ],
+      "answer": 3,
+      "explanation": "「空席」は「くうせき」と読みます。乗客が座っていない空いている席のことです。",
+      "grammar_points": [
+        "漢字読み: 空席 (くうせき)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v02",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題1",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "______の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "夏休みに__夫婦__で旅行をした。",
+      "options": [
+        "ふふ",
+        "ふふう",
+        "ふうふ",
+        "ふうふう"
+      ],
+      "answer": 3,
+      "explanation": "「夫婦」は「ふうふ」と読みます。夫と妻のことです。",
+      "grammar_points": [
+        "漢字読み: 夫婦 (ふうふ)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v03",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題1",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "______の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "30分待って、わたしの__順番__が来ました。",
+      "options": [
+        "しゅうばん",
+        "じゅうばん",
+        "しゅんばん",
+        "じゅんばん"
+      ],
+      "answer": 4,
+      "explanation": "「順番」は「じゅんばん」と読みます。順序や番のことです。",
+      "grammar_points": [
+        "漢字読み: 順番 (じゅんばん)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v04",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題1",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "______の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "去年、この会社は海外に工場を__移した__。",
+      "options": [
+        "もどした",
+        "うつした",
+        "わたした",
+        "かえした"
+      ],
+      "answer": 2,
+      "explanation": "「移した」は「うつした」と読みます。場所を変えて移動させることです。",
+      "grammar_points": [
+        "漢字読み: 移す (うつす)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v05",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題1",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "______の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "__失業__していた友達が、新しい仕事を見つけた。",
+      "options": [
+        "しぎょ",
+        "しぎょう",
+        "しつぎょ",
+        "しつぎょう"
+      ],
+      "answer": 4,
+      "explanation": "「失業」は「しつぎょう」と読みます。職を失うことです。",
+      "grammar_points": [
+        "漢字読み: 失業 (しつぎょう)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v06",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題1",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "______の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "前田さんは足を__組んで__座っていた。",
+      "options": [
+        "くんで",
+        "ふんで",
+        "つかんで",
+        "たたんで"
+      ],
+      "answer": 1,
+      "explanation": "「組んで」は「くんで」と読みます。「足を組む（くむ）」という慣用表現です。",
+      "grammar_points": [
+        "漢字読み: 組む (くむ)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v07",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題1",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "______の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "大きく__息__を吸ってください。",
+      "options": [
+        "いいぎ",
+        "いぎ",
+        "いいき",
+        "いき"
+      ],
+      "answer": 4,
+      "explanation": "「息」は「いき」と読みます。「息を吸う／吐く」の形で使われます。",
+      "grammar_points": [
+        "漢字読み: 息 (いき)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v08",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題1",
+      "page": 2,
+      "pdf_page": 2,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "kanji_reading",
+      "mondai_label": "問題1",
+      "instruction": "______の言葉の読み方として最もよいものを、1・2・3・4から一つ選びなさい。",
+      "passage_id": null,
+      "question": "おばは__苦労__して三人の子どもを育てた。",
+      "options": [
+        "くろう",
+        "くのう",
+        "ぐろう",
+        "ぐのう"
+      ],
+      "answer": 1,
+      "explanation": "「苦労」は「くろう」と読みます。精神的・肉体的な苦痛や困難を乗り越えて努力することです。",
+      "grammar_points": [
+        "漢字読み: 苦労 (くろう)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v09",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題2",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "______のことばを漢字で書くとき、最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "試験の__せいせき__がよかったので、うれしい。",
+      "options": [
+        "性積",
+        "性績",
+        "成積",
+        "成績"
+      ],
+      "answer": 4,
+      "explanation": "せいせきは「成績」と書きます。仕事や勉強などの結果・成果のことです。",
+      "grammar_points": [
+        "漢字表記: 成績 (せいせき)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v10",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題2",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "______のことばを漢字で書くとき、最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "佐藤さんは、いろいろな__がっき__が弾けます。",
+      "options": [
+        "楽器",
+        "音器",
+        "楽具",
+        "音具"
+      ],
+      "answer": 1,
+      "explanation": "がっきは「楽器」と書きます。音楽を奏でる器具のことです。",
+      "grammar_points": [
+        "漢字表記: 楽器 (がっき)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v11",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題2",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "______のことばを漢字で書くとき、最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "__せんもんか__が指導してくれた。",
+      "options": [
+        "専問家",
+        "専門家",
+        "選問家",
+        "選門家"
+      ],
+      "answer": 2,
+      "explanation": "せんもんかは「専門家」と書きます。ある特定の分野を専門に研究・実務する人のことです。",
+      "grammar_points": [
+        "漢字表記: 専門家 (せんもんか)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v12",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題2",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "______のことばを漢字で書くとき、最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この高校の生徒は__せいふく__を着なければなりません。",
+      "options": [
+        "製報",
+        "制服",
+        "製服",
+        "制報"
+      ],
+      "answer": 2,
+      "explanation": "せいふくは「制服」と書きます。学校や会社などで定められた衣服のことです。",
+      "grammar_points": [
+        "漢字表記: 制服 (せいふく)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v13",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題2",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "______のことばを漢字で書くとき、最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "コートの__うちがわ__にポケットがついています。",
+      "options": [
+        "中側",
+        "内測",
+        "内側",
+        "中測"
+      ],
+      "answer": 3,
+      "explanation": "うちがわは「内側」と書きます。内側の面のことです。",
+      "grammar_points": [
+        "漢字表記: 内側 (うちがわ)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v14",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題2",
+      "page": 3,
+      "pdf_page": 3,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "orthography",
+      "mondai_label": "問題2",
+      "instruction": "______のことばを漢字で書くとき、最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "休みの日は家で__すごしました__。",
+      "options": [
+        "過ごしました",
+        "速ごしました",
+        "適ごしました",
+        "追ごしました"
+      ],
+      "answer": 1,
+      "explanation": "すごしましたは「過ごしました」（過ごす）と書きます。時間を送ることです。",
+      "grammar_points": [
+        "漢字表記: 過ごす (すごす)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v15",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "かぜをひいたときは（　）薬を飲んだほうがいいですよ。",
+      "options": [
+        "急に",
+        "あわてて",
+        "早めに",
+        "さかんに"
+      ],
+      "answer": 3,
+      "explanation": "「早めに（はやめに）」は時期や時刻を通常より早く行うことです。「早めに薬を飲む」が最も自然です。",
+      "grammar_points": [
+        "語彙: 早めに"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v16",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "せっけんの（　）が手についているよ。",
+      "options": [
+        "どろ",
+        "しみ",
+        "きず",
+        "あわ"
+      ],
+      "answer": 4,
+      "explanation": "せっけんを使うと「泡（あわ）」が立ちます。「せっけんのあわ（泡）」が適切です。",
+      "grammar_points": [
+        "語彙: 泡 (あわ)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v17",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "部屋に入るときはドアを（　）してください。",
+      "options": [
+        "ノック",
+        "カット",
+        "バック",
+        "セット"
+      ],
+      "answer": 1,
+      "explanation": "ドアをトントンと叩く行為は「ノック（knock）」と言います。",
+      "grammar_points": [
+        "外来語: ノック"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v18",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "レポートを書くのに（　）しか、かからなかった。",
+      "options": [
+        "半日",
+        "翌週",
+        "月末",
+        "年中"
+      ],
+      "answer": 1,
+      "explanation": "所要時間を表す名詞が入ります。「半日（はんにち）しかかからなかった」が正解です。",
+      "grammar_points": [
+        "語彙: 半日 (はんにち)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v19",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "このお皿は割れやすいので、運ぶときはていねいに（　）ください。",
+      "options": [
+        "応用して",
+        "愛用して",
+        "扱って",
+        "拾って"
+      ],
+      "answer": 3,
+      "explanation": "壊れやすい物を手で大事に操作・持ち運ぶことは「扱う（あつかう）」と言います。",
+      "grammar_points": [
+        "語彙: 扱う (あつかう)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v20",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この町は（　）人口の約40パーセントが大学生である。",
+      "options": [
+        "毎",
+        "両",
+        "各",
+        "全"
+      ],
+      "answer": 4,
+      "explanation": "全体の人口を指す接頭語は「全〜」で、「全人口（ぜんじんこう）」と言います。",
+      "grammar_points": [
+        "接頭辞: 全 (ぜん)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v21",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "鈴木さんは海外で働きたいという（　）を持っているそうだ。",
+      "options": [
+        "用意",
+        "希望",
+        "決心",
+        "想像"
+      ],
+      "answer": 2,
+      "explanation": "「〜したいという希望（きぼう）を持っている」というコロケーションが自然です。",
+      "grammar_points": [
+        "語彙: 希望 (きぼう)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v22",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "どちらのエアコンを買おうか、まだ（　）います。",
+      "options": [
+        "まよって",
+        "いのって",
+        "ねがって",
+        "うたがって"
+      ],
+      "answer": 1,
+      "explanation": "どちらにするか決めかねている状態は「迷う（まよう）」です。「迷っています」が適切です。",
+      "grammar_points": [
+        "語彙: 迷う (まよう)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v23",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "社長は電話中ですので、こちらで（　）お待ちください。",
+      "options": [
+        "いつか",
+        "しばらく",
+        "いつのまにか",
+        "ひさしぶりに"
+      ],
+      "answer": 2,
+      "explanation": "少しのあいだ待つよう丁重に頼む決まり文句は「しばらくお待ちください」です。",
+      "grammar_points": [
+        "副詞: しばらく"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v24",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "最近（　）がなくて、とても疲れやすい。",
+      "options": [
+        "努力",
+        "体力",
+        "協力",
+        "実力"
+      ],
+      "answer": 2,
+      "explanation": "体の力、スタミナを表す言葉は「体力（たいりょく）」です。「体力がない」と言います。",
+      "grammar_points": [
+        "語彙: 体力 (たいりょく)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v25",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題3",
+      "page": 4,
+      "pdf_page": 4,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "contextual_defining",
+      "mondai_label": "問題3",
+      "instruction": "( ) に入れるのに最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "緊張すると胸が（　）する。",
+      "options": [
+        "ちかちか",
+        "ぐらぐら",
+        "どきどき",
+        "うろうろ"
+      ],
+      "answer": 3,
+      "explanation": "緊張や興奮で心臓の鼓動が速くなる様子を表すオノマトペは「どきどき」です。",
+      "grammar_points": [
+        "オノマトペ: どきどき"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v26",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題4",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "______に意味が最も近いものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "わたしの__まご__は銀行につとめている。",
+      "options": [
+        "父の弟",
+        "母の姉",
+        "兄の子ども",
+        "娘の息子"
+      ],
+      "answer": 4,
+      "explanation": "「まご（孫）」は子どもの子どもを指します。選択肢の中では「娘の息子」が該当します。",
+      "grammar_points": [
+        "親族呼称: 孫 (まご)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v27",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題4",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "______に意味が最も近いものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "__たまっている__仕事を、今週中に終わらせたい。",
+      "options": [
+        "さっき始めた",
+        "とても急いでいる",
+        "たくさん残っている",
+        "ほかの人に頼まれた"
+      ],
+      "answer": 3,
+      "explanation": "仕事が「たまっている」とは、未処理の仕事が片付かずに「たくさん残っている」状態を指します。",
+      "grammar_points": [
+        "語彙: たまる"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v28",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題4",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "______に意味が最も近いものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "山田さんは__短気__だ。",
+      "options": [
+        "すぐ驚く",
+        "すぐ笑う",
+        "すぐ怒る",
+        "すぐ泣く"
+      ],
+      "answer": 3,
+      "explanation": "「短気（たんき）」とは、忍耐力がなく、すぐにイライラして「すぐ怒る」性格のことです。",
+      "grammar_points": [
+        "語彙: 短気 (たんき)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v29",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題4",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "______に意味が最も近いものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "単語をたくさん__暗記した__。",
+      "options": [
+        "読んだ",
+        "書いた",
+        "忘れた",
+        "覚えた"
+      ],
+      "answer": 4,
+      "explanation": "「暗記する（あんきする）」とは、文字を見ずに言えるように「頭に記憶する（覚える）」ことです。",
+      "grammar_points": [
+        "語彙: 暗記 (あんき)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v30",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題4",
+      "page": 5,
+      "pdf_page": 5,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "paraphrases",
+      "mondai_label": "問題4",
+      "instruction": "______に意味が最も近いものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "この会社にはいろいろな__きまり__がある。",
+      "options": [
+        "計画",
+        "規則",
+        "連絡",
+        "秘密"
+      ],
+      "answer": 2,
+      "explanation": "「きまり（決まり）」はルールや定めのことで、「規則（きそく）」と同義です。",
+      "grammar_points": [
+        "語彙: 決まり／規則"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v31",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題5",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎのことばの使い方として最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "【回収】",
+      "options": [
+        "わたしの趣味は、めずらしい切手を回収することです。",
+        "アンケート用紙はセミナーが終わったら回収します。",
+        "問題を解決するために、多くの人から意見を回収した。",
+        "マラソン大会の参加者をインターネットで回収しています。"
+      ],
+      "answer": 2,
+      "explanation": "「回収（かいしゅう）」は配った物や一度出した物を集めて取り戻すことです。アンケート用紙やごみ、テスト用紙などに使います。",
+      "grammar_points": [
+        "語彙用法: 回収 (かいしゅう)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v32",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題5",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎのことばの使い方として最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "【区切る】",
+      "options": [
+        "先生へのプレゼント代を二人で区切って払った。",
+        "大きな部屋を二つに区切って使った。",
+        "わたしの家では、みんなで家事を区切っています。",
+        "荷物が多いので、二つのかばんに区切って運んだ。"
+      ],
+      "answer": 2,
+      "explanation": "「区切る（くぎる）」は空間や時間を仕切りや境目で分けることです。「部屋を二つに区切る」が正しい用法です。",
+      "grammar_points": [
+        "語彙用法: 区切る (くぎる)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v33",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題5",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎのことばの使い方として最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "【修理】",
+      "options": [
+        "時計が動かなくなったので修理した。",
+        "虫歯を修理するのに2か月かかった。",
+        "先生に間違いを修理された。",
+        "少し休んで気分を修理しませんか。"
+      ],
+      "answer": 1,
+      "explanation": "「修理（しゅうり）」は壊れた機械や器具・建物などを直すことです。虫歯は「治療」、間違いは「訂正」と言います。",
+      "grammar_points": [
+        "語彙用法: 修理 (しゅうり)"
+      ],
+      "difficulty": 1,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v34",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題5",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎのことばの使い方として最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "【なだらか】",
+      "options": [
+        "ここからはなだらかな坂道が続いている。",
+        "今日はなだらかな話し合いができてよかったですね。",
+        "やせたらズボンがなだらかにはけるようになった。",
+        "来週からは天気がなだらかになるそうです。"
+      ],
+      "answer": 1,
+      "explanation": "「なだらか」は傾斜や勾配が緩やかな様子を表します。「なだらかな坂道」「なだらかな山」のように用います。",
+      "grammar_points": [
+        "語彙用法: なだらか"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    },
+    {
+      "id": "jlpt_n3_2010_12_v35",
+      "book": "JLPT N3 2010 December",
+      "book_code": "jlpt_n3_2010_12",
+      "unit": "問題5",
+      "page": 6,
+      "pdf_page": 6,
+      "section": "言語知識（文字・語彙）",
+      "mondai_type": "usage",
+      "mondai_label": "問題5",
+      "instruction": "つぎのことばの使い方として最もよいものを、1・2・3・4から一つえらびなさい。",
+      "passage_id": null,
+      "question": "【まずしい】",
+      "options": [
+        "人数がまずしいので、アルバイトを募集します。",
+        "去年は雨がまずしかったので、野菜が育ちませんでした。",
+        "学生のころはまずしかったので、毎日アルバイトをしていました。",
+        "時間がまずしいので、宿題が終わらないかもしれません。"
+      ],
+      "answer": 3,
+      "explanation": "「まずしい（貧しい）」はお金や物が不足していて経済的に苦しい状態を表します。「貧しい生活」「貧しかった」と使います。",
+      "grammar_points": [
+        "語彙用法: 貧しい (まずしい)"
+      ],
+      "difficulty": 2,
+      "needs_review": false
+    }
+  ]
+}

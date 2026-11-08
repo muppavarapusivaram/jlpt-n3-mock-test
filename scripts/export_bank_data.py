@@ -19,6 +19,13 @@ def export_data():
     w6 = json.loads((sm_dir / "week_06.json").read_text(encoding="utf-8"))
     p_sm = json.loads((sm_dir / "passages.json").read_text(encoding="utf-8"))
 
+    # 1b. 2010 December
+    j10d_dir = bank_dir / "jlpt_n3_2010_12"
+    v10d = json.loads((j10d_dir / "vocab.json").read_text(encoding="utf-8"))
+    g10d = json.loads((j10d_dir / "grammar.json").read_text(encoding="utf-8"))
+    r10d = json.loads((j10d_dir / "reading.json").read_text(encoding="utf-8"))
+    p_10d = json.loads((j10d_dir / "passages.json").read_text(encoding="utf-8"))
+
     # 2. 2018 December
     j18d_dir = bank_dir / "jlpt_n3_2018_12"
     v18d = json.loads((j18d_dir / "vocab.json").read_text(encoding="utf-8"))
@@ -93,7 +100,7 @@ def export_data():
     r25d = json.loads((j25d_dir / "reading.json").read_text(encoding="utf-8"))
     p_25d = json.loads((j25d_dir / "passages.json").read_text(encoding="utf-8"))
     
-    all_passages = {**p_sm, **p_18d, **p_19d, **p_20d, **p_21, **p_22, **p_23, **p_23d, **p_24, **p_25, **p_25d}
+    all_passages = {**p_sm, **p_10d, **p_18d, **p_19d, **p_20d, **p_21, **p_22, **p_23, **p_23d, **p_24, **p_25, **p_25d}
     
     data = {
         'w1': {'questions': w1['questions'], 'passages': all_passages},
@@ -102,6 +109,9 @@ def export_data():
         'w4': {'questions': w4['questions'], 'passages': all_passages},
         'w5': {'questions': w5['questions'], 'passages': all_passages},
         'w6': {'questions': w6['questions'], 'passages': all_passages},
+        '2010_12_v': {'questions': v10d['questions'], 'passages': all_passages},
+        '2010_12_g': {'questions': g10d['questions'], 'passages': all_passages},
+        '2010_12_r': {'questions': r10d['questions'], 'passages': all_passages},
         '2018_12_v': {'questions': v18d['questions'], 'passages': all_passages},
         '2018_12_g': {'questions': g18d['questions'], 'passages': all_passages},
         '2018_12_r': {'questions': r18d['questions'], 'passages': all_passages},
