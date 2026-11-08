@@ -2,9 +2,11 @@
 import React, { useState, useEffect } from 'react';
 import { 
   Clock, Flag, CheckCircle, ChevronLeft, ChevronRight, 
-  HelpCircle, AlertCircle, Eye, EyeOff, Pause, Play, LogOut, ArrowRight 
+  HelpCircle, AlertCircle, Eye, EyeOff, Pause, Play, LogOut, ArrowRight,
+  BookOpen, FileText
 } from 'lucide-react';
 import { recordSeenQuestions } from '../services/mockTestAlgorithm';
+import questionBank from '../data/questionBank.json';
 
 export default function ExamView({ exam, mode, onFinishExam, onExit }) {
   const [currentSectionId, setCurrentSectionId] = useState('sec_vocab');
@@ -58,7 +60,7 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
   const handleTimeUp = () => {
     if (currentSectionId === 'sec_vocab') {
       alert("第1部（文字・語彙）の試験時間が終了しました。第2部（文法・読解：70分）に進みます。");
-      handleSelectSection('sec_grammar_reading');
+      handleSelectSection('sec_grammar_reading', 0);
     } else {
       alert("全試験時間が終了しました。回答を提出して採点結果を表示します。");
       handleSubmitExam();
@@ -71,12 +73,16 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
     return currentSection ? currentSection.questions : [];
   };
 
-  const handleSelectSection = (secId) => {
+  // Navigating between Sections / Tabs
+  // We provide 3 intuitive tabs:
+  // 1. 'sec_vocab': Vocab (35 Qs)
+  // 2. 'sec_grammar': Grammar portion of Sec 2 (Q1-Q22, index 0-21)
+  // 3. 'sec_reading': Reading portion of Sec 2 (Q23-Q38, index 22-37, ALL PASSAGES)
+  const handleSelectSection = (secId, targetIndex = 0) => {
     setCurrentSectionId(secId);
-    setCurrentQIndex(0);
+    setCurrentQIndex(targetIndex);
     setShowPracticeAnswer(false);
 
-    // If switching to section 2 in official mode, reset timer to 70 mins
     if (isTimed) {
       if (secId === 'sec_grammar_reading') {
         setTimeLeft(70 * 60);
@@ -84,6 +90,11 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
         setTimeLeft(30 * 60);
       }
     }
+  };
+
+  const handleJumpToReading = () => {
+    // Jump straight to the first reading passage question (Mondai 4, Q23 in sec_grammar_reading)
+    handleSelectSection('sec_grammar_reading', 22);
   };
 
   const handleSelectOption = (qId, optionNum) => {
@@ -113,7 +124,7 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
       setShowPracticeAnswer(false);
     } else if (currentSectionId === 'sec_vocab') {
       if (window.confirm("第1部（文字・語彙）の全問に到達しました。第2部（文法・読解）へ進みますか？")) {
-        handleSelectSection('sec_grammar_reading');
+        handleSelectSection('sec_grammar_reading', 0);
       }
     }
   };
@@ -136,7 +147,11 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
 
   const questions = getCurrentQuestions();
   const currentQ = questions[currentQIndex] || {};
-  const currentPassage = currentQ.passage_id ? exam.passages[currentQ.passage_id] : null;
+
+  // Resilient passage lookup: checks exam.passages then falls back to questionBank.passages
+  const currentPassage = currentQ.passage_id 
+    ? (exam.passages?.[currentQ.passage_id] || questionBank.passages?.[currentQ.passage_id])
+    : null;
 
   // Format timer string
   const mins = Math.floor(timeLeft / 60);
@@ -147,6 +162,11 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
   // Question counts
   const allExamQuestions = exam.sections.flatMap(s => s.questions);
   const totalAnswered = Object.keys(userAnswers).length;
+
+  // Check which sub-tab is currently active in Section 2
+  const isReadingActive = currentSectionId === 'sec_grammar_reading' && currentQIndex >= 22;
+  const isGrammarActive = currentSectionId === 'sec_grammar_reading' && currentQIndex < 22;
+  const isVocabActive = currentSectionId === 'sec_vocab';
 
   return (
     <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--bg-main)' }}>
@@ -258,46 +278,66 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
         
         {/* Left Sidebar Palette */}
         <div style={{
-          width: 250,
+          width: 260,
           background: 'var(--bg-card)',
           borderRight: '1px solid var(--border-light)',
           display: 'flex',
           flexDirection: 'column',
           flexShrink: 0
         }}>
-          {/* Section Tabs */}
+          {/* Section Navigation Tabs: 3 Intuitive Buttons */}
           <div style={{ display: 'flex', borderBottom: '1px solid var(--border-light)' }}>
             <button
-              onClick={() => handleSelectSection('sec_vocab')}
+              onClick={() => handleSelectSection('sec_vocab', 0)}
               style={{
                 flex: 1,
-                padding: '10px 4px',
-                fontSize: '0.78rem',
+                padding: '9px 2px',
+                fontSize: '0.74rem',
                 fontWeight: 700,
-                background: currentSectionId === 'sec_vocab' ? 'var(--bg-surface)' : 'transparent',
-                color: currentSectionId === 'sec_vocab' ? 'var(--torii-vermilion)' : 'var(--text-muted)',
+                background: isVocabActive ? 'var(--bg-surface)' : 'transparent',
+                color: isVocabActive ? 'var(--torii-vermilion)' : 'var(--text-muted)',
                 border: 'none',
-                borderBottom: currentSectionId === 'sec_vocab' ? '2px solid var(--torii-vermilion)' : 'none',
-                cursor: 'pointer'
+                borderBottom: isVocabActive ? '2px solid var(--torii-vermilion)' : 'none',
+                cursor: 'pointer',
+                textAlign: 'center'
               }}
             >
-              文字・語彙 (35問)
+              語彙 (35)
             </button>
             <button
-              onClick={() => handleSelectSection('sec_grammar_reading')}
+              onClick={() => handleSelectSection('sec_grammar_reading', 0)}
               style={{
                 flex: 1,
-                padding: '10px 4px',
-                fontSize: '0.78rem',
+                padding: '9px 2px',
+                fontSize: '0.74rem',
                 fontWeight: 700,
-                background: currentSectionId === 'sec_grammar_reading' ? 'var(--bg-surface)' : 'transparent',
-                color: currentSectionId === 'sec_grammar_reading' ? 'var(--torii-vermilion)' : 'var(--text-muted)',
+                background: isGrammarActive ? 'var(--bg-surface)' : 'transparent',
+                color: isGrammarActive ? 'var(--torii-vermilion)' : 'var(--text-muted)',
                 border: 'none',
-                borderBottom: currentSectionId === 'sec_grammar_reading' ? '2px solid var(--torii-vermilion)' : 'none',
-                cursor: 'pointer'
+                borderBottom: isGrammarActive ? '2px solid var(--torii-vermilion)' : 'none',
+                cursor: 'pointer',
+                textAlign: 'center'
               }}
             >
-              文法・読解 (38問)
+              文法 (22)
+            </button>
+            <button
+              onClick={() => handleSelectSection('sec_grammar_reading', 22)}
+              style={{
+                flex: 1.2,
+                padding: '9px 2px',
+                fontSize: '0.74rem',
+                fontWeight: 700,
+                background: isReadingActive ? 'var(--bg-surface)' : 'transparent',
+                color: isReadingActive ? 'var(--torii-vermilion)' : 'var(--text-muted)',
+                border: 'none',
+                borderBottom: isReadingActive ? '2px solid var(--torii-vermilion)' : 'none',
+                cursor: 'pointer',
+                textAlign: 'center'
+              }}
+              title="長文読解パッセージ問題へ移動"
+            >
+              📖 読解 (16)
             </button>
           </div>
 
@@ -305,7 +345,7 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
           <div style={{
             flex: 1,
             overflowY: 'auto',
-            padding: 12,
+            padding: 10,
             display: 'grid',
             gridTemplateColumns: 'repeat(4, 1fr)',
             gap: 6,
@@ -315,6 +355,7 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
               const isSelected = userAnswers[q.id] !== undefined;
               const isCurrent = idx === currentQIndex;
               const isFlagged = flaggedIds.has(q.id);
+              const hasPassage = !!q.passage_id;
 
               return (
                 <button
@@ -349,15 +390,31 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                     position: 'relative',
                     outline: isCurrent ? '2px solid var(--torii-vermilion)' : 'none'
                   }}
+                  title={hasPassage ? `第${q.exam_number}問 [📖 本文パッセージあり]` : `第${q.exam_number}問`}
                 >
                   {q.exam_number || (idx + 1)}
+
+                  {/* Passage icon indicator on palette button */}
+                  {hasPassage && (
+                    <span style={{
+                      position: 'absolute',
+                      bottom: 1,
+                      right: 2,
+                      fontSize: '0.58rem',
+                      opacity: 0.8
+                    }}>
+                      📖
+                    </span>
+                  )}
+
+                  {/* Flag star indicator */}
                   {isFlagged && (
                     <span style={{
                       position: 'absolute',
                       top: 1,
-                      right: 2,
+                      left: 2,
                       color: 'var(--momiji-amber)',
-                      fontSize: '0.65rem'
+                      fontSize: '0.62rem'
                     }}>
                       ★
                     </span>
@@ -384,17 +441,19 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
         {/* Middle & Right Content Area */}
         <div style={{ flex: 1, display: 'flex', overflow: 'hidden' }}>
           
-          {/* Middle Reading Passage Pane (Conditional) */}
+          {/* Middle Reading Passage Pane (Displayed when Question has a Passage) */}
           {currentPassage && (
             <div style={{
-              flex: 1.1,
+              flex: 1.15,
               background: 'var(--bg-surface)',
               borderRight: '1px solid var(--border-light)',
               overflowY: 'auto',
               padding: '24px 28px'
             }}>
               <div className="washi-card" style={{
-                padding: '24px 26px',
+                padding: '24px 28px',
+                borderLeft: '4px solid var(--torii-vermilion)',
+                boxShadow: '0 4px 20px rgba(87, 83, 78, 0.06)'
               }}>
                 <div style={{
                   display: 'flex',
@@ -404,42 +463,64 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
                   paddingBottom: 10,
                   borderBottom: '1px solid var(--border-light)'
                 }}>
-                  <h3 style={{
-                    fontFamily: 'var(--font-serif)',
-                    fontSize: '1.25rem',
-                    fontWeight: 700,
-                    color: 'var(--text-primary)'
-                  }}>
-                    {currentPassage.title || '本文'}
-                  </h3>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                    <span style={{
+                      background: 'rgba(197, 48, 48, 0.08)',
+                      color: 'var(--torii-vermilion)',
+                      padding: '3px 8px',
+                      borderRadius: 4,
+                      fontSize: '0.78rem',
+                      fontWeight: 700
+                    }}>
+                      📖 本文 (Reading Passage)
+                    </span>
+                    <h3 style={{
+                      fontFamily: 'var(--font-serif)',
+                      fontSize: '1.2rem',
+                      fontWeight: 700,
+                      color: 'var(--text-primary)',
+                      margin: 0
+                    }}>
+                      {currentPassage.title || '本文'}
+                    </h3>
+                  </div>
+
                   {currentPassage.author && (
-                    <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
+                    <span style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
                       作者: {currentPassage.author}
                     </span>
                   )}
                 </div>
 
-                <div style={{
-                  fontFamily: 'var(--font-serif)',
-                  fontSize: '1.08rem',
-                  lineHeight: 2.1,
-                  letterSpacing: '0.03em',
-                  color: 'var(--text-primary)',
-                  whiteSpace: 'pre-line'
-                }}>
-                  {currentPassage.content}
-                </div>
+                {/* High Contrast Reading Passage Body */}
+                <div 
+                  style={{
+                    fontFamily: 'var(--font-serif)',
+                    fontSize: '1.08rem',
+                    lineHeight: 2.15,
+                    letterSpacing: '0.03em',
+                    color: 'var(--text-primary)',
+                    whiteSpace: 'pre-line'
+                  }}
+                  dangerouslySetInnerHTML={{
+                    __html: (currentPassage.content || '')
+                      .replace(/\[\s*(\d+)\s*\]/g, '<span style="display:inline-block; background:rgba(197,48,48,0.1); border:1px solid var(--torii-vermilion); color:var(--torii-vermilion); font-weight:800; border-radius:4px; padding:0 6px; margin:0 3px; font-family:monospace;">[$1]</span>')
+                  }}
+                />
               </div>
             </div>
           )}
 
           {/* Right Question Area */}
           <div style={{
-            flex: 1.2,
+            flex: currentPassage ? 1.15 : 1,
+            maxWidth: currentPassage ? 'none' : 880,
+            margin: currentPassage ? '0' : '0 auto',
             overflowY: 'auto',
             padding: '24px 36px',
             display: 'flex',
-            flexDirection: 'column'
+            flexDirection: 'column',
+            width: '100%'
           }}>
             {/* Mondai Instruction Banner */}
             <div style={{
@@ -452,9 +533,40 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
               borderRadius: '0 8px 8px 0',
               fontSize: '0.9rem',
               color: 'var(--text-primary)',
-              marginBottom: 18
+              marginBottom: 16,
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              gap: 8
             }}>
-              <strong style={{ color: 'var(--torii-vermilion)' }}>{currentQ.mondai_label}</strong> : {currentQ.instruction}
+              <div>
+                <strong style={{ color: 'var(--torii-vermilion)' }}>{currentQ.mondai_label}</strong> : {currentQ.instruction}
+              </div>
+
+              {/* Notice / Jump helper for questions without passages */}
+              {!currentPassage && (
+                <button
+                  onClick={handleJumpToReading}
+                  style={{
+                    background: 'rgba(217, 119, 6, 0.08)',
+                    border: '1px solid var(--momiji-amber)',
+                    color: 'var(--momiji-amber)',
+                    padding: '3px 10px',
+                    borderRadius: 6,
+                    fontSize: '0.74rem',
+                    fontWeight: 700,
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 4
+                  }}
+                  title="第2部の長文読解問題（本文パッセージあり）へ移動します"
+                >
+                  <BookOpen size={12} />
+                  📖 読解問題 (パッセージ) へ
+                </button>
+              )}
             </div>
 
             {/* Question Card */}
@@ -464,9 +576,34 @@ export default function ExamView({ exam, mode, onFinishExam, onExit }) {
             }}>
               {/* Question Header */}
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16 }}>
-                <span style={{ fontSize: '1.12rem', fontWeight: 700, color: 'var(--torii-vermilion)' }}>
-                  第 {currentQ.exam_number} 問 ({currentQ.mondai_label} #{currentQ.mondai_number})
-                </span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                  <span style={{ fontSize: '1.12rem', fontWeight: 700, color: 'var(--torii-vermilion)' }}>
+                    第 {currentQ.exam_number} 問 ({currentQ.mondai_label} #{currentQ.mondai_number})
+                  </span>
+                  {currentPassage ? (
+                    <span style={{
+                      background: 'rgba(197, 48, 48, 0.08)',
+                      color: 'var(--torii-vermilion)',
+                      fontSize: '0.72rem',
+                      fontWeight: 700,
+                      padding: '2px 6px',
+                      borderRadius: 4
+                    }}>
+                      📖 本文参照
+                    </span>
+                  ) : (
+                    <span style={{
+                      background: 'var(--bg-surface)',
+                      color: 'var(--text-muted)',
+                      fontSize: '0.72rem',
+                      padding: '2px 6px',
+                      borderRadius: 4
+                    }}>
+                      単問 (本文なし)
+                    </span>
+                  )}
+                </div>
+
                 <button
                   onClick={() => toggleFlag(currentQ.id)}
                   style={{
