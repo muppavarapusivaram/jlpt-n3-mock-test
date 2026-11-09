@@ -88,24 +88,74 @@ export default function HomeView({ onStartExam, onOpenExplorer }) {
         padding: '110px 20px 40px',
         overflow: 'hidden'
       }}>
-        {/* Top Floating Shrine Tag */}
+        {/* Top Right Header Section: Creator Credit & Shrine Tag */}
         <div style={{
           position: 'absolute',
-          top: 24,
+          top: 20,
           right: 28,
-          background: 'rgba(255, 255, 255, 0.92)',
-          backdropFilter: 'blur(10px)',
-          border: '1px solid rgba(197, 48, 48, 0.25)',
-          borderRadius: 24,
-          padding: '6px 16px',
           display: 'flex',
-          alignItems: 'center',
+          flexDirection: 'column',
+          alignItems: 'flex-end',
           gap: 8,
-          boxShadow: '0 4px 16px rgba(0,0,0,0.06)',
-          zIndex: 2
+          zIndex: 10
         }}>
-          <span style={{ color: 'var(--torii-vermilion)', fontSize: '0.86rem', fontWeight: 700 }}>⛩️ 富士山麓・鳥居</span>
-          <span className="hanko-stamp" style={{ fontSize: '0.68rem', padding: '1px 5px' }}>公式模試</span>
+          {/* Creator Credit Badge - Stylistic Japanese Font */}
+          <div style={{
+            background: 'rgba(255, 255, 255, 0.94)',
+            backdropFilter: 'blur(12px)',
+            WebkitBackdropFilter: 'blur(12px)',
+            border: '1px solid rgba(197, 48, 48, 0.28)',
+            borderRight: '3.5px solid var(--torii-vermilion)',
+            borderRadius: 12,
+            padding: '7px 16px',
+            boxShadow: '0 4px 18px rgba(0, 0, 0, 0.07)',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 12
+          }}>
+            <span className="hanko-stamp" style={{ fontSize: '0.66rem', padding: '2px 7px', fontWeight: 700 }}>
+              製作者
+            </span>
+            <div style={{ textAlign: 'right' }}>
+              <div style={{
+                fontSize: '0.64rem',
+                letterSpacing: '0.14em',
+                color: 'var(--text-muted)',
+                textTransform: 'uppercase',
+                fontFamily: 'var(--font-roman)'
+              }}>
+                Made by
+              </div>
+              <div style={{
+                fontFamily: 'var(--font-serif)',
+                fontSize: '0.98rem',
+                fontWeight: 800,
+                letterSpacing: '0.06em',
+                color: 'var(--torii-crimson)',
+                textShadow: '0 1px 2px rgba(255, 255, 255, 0.8)'
+              }}>
+                MUPPAVARAPU SIVARAM
+              </div>
+            </div>
+          </div>
+
+          {/* Top Floating Shrine Tag */}
+          <div style={{
+            background: 'rgba(255, 255, 255, 0.88)',
+            backdropFilter: 'blur(10px)',
+            WebkitBackdropFilter: 'blur(10px)',
+            border: '1px solid rgba(226, 232, 240, 0.9)',
+            borderRadius: 20,
+            padding: '4px 14px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 8,
+            boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
+            fontSize: '0.78rem'
+          }}>
+            <span style={{ color: 'var(--torii-vermilion)', fontWeight: 700 }}>⛩️ 富士山麓・鳥居</span>
+            <span style={{ color: '#64748b' }}>公式準拠模試</span>
+          </div>
         </div>
 
         {/* Hero Content Overlay (Text matching picture colors) */}
